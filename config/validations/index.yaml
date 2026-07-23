@@ -52,6 +52,7 @@ enums:
       - INITIATED
       - SANCTIONED
       - DISBURSED 
+      - PLACED
       - CONSENT_REQUIRED 
       - DELIVERED
   payments:
@@ -2203,8 +2204,14 @@ _TESTS_:
             - *REQUIRED_PAYMENT_COLLECTED_BY
             - *REQUIRED_PAYMENT_BANK_ACCOUNT_NUMBER
             - *REQUIRED_PAYMENT_BANK_CODE
-            - *REQUIRED_PAYMENT_LABEL
-            
+            - _NAME_: REQUIRED_PAYMENT_LABEL
+              attr: $.message.order.payments[*].time.label
+              paymentType: $.message.order.payments[*].type
+              skipTypes:
+                - ON_ORDER
+                - PRE_ORDER
+              _CONTINUE_: '(paymentType any in skipTypes)'
+              _RETURN_: attr are present
 
             - _NAME_: REQUIRED_PARAMS_DETAILS
               useCasePath1:  $.message.order.payments[*].status
@@ -2347,7 +2354,14 @@ _TESTS_:
             - *REQUIRED_PAYMENT_COLLECTED_BY
             - *REQUIRED_PAYMENT_BANK_ACCOUNT_NUMBER
             - *REQUIRED_PAYMENT_BANK_CODE
-            - *REQUIRED_PAYMENT_LABEL
+            - _NAME_: REQUIRED_PAYMENT_LABEL
+              attr: $.message.order.payments[*].time.label
+              paymentType: $.message.order.payments[*].type
+              skipTypes:
+                - ON_ORDER
+                - PRE_ORDER
+              _CONTINUE_: '(paymentType any in skipTypes)'
+              _RETURN_: attr are present
 
     - _NAME_: CONFIRM_PAYMENT_TAGS
       action: 
