@@ -331,7 +331,7 @@ steps:
                     matched: true
                     recommended: true
                     fulfillment_ids:
-                      - F19
+                      - F1
                     xinput:
                       head:
                         descriptor:
@@ -389,7 +389,7 @@ steps:
                         multiple_sumbissions: false
                       required: true
                 fulfillments:
-                  - id: F19
+                  - id: F1
                     type: ONLINE
                     stops:
                       - id: "1"
@@ -767,7 +767,7 @@ steps:
                       matched: true
                       recommended: true
                       fulfillment_ids:
-                        - F19
+                        - F1
                       xinput:
                         head:
                           descriptor:
@@ -825,7 +825,7 @@ steps:
                           multiple_sumbissions: false
                         required: true
                   fulfillments:
-                    - id: F19
+                    - id: F1
                       type: ONLINE
                       stops:
                         - id: "1"
