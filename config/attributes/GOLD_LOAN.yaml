@@ -1161,11 +1161,11 @@ attribute_set:
             stops: &stops
               id:
                 _description:
-                required: true
-                usage: 1
-                info: Describes the unique identifier of the stop
-                owner: BPP
-                type: string
+                  required: true
+                  usage: 1
+                  info: Describes the unique identifier of the stop
+                  owner: BPP
+                  type: string
               type:
                 _description:
                   required: true

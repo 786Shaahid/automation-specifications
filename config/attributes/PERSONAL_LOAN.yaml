@@ -776,11 +776,11 @@ attribute_set:
                     owner: BPP
                     type: string 
                 _description:
-                    required: true
-                    usage: ""
-                    info: Describes the details about the instructions field
-                    owner: BPP
-                    type: string                  
+                  required: true
+                  usage: ""
+                  info: Describes the details about the instructions field
+                  owner: BPP
+                  type: string                  
                   
             tags:
               descriptor:
