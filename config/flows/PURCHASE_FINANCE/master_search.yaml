@@ -56,9 +56,9 @@ steps:
           context:
             domain: ONDC:FIS12
             action: search
-            timestamp: 2026-07-23T07:06:57.506Z
+            timestamp: 2026-07-24T09:27:06.077Z
             transaction_id: 4179de3c-7088-4732-9786-e1fdba540b56
-            message_id: ab8d3d56-b887-4fd9-90b3-ba35d96d2ae8
+            message_id: 9061c14e-cbae-4844-b2b4-2d27216c7135
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -176,7 +176,7 @@ steps:
                       code: ELECTRONICS_PURCHASE_FINANCE
                       name: Electronics Purchase Finance
                   - id: "101215"
-                    parent_category_id: "104115"
+                    parent_category_id: "101211"
                     descriptor:
                       code: SOLAR_PURCHASE_FINANCE
                       name: Solar Purchase Finance
@@ -327,7 +327,7 @@ steps:
                       name: Solar Purchase Finance
                     category_ids:
                       - "101215"
-                      - "104115"
+                      - "101211"
                     matched: true
                     recommended: true
                     fulfillment_ids:
@@ -337,10 +337,6 @@ steps:
                         descriptor:
                           code: MERCHANT_AND_PRDOUCT_DETAILS
                           name: Merchant & Product Details
-                        index:
-                          min: 0
-                          cur: 0
-                          max: 1
                         headings:
                           - MERCHANT_AND_PRDOUCT_DEATILS
                           - PERSONAL_INFORMATION
@@ -350,104 +346,81 @@ steps:
                         data:
                           merchantPan:
                             type: string
-                            required: true
                           merchantGstin:
                             type: string
-                            required: true
                           merchantAccountNumber:
                             type: string
-                            required: true
                           merchantIfsc:
                             type: string
-                            required: true
                           merchantAccountHolderName:
                             type: string
-                            required: true
                           productCategory:
                             type: enum
-                            required: true
-                            enum:
-                              - ON_GRID
-                              - OFF_GRID
-                              - HYBRID
                           brand:
                             type: string
-                            required: true
                           model:
                             type: string
-                            required: true
                           skuId:
                             type: string
-                            required: true
                           price:
                             type: number
-                            required: true
                           maxSellerSubvention:
                             type: number
-                            required: false
                         resubmit: false
                         multiple_sumbissions: false
-                      required: true
                 fulfillments:
                   - id: F1
                     type: ONLINE
                     stops:
                       - id: "1"
-                        type: PERSONAL_INFORMATION_SOLAR
+                        type: MERCHANT_AND_PRDOUCT_DETAILS
                         instructions:
-                          name: Personal Information
+                          name: Merchant And Product Details
                           code: PENDING
                           short_desc: Provide borrower details
                       - id: "2"
                         parent_stop_id: "1"
-                        type: DOCUMENT_UPLOAD
+                        type: PERSONAL_INFORMATION_PF
                         instructions:
-                          name: Document Upload
+                          name: Personal Information
+                          code: PENDING
+                          short_desc: Provide borrower details
+                      - id: "3"
+                        parent_stop_id: "2"
+                        type: SINGLE_REDIRECTION
+                        instructions:
+                          name: Single Ridrection
                           code: PENDING
                           short_desc: Upload electricity bill, bank statement and lender required
                             documents
-                      - id: "3"
-                        parent_stop_id: "2"
+                      - id: "4"
+                        parent_stop_id: "3"
                         type: KYC
                         instructions:
                           name: KYC
                           code: PENDING
                           short_desc: Complete Aadhaar / CKYC / VKYC
-                      - id: "4"
-                        parent_stop_id: "3"
+                      - id: "5"
+                        parent_stop_id: "4"
                         type: EMANDATE
                         instructions:
                           name: eMandate
                           code: PENDING
                           short_desc: Setup repayment mandate
-                      - id: "5"
-                        parent_stop_id: "4"
+                      - id: "6"
+                        parent_stop_id: "5"
                         type: BANK_ACCOUNT_VERIFICATION
                         instructions:
                           name: Bank Account Verification
                           code: PENDING
                           short_desc: Verify repayment bank account
-                      - id: "6"
-                        parent_stop_id: "5"
+                      - id: "7"
+                        parent_stop_id: "6"
                         type: ESIGN
                         instructions:
                           name: Loan Agreement eSign
                           code: PENDING
                           short_desc: Execute Loan Agreement
-                      - id: "7"
-                        parent_stop_id: "6"
-                        type: PENDING_INSTALLATION
-                        instructions:
-                          name: Pending Installation
-                          code: PENDING
-                          short_desc: Waiting for installation
-                      - id: "8"
-                        parent_stop_id: "7"
-                        type: INSTALLATION_CONFIRMED
-                        instructions:
-                          name: Installation Confirmed
-                          code: PENDING
-                          short_desc: Buyer app confirms installation
                 payments:
                   - type: POST_FULFILLMENT
                     id: INSTALLMENT_ID_SOLAR_LOAN
@@ -458,7 +431,7 @@ steps:
                   - type: ON_FULFILLMENT
                     id: MERCHANT_DISBURSAL
                     status: NOT-PAID
-                    collected_by: BPP
+                    collected_by: BAP
                     time:
                       label: LOAN_DISBURSAL
                 tags:
@@ -539,9 +512,9 @@ steps:
           context:
             domain: ONDC:FIS12
             action: on_search
-            timestamp: 2026-07-23T07:06:57.516Z
+            timestamp: 2026-07-24T09:27:06.106Z
             transaction_id: 4179de3c-7088-4732-9786-e1fdba540b56
-            message_id: ab8d3d56-b887-4fd9-90b3-ba35d96d2ae8
+            message_id: 9061c14e-cbae-4844-b2b4-2d27216c7135
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -612,7 +585,7 @@ steps:
                         code: ELECTRONICS_PURCHASE_FINANCE
                         name: Electronics Purchase Finance
                     - id: "101215"
-                      parent_category_id: "104115"
+                      parent_category_id: "101211"
                       descriptor:
                         code: SOLAR_PURCHASE_FINANCE
                         name: Solar Purchase Finance
@@ -763,7 +736,7 @@ steps:
                         name: Solar Purchase Finance
                       category_ids:
                         - "101215"
-                        - "104115"
+                        - "101211"
                       matched: true
                       recommended: true
                       fulfillment_ids:
@@ -773,10 +746,6 @@ steps:
                           descriptor:
                             code: MERCHANT_AND_PRDOUCT_DETAILS
                             name: Merchant & Product Details
-                          index:
-                            min: 0
-                            cur: 0
-                            max: 1
                           headings:
                             - MERCHANT_AND_PRDOUCT_DEATILS
                             - PERSONAL_INFORMATION
@@ -786,104 +755,81 @@ steps:
                           data:
                             merchantPan:
                               type: string
-                              required: true
                             merchantGstin:
                               type: string
-                              required: true
                             merchantAccountNumber:
                               type: string
-                              required: true
                             merchantIfsc:
                               type: string
-                              required: true
                             merchantAccountHolderName:
                               type: string
-                              required: true
                             productCategory:
                               type: enum
-                              required: true
-                              enum:
-                                - ON_GRID
-                                - OFF_GRID
-                                - HYBRID
                             brand:
                               type: string
-                              required: true
                             model:
                               type: string
-                              required: true
                             skuId:
                               type: string
-                              required: true
                             price:
                               type: number
-                              required: true
                             maxSellerSubvention:
                               type: number
-                              required: false
                           resubmit: false
                           multiple_sumbissions: false
-                        required: true
                   fulfillments:
                     - id: F1
                       type: ONLINE
                       stops:
                         - id: "1"
-                          type: PERSONAL_INFORMATION_SOLAR
+                          type: MERCHANT_AND_PRDOUCT_DETAILS
                           instructions:
-                            name: Personal Information
+                            name: Merchant And Product Details
                             code: PENDING
                             short_desc: Provide borrower details
                         - id: "2"
                           parent_stop_id: "1"
-                          type: DOCUMENT_UPLOAD
+                          type: PERSONAL_INFORMATION_PF
                           instructions:
-                            name: Document Upload
+                            name: Personal Information
+                            code: PENDING
+                            short_desc: Provide borrower details
+                        - id: "3"
+                          parent_stop_id: "2"
+                          type: SINGLE_REDIRECTION
+                          instructions:
+                            name: Single Ridrection
                             code: PENDING
                             short_desc: Upload electricity bill, bank statement and lender required
                               documents
-                        - id: "3"
-                          parent_stop_id: "2"
+                        - id: "4"
+                          parent_stop_id: "3"
                           type: KYC
                           instructions:
                             name: KYC
                             code: PENDING
                             short_desc: Complete Aadhaar / CKYC / VKYC
-                        - id: "4"
-                          parent_stop_id: "3"
+                        - id: "5"
+                          parent_stop_id: "4"
                           type: EMANDATE
                           instructions:
                             name: eMandate
                             code: PENDING
                             short_desc: Setup repayment mandate
-                        - id: "5"
-                          parent_stop_id: "4"
+                        - id: "6"
+                          parent_stop_id: "5"
                           type: BANK_ACCOUNT_VERIFICATION
                           instructions:
                             name: Bank Account Verification
                             code: PENDING
                             short_desc: Verify repayment bank account
-                        - id: "6"
-                          parent_stop_id: "5"
+                        - id: "7"
+                          parent_stop_id: "6"
                           type: ESIGN
                           instructions:
                             name: Loan Agreement eSign
                             code: PENDING
                             short_desc: Execute Loan Agreement
-                        - id: "7"
-                          parent_stop_id: "6"
-                          type: PENDING_INSTALLATION
-                          instructions:
-                            name: Pending Installation
-                            code: PENDING
-                            short_desc: Waiting for installation
-                        - id: "8"
-                          parent_stop_id: "7"
-                          type: INSTALLATION_CONFIRMED
-                          instructions:
-                            name: Installation Confirmed
-                            code: PENDING
-                            short_desc: Buyer app confirms installation
                   payments:
                     - type: POST_FULFILLMENT
                       id: INSTALLMENT_ID_SOLAR_LOAN
@@ -894,7 +840,7 @@ steps:
                     - type: ON_FULFILLMENT
                       id: MERCHANT_DISBURSAL
                       status: NOT-PAID
-                      collected_by: BPP
+                      collected_by: BAP
                       time:
                         label: LOAN_DISBURSAL
                   tags:
