@@ -56,9 +56,9 @@ steps:
           context:
             domain: ONDC:FIS12
             action: search
-            timestamp: 2026-07-24T09:27:06.077Z
+            timestamp: 2026-07-27T07:58:58.625Z
             transaction_id: 4179de3c-7088-4732-9786-e1fdba540b56
-            message_id: 9061c14e-cbae-4844-b2b4-2d27216c7135
+            message_id: f372245c-8d89-44e2-995e-c94a8c92ec8e
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -327,6 +327,7 @@ steps:
                       name: Solar Purchase Finance
                     category_ids:
                       - "101215"
+                      - "101117"
                       - "101211"
                     matched: true
                     recommended: true
@@ -339,7 +340,7 @@ steps:
                           name: Merchant & Product Details
                         headings:
                           - MERCHANT_AND_PRDOUCT_DEATILS
-                          - PERSONAL_INFORMATION
+                          - PERSONAL_INFORMATION_SOLAR
                       form:
                         id: F01
                         mime_type: none
@@ -356,13 +357,13 @@ steps:
                             type: string
                           productCategory:
                             type: enum
-                          brand:
+                          productBrand:
                             type: string
-                          model:
+                          productmodel:
                             type: string
-                          skuId:
+                          productSkuId:
                             type: string
-                          price:
+                          productPrice:
                             type: number
                           maxSellerSubvention:
                             type: number
@@ -377,50 +378,49 @@ steps:
                         instructions:
                           name: Merchant And Product Details
                           code: PENDING
-                          short_desc: Provide borrower details
+                          short_desc: Short desc about Merchant And Product Details checklist
                       - id: "2"
                         parent_stop_id: "1"
-                        type: PERSONAL_INFORMATION_PF
+                        type: PERSONAL_INFORMATION_SOLAR
                         instructions:
-                          name: Personal Information
+                          name: Personal Information solar
                           code: PENDING
-                          short_desc: Provide borrower details
+                          short_desc: Short desc about Personal Information checklist
                       - id: "3"
                         parent_stop_id: "2"
                         type: SINGLE_REDIRECTION
                         instructions:
                           name: Single Ridrection
                           code: PENDING
-                          short_desc: Upload electricity bill, bank statement and lender required
-                            documents
+                          short_desc: Short desc about Single Redirection checklist
                       - id: "4"
                         parent_stop_id: "3"
                         type: KYC
                         instructions:
                           name: KYC
                           code: PENDING
-                          short_desc: Complete Aadhaar / CKYC / VKYC
+                          short_desc: Short desc about KYC checklist
                       - id: "5"
                         parent_stop_id: "4"
                         type: EMANDATE
                         instructions:
                           name: eMandate
                           code: PENDING
-                          short_desc: Setup repayment mandate
+                          short_desc: Short desc about eMandate checklist
                       - id: "6"
                         parent_stop_id: "5"
                         type: BANK_ACCOUNT_VERIFICATION
                         instructions:
                           name: Bank Account Verification
                           code: PENDING
-                          short_desc: Verify repayment bank account
+                          short_desc: Short desc about Bank Account Verification checklist
                       - id: "7"
                         parent_stop_id: "6"
                         type: ESIGN
                         instructions:
                           name: Loan Agreement eSign
                           code: PENDING
-                          short_desc: Execute Loan Agreement
+                          short_desc: Short desc about Loan Agreement eSign checklist
                 payments:
                   - type: POST_FULFILLMENT
                     id: INSTALLMENT_ID_SOLAR_LOAN
@@ -512,9 +512,9 @@ steps:
           context:
             domain: ONDC:FIS12
             action: on_search
-            timestamp: 2026-07-24T09:27:06.106Z
+            timestamp: 2026-07-27T07:58:58.636Z
             transaction_id: 4179de3c-7088-4732-9786-e1fdba540b56
-            message_id: 9061c14e-cbae-4844-b2b4-2d27216c7135
+            message_id: f372245c-8d89-44e2-995e-c94a8c92ec8e
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -736,6 +736,7 @@ steps:
                         name: Solar Purchase Finance
                       category_ids:
                         - "101215"
+                        - "101117"
                         - "101211"
                       matched: true
                       recommended: true
@@ -748,7 +749,7 @@ steps:
                             name: Merchant & Product Details
                           headings:
                             - MERCHANT_AND_PRDOUCT_DEATILS
-                            - PERSONAL_INFORMATION
+                            - PERSONAL_INFORMATION_SOLAR
                         form:
                           id: F01
                           mime_type: none
@@ -786,50 +787,49 @@ steps:
                           instructions:
                             name: Merchant And Product Details
                             code: PENDING
-                            short_desc: Provide borrower details
+                            short_desc: Short desc about Merchant And Product Details checklist
                         - id: "2"
                           parent_stop_id: "1"
-                          type: PERSONAL_INFORMATION_PF
+                          type: PERSONAL_INFORMATION_SOLAR
                           instructions:
-                            name: Personal Information
+                            name: Personal Information solar
                             code: PENDING
-                            short_desc: Provide borrower details
+                            short_desc: Short desc about Personal Information checklist
                         - id: "3"
                           parent_stop_id: "2"
                           type: SINGLE_REDIRECTION
                           instructions:
                             name: Single Ridrection
                             code: PENDING
-                            short_desc: Upload electricity bill, bank statement and lender required
-                              documents
+                            short_desc: Short desc about Single Redirection checklist
                         - id: "4"
                           parent_stop_id: "3"
                           type: KYC
                           instructions:
                             name: KYC
                             code: PENDING
-                            short_desc: Complete Aadhaar / CKYC / VKYC
+                            short_desc: Short desc about KYC checklist
                         - id: "5"
                           parent_stop_id: "4"
                           type: EMANDATE
                           instructions:
                             name: eMandate
                             code: PENDING
-                            short_desc: Setup repayment mandate
+                            short_desc: Short desc about eMandate checklist
                         - id: "6"
                           parent_stop_id: "5"
                           type: BANK_ACCOUNT_VERIFICATION
                           instructions:
                             name: Bank Account Verification
                             code: PENDING
-                            short_desc: Verify repayment bank account
+                            short_desc: Short desc about Bank Account Verification checklist
                         - id: "7"
                           parent_stop_id: "6"
                           type: ESIGN
                           instructions:
                             name: Loan Agreement eSign
                             code: PENDING
-                            short_desc: Execute Loan Agreement
+                            short_desc: Short desc about Loan Agreement eSign checklist
                   payments:
                     - type: POST_FULFILLMENT
                       id: INSTALLMENT_ID_SOLAR_LOAN
