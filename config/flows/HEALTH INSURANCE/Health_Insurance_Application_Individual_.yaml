@@ -2911,6 +2911,15 @@ steps:
                       - descriptor:
                           code: OFFLINE_CONTRACT
                         value: "true"
+                      - descriptor:
+                          code: SETTLEMENT_AMOUNT
+                        value: '400'
+                      - descriptor:
+                          code: MANDATORY_ARBITRATION
+                        value: 'true'
+                      - descriptor:
+                          code: COURT_JURISDICTION
+                        value: 'New Delhi'
       saveData:
         transactionId: $.context.transaction_id
         latestMessage_id: $.context.message_id
@@ -3672,6 +3681,12 @@ steps:
                       - descriptor:
                           code: OFFLINE_CONTRACT
                         value: "true"
+                      - descriptor:
+                          code: SETTLEMENT_BASIS
+                        value: 'Delivery'
+                      - descriptor:
+                          code: SETTLEMENT_AMOUNT
+                        value: '400'
             quote:
               id: OFFER_ID/PROPOSAL_ID
               price:
