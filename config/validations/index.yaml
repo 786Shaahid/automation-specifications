@@ -1767,11 +1767,11 @@ _TESTS_:
       subTags: $.list[*].descriptor.code
       validValues:
       - SETTLEMENT_WINDOW
-      - SETTLEMENT_BASIS
+      # - SETTLEMENT_BASIS //Commented due to Handle offline_contract: when true, set BFF to 0 and remove SETTLEMENT_AMOUNT/SETTLEMENT_BASIS
       - DELAY_INTEREST
       - STATIC_TERMS
       - OFFLINE_CONTRACT
-      - SETTLEMENT_AMOUNT
+      # - SETTLEMENT_AMOUNT
       - SETTLEMENT_TYPE
       _RETURN_: validValues all in subTags
   on_init:
@@ -2138,11 +2138,11 @@ _TESTS_:
         subTags: $.list[*].descriptor.code
         validValues:
         - SETTLEMENT_WINDOW
-        - SETTLEMENT_BASIS
+        # - SETTLEMENT_BASIS
         - DELAY_INTEREST
         - STATIC_TERMS
         - OFFLINE_CONTRACT
-        - SETTLEMENT_AMOUNT
+        # - SETTLEMENT_AMOUNT
         - SETTLEMENT_TYPE
         - MANDATORY_ARBITRATION
         - COURT_JURISDICTION
@@ -2277,11 +2277,11 @@ _TESTS_:
       subTags: $.list[*].descriptor.code
       validValues:
       - SETTLEMENT_WINDOW
-      - SETTLEMENT_BASIS
+      # - SETTLEMENT_BASIS
       - DELAY_INTEREST
       - STATIC_TERMS
       - OFFLINE_CONTRACT
-      - SETTLEMENT_AMOUNT
+      # - SETTLEMENT_AMOUNT
       - SETTLEMENT_TYPE
       _RETURN_: validValues all in subTags
   on_confirm:
@@ -2689,11 +2689,11 @@ _TESTS_:
         subTags: $.list[*].descriptor.code
         validValues:
         - SETTLEMENT_WINDOW
-        - SETTLEMENT_BASIS
+        # - SETTLEMENT_BASIS
         - DELAY_INTEREST
         - STATIC_TERMS
         - OFFLINE_CONTRACT
-        - SETTLEMENT_AMOUNT
+        # - SETTLEMENT_AMOUNT
         - SETTLEMENT_TYPE
         - MANDATORY_ARBITRATION
         - COURT_JURISDICTION
@@ -3082,11 +3082,11 @@ _TESTS_:
         subTags: $.list[*].descriptor.code
         validValues:
         - SETTLEMENT_WINDOW
-        - SETTLEMENT_BASIS
+        # - SETTLEMENT_BASIS
         - DELAY_INTEREST
         - STATIC_TERMS
         - OFFLINE_CONTRACT
-        - SETTLEMENT_AMOUNT
+        # - SETTLEMENT_AMOUNT
         - SETTLEMENT_TYPE
         - MANDATORY_ARBITRATION
         - COURT_JURISDICTION
@@ -3742,11 +3742,11 @@ _TESTS_:
         subTags: $.list[*].descriptor.code
         validValues:
         - SETTLEMENT_WINDOW
-        - SETTLEMENT_BASIS
+        # - SETTLEMENT_BASIS
         - DELAY_INTEREST
         - STATIC_TERMS
         - OFFLINE_CONTRACT
-        - SETTLEMENT_AMOUNT
+        # - SETTLEMENT_AMOUNT
         - SETTLEMENT_TYPE
         - MANDATORY_ARBITRATION
         - COURT_JURISDICTION
