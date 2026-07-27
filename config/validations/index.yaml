@@ -55,6 +55,9 @@ enums:
       - PLACED
       - CONSENT_REQUIRED 
       - DELIVERED
+      - PENDING_INSTALLATION
+      - INSTALLATION_CONFIRMED
+      - INSTALLATION_COMPLETED
   payments:
     collector: &paymentCollector
       - &BPP BPP
