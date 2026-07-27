@@ -33,7 +33,7 @@ steps:
       SUCCESS, requesting the next stage of the catalog (Personal Information,
       F02).
     mock:
-      generate: YXN5bmMgZnVuY3Rpb24gZ2VuZXJhdGUoZGVmYXVsdFBheWxvYWQsIHNlc3Npb25EYXRhKSB7CiAgYXdhaXQgZ2VuZXJhdGVQYXlsb2FkKGRlZmF1bHRQYXlsb2FkLCBzZXNzaW9uRGF0YSk7CiAgcmV0dXJuIGRlZmF1bHRQYXlsb2FkOwp9Cgphc3luYyBmdW5jdGlvbiBnZW5lcmF0ZVBheWxvYWQoZGVmYXVsdFBheWxvYWQsIHNlc3Npb25EYXRhKSB7CiAgdHJ5IHsKICAgIGNvbnN0IHVzZXJJbnB1dHMgPSBzZXNzaW9uRGF0YT8udXNlcl9pbnB1dHMgfHwge307CgogICAgaWYgKCF1c2VySW5wdXRzPy5pdGVtX2lkKSB7CiAgICAgIHJldHVybiBkZWZhdWx0UGF5bG9hZDsKICAgIH0KCiAgICAvLyBIZWxwZXIgdG8gd3JhcCByYXcgdmFsdWVzIGFzIHsgdmFsdWU6ICIuLi4iIH0KICAgIGNvbnN0IHdyYXAgPSAodmFsKSA9PiAoeyB2YWx1ZTogU3RyaW5nKHZhbCA/PyAiIikgfSk7CgogICAgY29uc3QgZm9ybURhdGEgPSB7CiAgICAgIG1lcmNoYW50UGFuOiB3cmFwKHVzZXJJbnB1dHMubWVyY2hhbnRfcGFuKSwKICAgICAgbWVyY2hhbnRHc3Rpbjogd3JhcCh1c2VySW5wdXRzLm1lcmNoYW50X2dzdGluKSwKICAgICAgbWVyY2hhbnRBY2NvdW50TnVtYmVyOiB3cmFwKHVzZXJJbnB1dHMubWVyY2hhbnRfYWNjb3VudF9udW1iZXIpLAogICAgICBtZXJjaGFudElmc2M6IHdyYXAodXNlcklucHV0cy5tZXJjaGFudF9pZnNjKSwKICAgICAgbWVyY2hhbnRBY2NvdW50SG9sZGVyTmFtZTogd3JhcCh1c2VySW5wdXRzLm1lcmNoYW50X2FjY291bnRfaG9sZGVyX25hbWUpLAogICAgICBwcm9kdWN0Q2F0ZWdvcnk6IHdyYXAodXNlcklucHV0cy5wcm9kdWN0X2NhdGVnb3J5KSwKICAgICAgcHJvZHVjdEJyYW5kOiB3cmFwKHVzZXJJbnB1dHMucHJvZHVjdF9icmFuZCksCiAgICAgIHByb2R1Y3Rtb2RlbDogd3JhcCh1c2VySW5wdXRzLnByb2R1Y3RfbW9kZWwpLAogICAgICBwcm9kdWN0U2t1SWQ6IHdyYXAodXNlcklucHV0cy5wcm9kdWN0X3NrdV9pZCksCiAgICAgIHByb2R1Y3RQcmljZTogd3JhcCh1c2VySW5wdXRzLnByb2R1Y3RfcHJpY2UpLAogICAgICBtYXhTZWxsZXJTdWJ2ZW50aW9uOiB3cmFwKHVzZXJJbnB1dHMubWF4X3NlbGxlcl9zdWJ2ZW50aW9uKQogICAgfTsKCiAgICBkZWZhdWx0UGF5bG9hZC5tZXNzYWdlID0gewogICAgICBpbnRlbnQ6IHsKICAgICAgICBwcm92aWRlcjogewogICAgICAgICAgaWQ6IHVzZXJJbnB1dHM/LnByb3ZpZGVyX2lkLAogICAgICAgICAgaXRlbXM6IFsKICAgICAgICAgICAgewogICAgICAgICAgICAgIGlkOiB1c2VySW5wdXRzLml0ZW1faWQsCiAgICAgICAgICAgICAgeGlucHV0OiB7CiAgICAgICAgICAgICAgICBoZWFkOiB7CiAgICAgICAgICAgICAgICAgIGRlc2NyaXB0b3I6IHsKICAgICAgICAgICAgICAgICAgICBuYW1lOiAiTWVyY2hhbnQgYW5kIHByb2R1Y3QgZGV0YWlscyIsCiAgICAgICAgICAgICAgICAgICAgY29kZTogIk1FUkNIQU5UX0FORF9QUkRPVUNUX0RFVEFJTFMiCiAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICBmb3JtOiB7CiAgICAgICAgICAgICAgICAgIGlkOiB1c2VySW5wdXRzPy5mb3JtX2lkIHx8ICJtZXJjaGFudF9wcm9kdWN0X2RldGFpbHMiLAogICAgICAgICAgICAgICAgICBkYXRhOiBmb3JtRGF0YQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgXQogICAgICAgIH0sCiAgICAgICAgcGF5bWVudDogewogICAgICAgICAgY29sbGVjdGVkX2J5OiAiQlBQIgogICAgICAgIH0sCiAgICAgICAgdGFnczpkZWZhdWx0UGF5bG9hZC5tZXNzYWdlLmludGVudC50YWdzCiAgICAgIH0KICAgIH07CgogICAgcmV0dXJuIGRlZmF1bHRQYXlsb2FkOwogIH0gY2F0Y2ggKGVycm9yKSB7CiAgICBjb25zb2xlLmVycm9yKCJFcnJvciBidWlsZGluZyBwYXlsb2FkOiIsIGVycm9yKTsKICAgIHJldHVybiBkZWZhdWx0UGF5bG9hZDsKICB9Cn0K
+      generate: YXN5bmMgZnVuY3Rpb24gZ2VuZXJhdGUoZGVmYXVsdFBheWxvYWQsIHNlc3Npb25EYXRhKSB7CiAgYXdhaXQgZ2VuZXJhdGVQYXlsb2FkKGRlZmF1bHRQYXlsb2FkLCBzZXNzaW9uRGF0YSk7CiAgcmV0dXJuIGRlZmF1bHRQYXlsb2FkOwp9Cgphc3luYyBmdW5jdGlvbiBnZW5lcmF0ZVBheWxvYWQoZGVmYXVsdFBheWxvYWQsIHNlc3Npb25EYXRhKSB7CiAgdHJ5IHsKICAgIGNvbnN0IHVzZXJJbnB1dHMgPSBzZXNzaW9uRGF0YT8udXNlcl9pbnB1dHMgfHwge307CgogICAgaWYgKCF1c2VySW5wdXRzPy5pdGVtX2lkKSB7CiAgICAgIHJldHVybiBkZWZhdWx0UGF5bG9hZDsKICAgIH0KCiAgICAvLyBIZWxwZXIgdG8gd3JhcCByYXcgdmFsdWVzIGFzIHsgdmFsdWU6ICIuLi4iIH0KICAgIGNvbnN0IHdyYXAgPSAodmFsKSA9PiAoeyB2YWx1ZTogU3RyaW5nKHZhbCA/PyAiIikgfSk7CgogICAgY29uc3QgZm9ybURhdGEgPSB7CiAgICAgIG1lcmNoYW50UGFuOiB3cmFwKHVzZXJJbnB1dHMubWVyY2hhbnRfcGFuKSwKICAgICAgbWVyY2hhbnRHc3Q6IHdyYXAodXNlcklucHV0cy5tZXJjaGFudF9nc3QpLAogICAgICBtZXJjaGFudEFjY291bnROdW1iZXI6IHdyYXAodXNlcklucHV0cy5tZXJjaGFudF9hY2NvdW50X251bWJlciksCiAgICAgIG1lcmNoYW50SWZzYzogd3JhcCh1c2VySW5wdXRzLm1lcmNoYW50X2lmc2MpLAogICAgICBtZXJjaGFudEFjY291bnRIb2xkZXJOYW1lOiB3cmFwKHVzZXJJbnB1dHMubWVyY2hhbnRfYWNjb3VudF9ob2xkZXJfbmFtZSksCiAgICAgIHByb2R1Y3RDYXRlZ29yeTogd3JhcCh1c2VySW5wdXRzLnByb2R1Y3RfY2F0ZWdvcnkpLAogICAgICBwcm9kdWN0QnJhbmQ6IHdyYXAodXNlcklucHV0cy5wcm9kdWN0X2JyYW5kKSwKICAgICAgcHJvZHVjdG1vZGVsOiB3cmFwKHVzZXJJbnB1dHMucHJvZHVjdF9tb2RlbCksCiAgICAgIHByb2R1Y3RTa3VJZDogd3JhcCh1c2VySW5wdXRzLnByb2R1Y3Rfc2t1X2lkKSwKICAgICAgcHJvZHVjdFByaWNlOiB3cmFwKHVzZXJJbnB1dHMucHJvZHVjdF9wcmljZSksCiAgICAgIG1heFNlbGxlclN1YnZlbnRpb246IHdyYXAodXNlcklucHV0cy5tYXhfc2VsbGVyX3N1YnZlbnRpb24pCiAgICB9OwoKICAgIGRlZmF1bHRQYXlsb2FkLm1lc3NhZ2UgPSB7CiAgICAgIGludGVudDogewogICAgICAgIHByb3ZpZGVyOiB7CiAgICAgICAgICBpZDogdXNlcklucHV0cz8ucHJvdmlkZXJfaWQsCiAgICAgICAgICBpdGVtczogWwogICAgICAgICAgICB7CiAgICAgICAgICAgICAgaWQ6IHVzZXJJbnB1dHMuaXRlbV9pZCwKICAgICAgICAgICAgICB4aW5wdXQ6IHsKICAgICAgICAgICAgICAgIGhlYWQ6IHsKICAgICAgICAgICAgICAgICAgZGVzY3JpcHRvcjogewogICAgICAgICAgICAgICAgICAgIG5hbWU6ICJNZXJjaGFudCBhbmQgcHJvZHVjdCBkZXRhaWxzIiwKICAgICAgICAgICAgICAgICAgICBjb2RlOiAiTUVSQ0hBTlRfQU5EX1BSRE9VQ1RfREVUQUlMUyIKICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgIGZvcm06IHsKICAgICAgICAgICAgICAgICAgaWQ6IHVzZXJJbnB1dHM/LmZvcm1faWQgfHwgIm1lcmNoYW50X3Byb2R1Y3RfZGV0YWlscyIsCiAgICAgICAgICAgICAgICAgIGRhdGE6IGZvcm1EYXRhCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICBdCiAgICAgICAgfSwKICAgICAgICBwYXltZW50OiB7CiAgICAgICAgICBjb2xsZWN0ZWRfYnk6ICJCUFAiCiAgICAgICAgfSwKICAgICAgICB0YWdzOmRlZmF1bHRQYXlsb2FkLm1lc3NhZ2UuaW50ZW50LnRhZ3MKICAgICAgfQogICAgfTsKCiAgICByZXR1cm4gZGVmYXVsdFBheWxvYWQ7CiAgfSBjYXRjaCAoZXJyb3IpIHsKICAgIGNvbnNvbGUuZXJyb3IoIkVycm9yIGJ1aWxkaW5nIHBheWxvYWQ6IiwgZXJyb3IpOwogICAgcmV0dXJuIGRlZmF1bHRQYXlsb2FkOwogIH0KfQo=
       validate: ZnVuY3Rpb24gdmFsaWRhdGUodGFyZ2V0UGF5bG9hZCwgc2Vzc2lvbkRhdGEpIHsKICB0cnkgewogICAgY29uc3QgaXRlbSA9IHRhcmdldFBheWxvYWQ/Lm1lc3NhZ2U/LmludGVudD8ucHJvdmlkZXI/Lml0ZW1zPy5bMF07CgogICAgaWYgKCFpdGVtIHx8ICFpdGVtLmlkKSB7CiAgICAgIHJldHVybiB7IHZhbGlkOiBmYWxzZSwgY29kZTogNDAwLCBkZXNjcmlwdGlvbjogIkl0ZW0gSUQgaXMgbWlzc2luZyIgfTsKICAgIH0KCiAgICByZXR1cm4geyB2YWxpZDogdHJ1ZSwgY29kZTogMjAwLCBkZXNjcmlwdGlvbjogIlZhbGlkIHJlcXVlc3QiIH07CiAgfSBjYXRjaCAoZXJyb3IpIHsKICAgIHJldHVybiB7IHZhbGlkOiBmYWxzZSwgY29kZTogNTAwLCBkZXNjcmlwdGlvbjogZXJyb3IubWVzc2FnZSB9OwogIH0KfQ==
       requirements: LyoqCiAqIENoZWNrcyBpZiB0aGUgcmVxdWlyZW1lbnRzIGZvciBwcm9jZWVkaW5nIHdpdGggdGhlIEFQSSBjYWxsIGFyZSBtZXQuCiAqIFZhbGlkYXRlcyB0aGUgc2Vzc2lvbkRhdGEgdGhhdCBnZW5lcmF0ZSgpIGNvbnN1bWVzOiB1c2VyX2lucHV0cy5pdGVtX2lkCiAqIG11c3QgYmUgcHJlc2VudCAodGhlIHJlc3Qgb2YgdGhlIGZvcm0gZmllbGRzIGFyZSBvcHRpb25hbCBhbmQgYXJlCiAqIHdyYXBwZWQgc2FmZWx5IHdpdGggZGVmYXVsdHMgaW4gZ2VuZXJhdGUoKSkuCiAqCiAqIEBwYXJhbSB7T2JqZWN0fSBzZXNzaW9uRGF0YSAtIERhdGEgY29sbGVjdGVkIGZyb20gcHJldmlvdXMgdHJhbnNhY3Rpb24gc3RlcHMuCiAqCiAqIEByZXR1cm5zIHtPYmplY3R9IHsgdmFsaWQ6IGJvb2xlYW4sIGNvZGU6IG51bWJlciwgZGVzY3JpcHRpb246IHN0cmluZyB9CiAqLwpmdW5jdGlvbiBtZWV0c1JlcXVpcmVtZW50cyhzZXNzaW9uRGF0YSkgewogIGNvbnN0IHVzZXJJbnB1dHMgPSBzZXNzaW9uRGF0YT8udXNlcl9pbnB1dHMgfHwge307CgogIGlmICghdXNlcklucHV0cz8uaXRlbV9pZCkgewogICAgcmV0dXJuIHsgdmFsaWQ6IGZhbHNlLCBjb2RlOiA0MDAsIGRlc2NyaXB0aW9uOiAiaXRlbV9pZCBtaXNzaW5nIGluIHVzZXJfaW5wdXRzIiB9OwogIH0KCiAgcmV0dXJuIHsgdmFsaWQ6IHRydWUsIGNvZGU6IDIwMCwgZGVzY3JpcHRpb246ICJSZXF1aXJlbWVudHMgbWV0IiB9Owp9Cg==
       defaultPayload:
@@ -108,7 +108,7 @@ steps:
               type: string
               description: Merchant PAN
               default: ABCDE1234F
-            merchant_gstin:
+            merchant_gst:
               type: string
               description: Merchant GSTIN
               default: 27ABCDE1234F1Z5
@@ -154,7 +154,7 @@ steps:
               default: 5
           required:
             - merchant_pan
-            - merchant_gstin
+            - merchant_gst
             - merchant_account_number
             - merchant_ifsc
             - merchant_account_holder_name
@@ -170,9 +170,9 @@ steps:
           context:
             domain: ONDC:FIS12
             action: search
-            timestamp: 2026-07-27T11:59:44.961Z
+            timestamp: 2026-07-27T13:13:39.218Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
-            message_id: 6b33fbc3-d964-4832-8aae-477044c95b03
+            message_id: 18a79cce-fbd4-49dd-b132-8f6591eb8e78
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -192,13 +192,13 @@ steps:
                       head:
                         descriptor:
                           name: Merchant and product details
-                          code: MERCHANT_AND_PRODUCT_DETAILS
+                          code: MERCHANT_AND_PRDOUCT_DETAILS
                       form:
                         id: merchant_product_details
                         data:
                           merchantPan:
                             value: ABCDE1234F
-                          merchantGstin:
+                          merchantGst:
                             value: 27ABCDE1234F1Z5
                           merchantAccountNumber:
                             value: "123456789012"
@@ -302,7 +302,7 @@ steps:
                           name: Personal Information
                           code: PERSONAL_INFORMATION_SOLAR
                         headings:
-                          - MERCHANT_AND_PRODUCT_DETAILS
+                          - MERCHANT_AND_PRDOUCT_DETAILS
                           - PERSONAL_INFORMATION_SOLAR
                       form:
                         id: personal_information
@@ -339,9 +339,9 @@ steps:
                           bureauConsent:
                             type: boolean
                           propertyOwnership:
-                            type: enum
+                            type: string
                           propertyType:
-                            type: enum
+                            type: string
                           installationAddress:
                             type: string
                         resubmit: false
@@ -352,7 +352,7 @@ steps:
                     type: ONLINE
                     stops:
                       - id: "1"
-                        type: MERCHANT_AND_PRODUCT_DETAILS
+                        type: MERCHANT_AND_PRDOUCT_DETAILS
                         instructions:
                           name: Merchant And Product Details
                           code: COMPLETED
@@ -491,9 +491,9 @@ steps:
           context:
             domain: ONDC:FIS12
             action: on_search
-            timestamp: 2026-07-27T11:59:44.976Z
+            timestamp: 2026-07-27T13:13:39.237Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
-            message_id: 6b33fbc3-d964-4832-8aae-477044c95b03
+            message_id: 18a79cce-fbd4-49dd-b132-8f6591eb8e78
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -537,7 +537,7 @@ steps:
                             name: Personal Information
                             code: PERSONAL_INFORMATION_SOLAR
                           headings:
-                            - MERCHANT_AND_PRODUCT_DETAILS
+                            - MERCHANT_AND_PRDOUCT_DETAILS
                             - PERSONAL_INFORMATION_SOLAR
                         form:
                           id: personal_information
@@ -574,9 +574,9 @@ steps:
                             bureauConsent:
                               type: boolean
                             propertyOwnership:
-                              type: enum
+                              type: string
                             propertyType:
-                              type: enum
+                              type: string
                             installationAddress:
                               type: string
                           resubmit: false
@@ -587,7 +587,7 @@ steps:
                       type: ONLINE
                       stops:
                         - id: "1"
-                          type: MERCHANT_AND_PRODUCT_DETAILS
+                          type: MERCHANT_AND_PRDOUCT_DETAILS
                           instructions:
                             name: Merchant And Product Details
                             code: COMPLETED
@@ -726,7 +726,7 @@ steps:
       SUCCESS. All required forms are now complete, so the BPP is expected to
       return a personalized, binding solar loan offer.
     mock:
-      generate: YXN5bmMgZnVuY3Rpb24gZ2VuZXJhdGUoZGVmYXVsdFBheWxvYWQsIHNlc3Npb25EYXRhKSB7CiAgYXdhaXQgZ2VuZXJhdGVQYXlsb2FkKGRlZmF1bHRQYXlsb2FkLCBzZXNzaW9uRGF0YSk7CiAgcmV0dXJuIGRlZmF1bHRQYXlsb2FkOwp9Cgphc3luYyBmdW5jdGlvbiBnZW5lcmF0ZVBheWxvYWQoZGVmYXVsdFBheWxvYWQsIHNlc3Npb25EYXRhKSB7CiAgdHJ5IHsKICAgIGNvbnN0IHVzZXJJbnB1dHMgPSBzZXNzaW9uRGF0YT8udXNlcl9pbnB1dHMgfHwge307CgogICAgLy8gc2VhcmNoX2l0ZW1faWQgLyBwcm92aWRlcl9pZCBwcmVzZW5jZSBpcyBhbHJlYWR5IHZhbGlkYXRlZCBieQogICAgLy8gbWVldHNSZXF1aXJlbWVudHMoKSBiZWZvcmUgdGhpcyBnZW5lcmF0b3IgcnVuczsgZ3VhcmRlZCBoZXJlCiAgICAvLyBkZWZlbnNpdmVseSBpbiBjYXNlIG9mIG1pc3VzZS4KICAgIGlmICghc2Vzc2lvbkRhdGE/LnNlYXJjaF9pdGVtX2lkPy5bMF0gfHwgIXNlc3Npb25EYXRhPy5wcm92aWRlcl9pZD8uWzBdKSB7CiAgICAgIHJldHVybiBkZWZhdWx0UGF5bG9hZDsKICAgIH0KCiAgICAvLyBIZWxwZXIgdG8gd3JhcCB2YWx1ZXMKICAgIGNvbnN0IHdyYXAgPSAodmFsKSA9PiAoeyB2YWx1ZTogU3RyaW5nKHZhbCA/PyAiIikgfSk7CgogICAgY29uc3QgZm9ybURhdGEgPSB7CiAgICAgIG5hbWU6IHdyYXAodXNlcklucHV0cy5OYW1lKSwKICAgICAgcGFuOiB3cmFwKHVzZXJJbnB1dHMucGFuKSwKICAgICAgcGVyc29uYWxFbWFpbDogd3JhcCh1c2VySW5wdXRzLnBlcnNvbmFsRW1haWwpLAogICAgICBvZmZpY2lhbEVtYWlsOiB3cmFwKHVzZXJJbnB1dHMub2ZmaWNpYWxFbWFpbCksCiAgICAgIGRvYjogd3JhcCh1c2VySW5wdXRzLmRvYiksCiAgICAgIGdlbmRlcjogd3JhcCh1c2VySW5wdXRzLmdlbmRlciksCiAgICAgIG1vYmlsZU51bWJlcjogd3JhcCh1c2VySW5wdXRzLm1vYmlsZU51bWJlciksCiAgICAgIHBpbmNvZGU6IHdyYXAodXNlcklucHV0cy5waW5jb2RlKSwKICAgICAgZW1wbG95bWVudFR5cGU6IHdyYXAodXNlcklucHV0cy5lbXBsb3ltZW50VHlwZSksCiAgICAgIG1vbnRobHlJbmNvbWU6IHdyYXAodXNlcklucHV0cy5tb250aGx5SW5jb21lKSwKICAgICAgZW1wbG95ZXJOYW1lOiB3cmFwKHVzZXJJbnB1dHMuZW1wbG95ZXJOYW1lKSwKICAgICAgZXhwZXJpZW5jZVllYXJzOiB3cmFwKHVzZXJJbnB1dHMuZXhwZXJpZW5jZVllYXJzKSwKICAgICAgZG93bnBheW1lbnQ6IHdyYXAodXNlcklucHV0cy5kb3ducGF5bWVudCksCiAgICAgIHRlbnVyZTogd3JhcCh1c2VySW5wdXRzLnRlbnVyZSksCiAgICAgIGJ1cmVhdUNvbnNlbnQ6IHsKICAgICAgICB2YWx1ZTogQm9vbGVhbih1c2VySW5wdXRzLmJ1cmVhdUNvbnNlbnQpCiAgICAgIH0sCiAgICAgIHByb3BlcnR5T3duZXJzaGlwOiB3cmFwKHVzZXJJbnB1dHMucHJvcGVydHlPd25lcnNoaXApLAogICAgICBwcm9wZXJ0eVR5cGU6IHdyYXAodXNlcklucHV0cy5wcm9wZXJ0eVR5cGUpLAogICAgICBpbnN0YWxsYXRpb25BZGRyZXNzOiB3cmFwKHVzZXJJbnB1dHMuaW5zdGFsbGF0aW9uQWRkcmVzcykKICAgIH07CgogICAgZGVmYXVsdFBheWxvYWQubWVzc2FnZSA9IHsKICAgICAgaW50ZW50OiB7CiAgICAgICAgcHJvdmlkZXI6IHsKICAgICAgICAgIGlkOiBzZXNzaW9uRGF0YS5wcm92aWRlcl9pZFswXSwKICAgICAgICAgIGl0ZW1zOiBbCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICBpZDogc2Vzc2lvbkRhdGEuc2VhcmNoX2l0ZW1faWRbMF0sCiAgICAgICAgICAgICAgeGlucHV0OiB7CiAgICAgICAgICAgICAgICAgaGVhZDogewogICAgICAgICAgICAgICAgICBkZXNjcmlwdG9yOiB7CiAgICAgICAgICAgICAgICAgICAgbmFtZTogIlBlcnNvbmFsIGluZm9ybWF0aW9uIGZvcm0iLAogICAgICAgICAgICAgICAgICAgIGNvZGU6ICJQRVJTT05BTF9JTkZPUk1BVElPTl9TT0xBUiIKICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgIGZvcm06IHsKICAgICAgICAgICAgICAgICAgaWQ6IHVzZXJJbnB1dHMuZm9ybV9pZCB8fCAiRjAyIiwKICAgICAgICAgICAgICAgICAgZGF0YTogZm9ybURhdGEKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgIF0KICAgICAgICB9LAogICAgICAgIHBheW1lbnQ6IHsKICAgICAgICAgIGNvbGxlY3RlZF9ieTogIkJQUCIsCiAgICAgICAgfSwKICAgICAgICB0YWdzOnNlc3Npb25EYXRhLnNlYXJjaF90YWdzWzBdCiAgICAgIH0KICAgIH07CgogICAgcmV0dXJuIGRlZmF1bHRQYXlsb2FkOwogIH0gY2F0Y2ggKGVycm9yKSB7CiAgICBjb25zb2xlLmVycm9yKCJFcnJvciBidWlsZGluZyBwYXlsb2FkOiIsIGVycm9yKTsKICAgIHJldHVybiBkZWZhdWx0UGF5bG9hZDsKICB9Cn0K
+      generate: YXN5bmMgZnVuY3Rpb24gZ2VuZXJhdGUoZGVmYXVsdFBheWxvYWQsIHNlc3Npb25EYXRhKSB7CiAgYXdhaXQgZ2VuZXJhdGVQYXlsb2FkKGRlZmF1bHRQYXlsb2FkLCBzZXNzaW9uRGF0YSk7CiAgcmV0dXJuIGRlZmF1bHRQYXlsb2FkOwp9Cgphc3luYyBmdW5jdGlvbiBnZW5lcmF0ZVBheWxvYWQoZGVmYXVsdFBheWxvYWQsIHNlc3Npb25EYXRhKSB7CiAgdHJ5IHsKICAgIGNvbnN0IHVzZXJJbnB1dHMgPSBzZXNzaW9uRGF0YT8udXNlcl9pbnB1dHMgfHwge307CgogICAgLy8gc2VhcmNoX2l0ZW1faWQgLyBwcm92aWRlcl9pZCBwcmVzZW5jZSBpcyBhbHJlYWR5IHZhbGlkYXRlZCBieQogICAgLy8gbWVldHNSZXF1aXJlbWVudHMoKSBiZWZvcmUgdGhpcyBnZW5lcmF0b3IgcnVuczsgZ3VhcmRlZCBoZXJlCiAgICAvLyBkZWZlbnNpdmVseSBpbiBjYXNlIG9mIG1pc3VzZS4KICAgIGlmICghc2Vzc2lvbkRhdGE/LnNlYXJjaF9pdGVtX2lkPy5bMF0gfHwgIXNlc3Npb25EYXRhPy5wcm92aWRlcl9pZD8uWzBdKSB7CiAgICAgIHJldHVybiBkZWZhdWx0UGF5bG9hZDsKICAgIH0KCiAgICAvLyBIZWxwZXIgdG8gd3JhcCB2YWx1ZXMKICAgIGNvbnN0IHdyYXAgPSAodmFsKSA9PiAoeyB2YWx1ZTogU3RyaW5nKHZhbCA/PyAiIikgfSk7CgogICAgY29uc3QgZm9ybURhdGEgPSB7CiAgICAgIG5hbWU6IHdyYXAodXNlcklucHV0cy5mdWxsTmFtZSksCiAgICAgIHBhbjogd3JhcCh1c2VySW5wdXRzLnBhbiksCiAgICAgIHBlcnNvbmFsRW1haWw6IHdyYXAodXNlcklucHV0cy5wZXJzb25hbEVtYWlsKSwKICAgICAgb2ZmaWNpYWxFbWFpbDogd3JhcCh1c2VySW5wdXRzLm9mZmljaWFsRW1haWwpLAogICAgICBkb2I6IHdyYXAodXNlcklucHV0cy5kb2IpLAogICAgICBnZW5kZXI6IHdyYXAodXNlcklucHV0cy5nZW5kZXIpLAogICAgICBtb2JpbGVOdW1iZXI6IHdyYXAodXNlcklucHV0cy5tb2JpbGVOdW1iZXIpLAogICAgICBwaW5jb2RlOiB3cmFwKHVzZXJJbnB1dHMucGluY29kZSksCiAgICAgIGVtcGxveW1lbnRUeXBlOiB3cmFwKHVzZXJJbnB1dHMuZW1wbG95bWVudFR5cGUpLAogICAgICBtb250aGx5SW5jb21lOiB3cmFwKHVzZXJJbnB1dHMubW9udGhseUluY29tZSksCiAgICAgIGVtcGxveWVyTmFtZTogd3JhcCh1c2VySW5wdXRzLmVtcGxveWVyTmFtZSksCiAgICAgIGV4cGVyaWVuY2VZZWFyczogd3JhcCh1c2VySW5wdXRzLmV4cGVyaWVuY2VZZWFycyksCiAgICAgIGRvd25wYXltZW50OiB3cmFwKHVzZXJJbnB1dHMuZG93bnBheW1lbnQpLAogICAgICB0ZW51cmU6IHdyYXAodXNlcklucHV0cy50ZW51cmUpLAogICAgICBidXJlYXVDb25zZW50OiB7CiAgICAgICAgdmFsdWU6IEJvb2xlYW4odXNlcklucHV0cy5idXJlYXVDb25zZW50KQogICAgICB9LAogICAgICBwcm9wZXJ0eU93bmVyc2hpcDogd3JhcCh1c2VySW5wdXRzLnByb3BlcnR5T3duZXJzaGlwKSwKICAgICAgcHJvcGVydHlUeXBlOiB3cmFwKHVzZXJJbnB1dHMucHJvcGVydHlUeXBlKSwKICAgICAgaW5zdGFsbGF0aW9uQWRkcmVzczogd3JhcCh1c2VySW5wdXRzLmluc3RhbGxhdGlvbkFkZHJlc3MpCiAgICB9OwoKICAgIGRlZmF1bHRQYXlsb2FkLm1lc3NhZ2UgPSB7CiAgICAgIGludGVudDogewogICAgICAgIHByb3ZpZGVyOiB7CiAgICAgICAgICBpZDogc2Vzc2lvbkRhdGEucHJvdmlkZXJfaWRbMF0sCiAgICAgICAgICBpdGVtczogWwogICAgICAgICAgICB7CiAgICAgICAgICAgICAgaWQ6IHNlc3Npb25EYXRhLnNlYXJjaF9pdGVtX2lkWzBdLAogICAgICAgICAgICAgIHhpbnB1dDogewogICAgICAgICAgICAgICAgIGhlYWQ6IHsKICAgICAgICAgICAgICAgICAgZGVzY3JpcHRvcjogewogICAgICAgICAgICAgICAgICAgIG5hbWU6ICJQZXJzb25hbCBpbmZvcm1hdGlvbiBmb3JtIiwKICAgICAgICAgICAgICAgICAgICBjb2RlOiAiUEVSU09OQUxfSU5GT1JNQVRJT05fU09MQVIiCiAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICBmb3JtOiB7CiAgICAgICAgICAgICAgICAgIGlkOiB1c2VySW5wdXRzLmZvcm1faWQgfHwgIkYwMiIsCiAgICAgICAgICAgICAgICAgIGRhdGE6IGZvcm1EYXRhCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICBdCiAgICAgICAgfSwKICAgICAgICBwYXltZW50OiB7CiAgICAgICAgICBjb2xsZWN0ZWRfYnk6ICJCUFAiLAogICAgICAgIH0sCiAgICAgICAgdGFnczpzZXNzaW9uRGF0YS5zZWFyY2hfdGFnc1swXQogICAgICB9CiAgICB9OwoKICAgIHJldHVybiBkZWZhdWx0UGF5bG9hZDsKICB9IGNhdGNoIChlcnJvcikgewogICAgY29uc29sZS5lcnJvcigiRXJyb3IgYnVpbGRpbmcgcGF5bG9hZDoiLCBlcnJvcik7CiAgICByZXR1cm4gZGVmYXVsdFBheWxvYWQ7CiAgfQp9Cg==
       validate: ZnVuY3Rpb24gdmFsaWRhdGUodGFyZ2V0UGF5bG9hZCwgc2Vzc2lvbkRhdGEpIHsKICB0cnkgewogICAgY29uc3QgaXRlbSA9IHRhcmdldFBheWxvYWQ/Lm1lc3NhZ2U/LmludGVudD8ucHJvdmlkZXI/Lml0ZW1zPy5bMF07CgogICAgaWYgKCFpdGVtIHx8ICFpdGVtLmlkKSB7CiAgICAgIHJldHVybiB7IHZhbGlkOiBmYWxzZSwgY29kZTogNDAwLCBkZXNjcmlwdGlvbjogIkl0ZW0gSUQgaXMgbWlzc2luZyIgfTsKICAgIH0KCiAgICByZXR1cm4geyB2YWxpZDogdHJ1ZSwgY29kZTogMjAwLCBkZXNjcmlwdGlvbjogIlZhbGlkIHJlcXVlc3QiIH07CiAgfSBjYXRjaCAoZXJyb3IpIHsKICAgIHJldHVybiB7IHZhbGlkOiBmYWxzZSwgY29kZTogNTAwLCBkZXNjcmlwdGlvbjogZXJyb3IubWVzc2FnZSB9OwogIH0KfQ==
       requirements: LyoqCiAqIENoZWNrcyBpZiB0aGUgcmVxdWlyZW1lbnRzIGZvciBwcm9jZWVkaW5nIHdpdGggdGhlIEFQSSBjYWxsIGFyZSBtZXQuCiAqIFZhbGlkYXRlcyB0aGUgc2Vzc2lvbkRhdGEgdGhhdCBnZW5lcmF0ZSgpIGNvbnN1bWVzOiBzZWFyY2hfaXRlbV9pZCBhbmQKICogcHJvdmlkZXJfaWQgbXVzdCBiZSBwcmVzZW50IChzYXZlZCBmcm9tIHRoZSBwcmlvciBzZWFyY2hfMi9vbl9zZWFyY2hfMgogKiByb3VuZCkuIFRoZSBwZXJzb25hbC1pbmZvIGZvcm0gZmllbGRzIGFyZSBvcHRpb25hbCBhbmQgd3JhcHBlZCBzYWZlbHkKICogd2l0aCBkZWZhdWx0cyBpbiBnZW5lcmF0ZSgpLgogKgogKiBAcGFyYW0ge09iamVjdH0gc2Vzc2lvbkRhdGEgLSBEYXRhIGNvbGxlY3RlZCBmcm9tIHByZXZpb3VzIHRyYW5zYWN0aW9uIHN0ZXBzLgogKgogKiBAcmV0dXJucyB7T2JqZWN0fSB7IHZhbGlkOiBib29sZWFuLCBjb2RlOiBudW1iZXIsIGRlc2NyaXB0aW9uOiBzdHJpbmcgfQogKi8KZnVuY3Rpb24gbWVldHNSZXF1aXJlbWVudHMoc2Vzc2lvbkRhdGEpIHsKICBpZiAoIXNlc3Npb25EYXRhPy5zZWFyY2hfaXRlbV9pZD8uWzBdKSB7CiAgICByZXR1cm4geyB2YWxpZDogZmFsc2UsIGNvZGU6IDQwMCwgZGVzY3JpcHRpb246ICJpdGVtX2lkIG1pc3NpbmcgaW4gc2Vzc2lvbkRhdGEiIH07CiAgfQoKICBpZiAoIXNlc3Npb25EYXRhPy5wcm92aWRlcl9pZD8uWzBdKSB7CiAgICByZXR1cm4geyB2YWxpZDogZmFsc2UsIGNvZGU6IDQwMCwgZGVzY3JpcHRpb246ICJwcm92aWRlcl9pZCBtaXNzaW5nIGluIHNlc3Npb25EYXRhIiB9OwogIH0KCiAgcmV0dXJuIHsgdmFsaWQ6IHRydWUsIGNvZGU6IDIwMCwgZGVzY3JpcHRpb246ICJSZXF1aXJlbWVudHMgbWV0IiB9Owp9Cg==
       defaultPayload:
@@ -767,7 +767,7 @@ steps:
               type: string
               description: Enter form id
               default: personal_information_form
-            Name:
+            fullName:
               type: string
               description: Borrower full name as per PAN
               default: Rahul Sharma
@@ -819,7 +819,7 @@ steps:
               default: "75000"
             employerName:
               type: string
-              description: Employer Name (Optional)
+              description: Employer fullName (Optional)
               default: Infosys Ltd
             experienceYears:
               type: string
@@ -839,19 +839,10 @@ steps:
               default: true
             propertyOwnership:
               type: string
-              enum:
-                - OWNED
-                - RENTED
-                - FAMILY_OWNED
               description: Property Ownership (Optional)
               default: OWNED
             propertyType:
               type: string
-              enum:
-                - INDEPENDENT_HOUSE
-                - APARTMENT
-                - COMMERCIAL
-                - INDUSTRIAL
               description: Property Type (Optional)
               default: INDEPENDENT_HOUSE
             installationAddress:
@@ -859,7 +850,7 @@ steps:
               description: Installation Address (Optional)
               default: 123 MG Road, Bengaluru, Karnataka
           required:
-            - Name
+            - fullName
             - pan
             - personalEmail
             - dob
@@ -878,9 +869,9 @@ steps:
           context:
             domain: ONDC:FIS12
             action: search
-            timestamp: 2026-07-27T11:59:45.782Z
+            timestamp: 2026-07-27T13:13:40.117Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
-            message_id: d36dfdea-a9d8-414a-a0b1-5442779c9eb3
+            message_id: 255077b3-15b4-4d49-8bb8-3d535c4ccb9c
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -1012,9 +1003,9 @@ steps:
           context:
             domain: ONDC:FIS12
             action: on_search
-            timestamp: 2026-07-27T11:59:45.794Z
+            timestamp: 2026-07-27T13:13:40.139Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
-            message_id: d36dfdea-a9d8-414a-a0b1-5442779c9eb3
+            message_id: 255077b3-15b4-4d49-8bb8-3d535c4ccb9c
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -1205,7 +1196,7 @@ steps:
                       type: ONLINE
                       stops:
                         - id: "1"
-                          type: MERCHANT_AND_PRODUCT_DETAILS
+                          type: MERCHANT_AND_PRDOUCT_DETAILS
                           instructions:
                             name: Merchant And Product Details
                             code: COMPLETED
@@ -1402,9 +1393,9 @@ steps:
           context:
             domain: ONDC:FIS12
             action: select
-            timestamp: 2026-07-27T11:59:46.756Z
+            timestamp: 2026-07-27T13:13:41.499Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
-            message_id: 9fd134ad-e253-4c8b-92aa-aa7c5067da8b
+            message_id: 1123cfba-dd71-4a3b-b68d-119e55eb62f0
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -1479,9 +1470,9 @@ steps:
           context:
             domain: ONDC:FIS12
             action: on_select
-            timestamp: 2026-07-27T11:59:46.771Z
+            timestamp: 2026-07-27T13:13:41.515Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
-            message_id: 9fd134ad-e253-4c8b-92aa-aa7c5067da8b
+            message_id: 1123cfba-dd71-4a3b-b68d-119e55eb62f0
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -1677,7 +1668,7 @@ steps:
                   type: ONLINE
                   stops:
                     - id: "1"
-                      type: MERCHANT_AND_PRODUCT_DETAILS
+                      type: MERCHANT_AND_PRDOUCT_DETAILS
                       instructions:
                         name: Merchant And Product Details
                         code: COMPLETED
@@ -1811,9 +1802,9 @@ steps:
           context:
             domain: ONDC:FIS12
             action: on_status
-            timestamp: 2026-07-27T11:59:46.816Z
+            timestamp: 2026-07-27T13:13:41.546Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
-            message_id: 82efc1c9-b8de-434c-944e-1b3097e67c2e
+            message_id: 18cd5abd-81b5-4467-8471-d376726e14c8
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -1995,13 +1986,13 @@ steps:
                       id: single_redirection
                     form_response:
                       status: PENDING
-                      submission_id: 9f419f20-50c8-41d6-ae36-69c1e4c6687e
+                      submission_id: f953310c-ace1-4aa5-8e06-162317c240a5
               fulfillments:
                 - id: F1
                   type: ONLINE
                   stops:
                     - id: "1"
-                      type: MERCHANT_AND_PRODUCT_DETAILS
+                      type: MERCHANT_AND_PRDOUCT_DETAILS
                       instructions:
                         name: Merchant And Product Details
                         code: COMPLETED
@@ -2138,9 +2129,9 @@ steps:
           context:
             domain: ONDC:FIS12
             action: on_status
-            timestamp: 2026-07-27T11:59:46.851Z
+            timestamp: 2026-07-27T13:13:41.586Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
-            message_id: 53e9d369-49d8-48a0-a009-261022e14d85
+            message_id: 1931f149-49b5-432e-9b3d-e8ccdbb56235
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -2322,13 +2313,13 @@ steps:
                       id: single_redirection
                     form_response:
                       status: PENDING
-                      submission_id: 9f419f20-50c8-41d6-ae36-69c1e4c6687e
+                      submission_id: f953310c-ace1-4aa5-8e06-162317c240a5
               fulfillments:
                 - id: F1
                   type: ONLINE
                   stops:
                     - id: "1"
-                      type: MERCHANT_AND_PRODUCT_DETAILS
+                      type: MERCHANT_AND_PRDOUCT_DETAILS
                       instructions:
                         name: Merchant And Product Details
                         code: COMPLETED
@@ -2465,9 +2456,9 @@ steps:
           context:
             domain: ONDC:FIS12
             action: on_status
-            timestamp: 2026-07-27T11:59:46.902Z
+            timestamp: 2026-07-27T13:13:41.615Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
-            message_id: 2fa91bec-2a5c-4531-8fed-8b066ddd1e75
+            message_id: 3a771691-6ccc-488e-9a50-190ee4127969
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -2649,13 +2640,13 @@ steps:
                       id: single_redirection
                     form_response:
                       status: PENDING
-                      submission_id: 9f419f20-50c8-41d6-ae36-69c1e4c6687e
+                      submission_id: f953310c-ace1-4aa5-8e06-162317c240a5
               fulfillments:
                 - id: F1
                   type: ONLINE
                   stops:
                     - id: "1"
-                      type: MERCHANT_AND_PRODUCT_DETAILS
+                      type: MERCHANT_AND_PRDOUCT_DETAILS
                       instructions:
                         name: Merchant And Product Details
                         code: COMPLETED
@@ -2794,9 +2785,9 @@ steps:
           context:
             domain: ONDC:FIS12
             action: on_status
-            timestamp: 2026-07-27T11:59:46.972Z
+            timestamp: 2026-07-27T13:13:41.658Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
-            message_id: 44218f72-74e4-489d-9a58-20469a55129a
+            message_id: ca9c1783-4bb1-4b9e-bf1d-bedbd2c375af
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -2978,13 +2969,13 @@ steps:
                       id: single_redirection
                     form_response:
                       status: COMPLETED
-                      submission_id: 9f419f20-50c8-41d6-ae36-69c1e4c6687e
+                      submission_id: f953310c-ace1-4aa5-8e06-162317c240a5
               fulfillments:
                 - id: F1
                   type: ONLINE
                   stops:
                     - id: "1"
-                      type: MERCHANT_AND_PRODUCT_DETAILS
+                      type: MERCHANT_AND_PRDOUCT_DETAILS
                       instructions:
                         name: Merchant And Product Details
                         code: COMPLETED
@@ -3155,9 +3146,9 @@ steps:
           context:
             domain: ONDC:FIS12
             action: select
-            timestamp: 2026-07-27T11:59:51.500Z
+            timestamp: 2026-07-27T13:13:49.363Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
-            message_id: e9570fed-f598-4202-aaae-ae63ce68af12
+            message_id: b0b50ee0-ca8b-4d54-b73f-c1dcd213854a
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -3185,7 +3176,7 @@ steps:
                       id: single_redirection
                     form_response:
                       status: SUCCESS
-                      submission_id: 9f419f20-50c8-41d6-ae36-69c1e4c6687e
+                      submission_id: f953310c-ace1-4aa5-8e06-162317c240a5
               fulfillments:
                 - id: F1
         type: request
@@ -3239,9 +3230,9 @@ steps:
           context:
             domain: ONDC:FIS12
             action: on_select
-            timestamp: 2026-07-27T11:59:51.517Z
+            timestamp: 2026-07-27T13:13:49.395Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
-            message_id: e9570fed-f598-4202-aaae-ae63ce68af12
+            message_id: b0b50ee0-ca8b-4d54-b73f-c1dcd213854a
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -3423,7 +3414,7 @@ steps:
                   type: ONLINE
                   stops:
                     - id: "1"
-                      type: MERCHANT_AND_PRODUCT_DETAILS
+                      type: MERCHANT_AND_PRDOUCT_DETAILS
                       instructions:
                         name: Merchant And Product Details
                         code: COMPLETED
@@ -3822,9 +3813,9 @@ steps:
           context:
             domain: ONDC:FIS12
             action: on_confirm
-            timestamp: 2026-07-27T11:59:51.557Z
+            timestamp: 2026-07-27T13:13:49.497Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
-            message_id: 666366b2-c4ae-4d52-b5c2-78c3879bc493
+            message_id: 7512c884-58db-46f0-8d94-04cb62c2498d
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -4016,7 +4007,7 @@ steps:
                   id: F1
                   stops:
                     - id: "1"
-                      type: MERCHANT_AND_PRODUCT_DETAILS
+                      type: MERCHANT_AND_PRDOUCT_DETAILS
                       instructions:
                         name: Merchant And Product Details
                         code: COMPLETED
@@ -4119,7 +4110,7 @@ steps:
                     currency: INR
                   time:
                     label: LOAN_DISBURSMENT
-                    timestamp: 2026-07-27T11:59:51.560Z
+                    timestamp: 2026-07-27T13:13:49.506Z
                   tags:
                     - descriptor:
                         name: Account Details
@@ -4342,8 +4333,8 @@ steps:
                   url: https://lender.com/loan/loan-cancellation/O1.pdf
               status: ACTIVE
               id: SOLAR_LOAN_ID
-              created_at: 2026-07-27T11:59:51.560Z
-              updated_at: 2026-07-27T11:59:51.560Z
+              created_at: 2026-07-27T13:13:49.506Z
+              updated_at: 2026-07-27T13:13:49.506Z
         type: request
         description: The BPP confirms the customer's solar purchase finance application
           (LOAN_SANCTIONED) and returns the finalized transaction details and
@@ -4395,9 +4386,9 @@ steps:
           context:
             domain: ONDC:FIS12
             action: update
-            timestamp: 2026-07-27T11:59:51.593Z
+            timestamp: 2026-07-27T13:13:49.557Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
-            message_id: 2179fbbe-7006-484d-a017-20459b95d6df
+            message_id: a8fbbabe-e219-4a63-8e8c-c2b509be4da8
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -4521,9 +4512,9 @@ steps:
           context:
             domain: ONDC:FIS12
             action: on_update
-            timestamp: 2026-07-27T11:59:51.638Z
+            timestamp: 2026-07-27T13:13:49.604Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
-            message_id: 18267efc-4137-4096-a668-d24323a294b9
+            message_id: b6de3121-4ea9-4dff-99c9-a62189223126
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -4714,7 +4705,7 @@ steps:
                   id: F1
                   stops:
                     - id: "1"
-                      type: MERCHANT_AND_PRODUCT_DETAILS
+                      type: MERCHANT_AND_PRDOUCT_DETAILS
                       instructions:
                         name: Merchant And Product Details
                         code: COMPLETED
@@ -4817,7 +4808,7 @@ steps:
                     currency: INR
                   time:
                     label: LOAN_DISBURSMENT
-                    timestamp: 2026-07-27T11:59:51.560Z
+                    timestamp: 2026-07-27T13:13:49.506Z
                   tags:
                     - descriptor:
                         name: Account Details
@@ -5040,8 +5031,8 @@ steps:
                   url: https://lender.com/loan/loan-cancellation/O1.pdf
               status: ACTIVE
               id: SOLAR_LOAN_ID
-              created_at: 2026-07-27T11:59:51.560Z
-              updated_at: 2026-07-27T11:59:51.639Z
+              created_at: 2026-07-27T13:13:49.506Z
+              updated_at: 2026-07-27T13:13:49.605Z
         type: request
         description: please add relevant description
   - api: on_update
@@ -5138,9 +5129,9 @@ steps:
           context:
             domain: ONDC:FIS12
             action: on_update
-            timestamp: 2026-07-27T11:59:51.680Z
+            timestamp: 2026-07-27T13:13:49.634Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
-            message_id: 3b26ff6d-1abc-4418-ae3f-7b80ac0b0462
+            message_id: e22e6a62-1087-48a7-a785-317fa677dcfa
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -5331,7 +5322,7 @@ steps:
                   id: F1
                   stops:
                     - id: "1"
-                      type: MERCHANT_AND_PRODUCT_DETAILS
+                      type: MERCHANT_AND_PRDOUCT_DETAILS
                       instructions:
                         name: Merchant And Product Details
                         code: COMPLETED
@@ -5432,10 +5423,10 @@ steps:
                   params:
                     amount: "180000"
                     currency: INR
-                    transaction_id: b70dcc72-567b-4637-8fb2-b3f4e92e3ebf
+                    transaction_id: ad7a0c00-b7ea-49d6-9cbf-687b7eec6652
                   time:
                     label: LOAN_DISBURSMENT
-                    timestamp: 2026-07-27T11:59:51.560Z
+                    timestamp: 2026-07-27T13:13:49.506Z
                   tags:
                     - descriptor:
                         name: Account Details
@@ -5658,8 +5649,8 @@ steps:
                   url: https://lender.com/loan/loan-cancellation/O1.pdf
               status: ACTIVE
               id: SOLAR_LOAN_ID
-              created_at: 2026-07-27T11:59:51.560Z
-              updated_at: 2026-07-27T11:59:51.681Z
+              created_at: 2026-07-27T13:13:49.506Z
+              updated_at: 2026-07-27T13:13:49.635Z
         type: request
         description: please add relevant description
 transaction_history: []
