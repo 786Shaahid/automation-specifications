@@ -2441,7 +2441,7 @@ attribute_set:
                   type: string
               code:
                 _description:
-                  required: false
+                  required: true
                   usage: GENERAL_INFO
                   info: Descriptor code that classifies the item tag (e.g., GENERAL_INFO); BAP mints it on select, BPP echoes in on_select, and it is persisted in session across order steps.
                   owner: BPP
