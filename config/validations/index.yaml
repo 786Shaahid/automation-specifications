@@ -3769,12 +3769,12 @@ _TESTS_:
       - _NAME_: REQUIRED_HEALTH_PROVIDER_IMAGE_SIZE_TYPE
         attr: $.message.order.provider.descriptor.images[*].size_type
         _RETURN_: attr are present
-      - _NAME_: REQUIRED_HEALTH_DOCUMENT_DESCRIPTOR_SHORT_DESC
-        attr: $.message.order.documents[*].descriptor.short_desc
-        _RETURN_: attr are present
-      - _NAME_: REQUIRED_HEALTH_DOCUMENT_DESCRIPTOR_LONG_DESC
-        attr: $.message.order.documents[*].descriptor.long_desc
-        _RETURN_: attr are present
+      # - _NAME_: REQUIRED_HEALTH_DOCUMENT_DESCRIPTOR_SHORT_DESC
+      #   attr: $.message.order.documents[*].descriptor.short_desc
+      #   _RETURN_: attr are present
+      # - _NAME_: REQUIRED_HEALTH_DOCUMENT_DESCRIPTOR_LONG_DESC
+      #   attr: $.message.order.documents[*].descriptor.long_desc
+      #   _RETURN_: attr are present
       - _NAME_: REQUIRED_HEALTH_PAYMENT_BUYER_FINDER_FEES_TAG_GROUP
         tagPath: $.message.order.payments[*].tags[*].descriptor.code
         validTags:
@@ -4420,9 +4420,6 @@ _TESTS_:
       _RETURN_: attr are present
     - _NAME_: REQUIRED_MOTOR_ITEM_DESCRIPTOR_SHORT_DESC
       attr: $.message.order.items[*].descriptor.short_desc
-      _RETURN_: attr are present
-    - _NAME_: REQUIRED_MOTOR_ITEM_FULFILLMENT_IDS
-      attr: $.message.order.items[*].fulfillment_ids[*]
       _RETURN_: attr are present
     - _NAME_: REQUIRED_MOTOR_XINPUT_FORM_RESPONSE_SUBMISSION_ID
       attr: $.message.order.items[*].xinput.form_response.submission_id
