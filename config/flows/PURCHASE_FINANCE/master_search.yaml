@@ -56,9 +56,9 @@ steps:
           context:
             domain: ONDC:FIS12
             action: search
-            timestamp: 2026-07-27T07:58:58.625Z
+            timestamp: 2026-07-29T06:48:11.833Z
             transaction_id: 4179de3c-7088-4732-9786-e1fdba540b56
-            message_id: f372245c-8d89-44e2-995e-c94a8c92ec8e
+            message_id: d0b5f4ac-381c-4086-b693-7fac19655c92
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -429,11 +429,11 @@ steps:
                     time:
                       label: INSTALLMENT
                   - type: ON_FULFILLMENT
-                    id: MERCHANT_DISBURSAL
+                    id: LOAN_DISBURSMENT_ID
                     status: NOT-PAID
-                    collected_by: BAP
+                    collected_by: BPP
                     time:
-                      label: LOAN_DISBURSAL
+                      label: LOAN_DISBURSMENT
                 tags:
                   - descriptor:
                       code: CONTACT_INFO
@@ -512,9 +512,9 @@ steps:
           context:
             domain: ONDC:FIS12
             action: on_search
-            timestamp: 2026-07-27T07:58:58.636Z
+            timestamp: 2026-07-29T06:48:11.841Z
             transaction_id: 4179de3c-7088-4732-9786-e1fdba540b56
-            message_id: f372245c-8d89-44e2-995e-c94a8c92ec8e
+            message_id: d0b5f4ac-381c-4086-b693-7fac19655c92
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -766,13 +766,13 @@ steps:
                               type: string
                             productCategory:
                               type: enum
-                            brand:
+                            productBrand:
                               type: string
-                            model:
+                            productmodel:
                               type: string
-                            skuId:
+                            productSkuId:
                               type: string
-                            price:
+                            productPrice:
                               type: string
                             maxSellerSubvention:
                               type: string
@@ -838,11 +838,11 @@ steps:
                       time:
                         label: INSTALLMENT
                     - type: ON_FULFILLMENT
-                      id: MERCHANT_DISBURSAL
+                      id: LOAN_DISBURSMENT_ID
                       status: NOT-PAID
-                      collected_by: BAP
+                      collected_by: BPP
                       time:
-                        label: LOAN_DISBURSAL
+                        label: LOAN_DISBURSMENT
                   tags:
                     - descriptor:
                         code: CONTACT_INFO

@@ -170,9 +170,9 @@ steps:
           context:
             domain: ONDC:FIS12
             action: search
-            timestamp: 2026-07-28T10:04:05.026Z
+            timestamp: 2026-07-29T07:21:25.208Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
-            message_id: d103efbc-7b3e-4ce3-8379-05ceb22f0466
+            message_id: c282915d-0d02-464d-992a-83d2cb1fffde
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -407,11 +407,11 @@ steps:
                     time:
                       label: INSTALLMENT
                   - type: ON_FULFILLMENT
-                    id: MERCHANT_DISBURSAL
+                    id: LOAN_DISBURSMENT_ID
                     status: NOT-PAID
-                    collected_by: BAP
+                    collected_by: BPP
                     time:
-                      label: LOAN_DISBURSAL
+                      label: LOAN_DISBURSMENT
                 tags:
                   - descriptor:
                       code: CONTACT_INFO
@@ -491,9 +491,9 @@ steps:
           context:
             domain: ONDC:FIS12
             action: on_search
-            timestamp: 2026-07-28T10:04:05.040Z
+            timestamp: 2026-07-29T07:21:25.241Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
-            message_id: d103efbc-7b3e-4ce3-8379-05ceb22f0466
+            message_id: c282915d-0d02-464d-992a-83d2cb1fffde
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -642,11 +642,11 @@ steps:
                       time:
                         label: INSTALLMENT
                     - type: ON_FULFILLMENT
-                      id: MERCHANT_DISBURSAL
+                      id: LOAN_DISBURSMENT_ID
                       status: NOT-PAID
-                      collected_by: BAP
+                      collected_by: BPP
                       time:
-                        label: LOAN_DISBURSAL
+                        label: LOAN_DISBURSMENT
                   tags:
                     - descriptor:
                         code: CONTACT_INFO
@@ -869,9 +869,9 @@ steps:
           context:
             domain: ONDC:FIS12
             action: search
-            timestamp: 2026-07-28T10:04:05.764Z
+            timestamp: 2026-07-29T07:21:26.891Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
-            message_id: a6a1c37e-ea79-4d01-9b5f-d0f187432151
+            message_id: 6c044439-11ca-41fb-972c-acfc3c448337
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -1003,9 +1003,9 @@ steps:
           context:
             domain: ONDC:FIS12
             action: on_search
-            timestamp: 2026-07-28T10:04:05.780Z
+            timestamp: 2026-07-29T07:21:26.917Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
-            message_id: a6a1c37e-ea79-4d01-9b5f-d0f187432151
+            message_id: 6c044439-11ca-41fb-972c-acfc3c448337
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -1251,11 +1251,11 @@ steps:
                       time:
                         label: INSTALLMENT
                     - type: ON_FULFILLMENT
-                      id: MERCHANT_DISBURSAL
+                      id: LOAN_DISBURSMENT_ID
                       status: NOT-PAID
-                      collected_by: BAP
+                      collected_by: BPP
                       time:
-                        label: LOAN_DISBURSAL
+                        label: LOAN_DISBURSMENT
                   tags:
                     - descriptor:
                         code: CONTACT_INFO
@@ -1393,9 +1393,9 @@ steps:
           context:
             domain: ONDC:FIS12
             action: select
-            timestamp: 2026-07-28T10:04:06.663Z
+            timestamp: 2026-07-29T07:21:28.165Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
-            message_id: c5c1a292-900f-4661-a092-9ed3beb9744b
+            message_id: 00a46da9-343f-4dfa-8e71-5f75732c8c5d
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -1470,9 +1470,9 @@ steps:
           context:
             domain: ONDC:FIS12
             action: on_select
-            timestamp: 2026-07-28T10:04:06.679Z
+            timestamp: 2026-07-29T07:21:28.183Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
-            message_id: c5c1a292-900f-4661-a092-9ed3beb9744b
+            message_id: 00a46da9-343f-4dfa-8e71-5f75732c8c5d
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -1802,9 +1802,9 @@ steps:
           context:
             domain: ONDC:FIS12
             action: on_status
-            timestamp: 2026-07-28T10:04:06.709Z
+            timestamp: 2026-07-29T07:21:28.272Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
-            message_id: bd14d625-50ab-4c9c-8442-cad0ceb04faf
+            message_id: 231630ab-34bb-457d-afef-4dad5d764d2e
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -1986,7 +1986,7 @@ steps:
                       id: single_redirection
                     form_response:
                       status: PENDING
-                      submission_id: a8c70770-0d4d-474a-adc8-b85b0889ccb4
+                      submission_id: 3fe9c8af-c021-4500-bee6-89c53eb0ff71
               fulfillments:
                 - id: F1
                   type: ONLINE
@@ -2129,9 +2129,9 @@ steps:
           context:
             domain: ONDC:FIS12
             action: on_status
-            timestamp: 2026-07-28T10:04:06.759Z
+            timestamp: 2026-07-29T07:21:28.322Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
-            message_id: 57fe732d-6b25-4bd8-8d31-e8ff95e7b8c9
+            message_id: a9e270da-bef7-4094-add2-73ed577a4f6b
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -2313,7 +2313,7 @@ steps:
                       id: single_redirection
                     form_response:
                       status: PENDING
-                      submission_id: a8c70770-0d4d-474a-adc8-b85b0889ccb4
+                      submission_id: 3fe9c8af-c021-4500-bee6-89c53eb0ff71
               fulfillments:
                 - id: F1
                   type: ONLINE
@@ -2456,9 +2456,9 @@ steps:
           context:
             domain: ONDC:FIS12
             action: on_status
-            timestamp: 2026-07-28T10:04:06.792Z
+            timestamp: 2026-07-29T07:21:28.380Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
-            message_id: 2c5078bb-f240-4e82-a4fb-c91333a37478
+            message_id: 38cc3c55-27c1-4cae-be64-771739d17386
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -2640,7 +2640,7 @@ steps:
                       id: single_redirection
                     form_response:
                       status: PENDING
-                      submission_id: a8c70770-0d4d-474a-adc8-b85b0889ccb4
+                      submission_id: 3fe9c8af-c021-4500-bee6-89c53eb0ff71
               fulfillments:
                 - id: F1
                   type: ONLINE
@@ -2785,9 +2785,9 @@ steps:
           context:
             domain: ONDC:FIS12
             action: on_status
-            timestamp: 2026-07-28T10:04:06.844Z
+            timestamp: 2026-07-29T07:21:28.490Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
-            message_id: e4b66456-3c17-47ed-be65-68c14d73ee8e
+            message_id: 70b1e0f9-fa78-4a09-91ba-07efb16f9dd1
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -2969,7 +2969,7 @@ steps:
                       id: single_redirection
                     form_response:
                       status: COMPLETED
-                      submission_id: a8c70770-0d4d-474a-adc8-b85b0889ccb4
+                      submission_id: 3fe9c8af-c021-4500-bee6-89c53eb0ff71
               fulfillments:
                 - id: F1
                   type: ONLINE
@@ -3146,9 +3146,9 @@ steps:
           context:
             domain: ONDC:FIS12
             action: select
-            timestamp: 2026-07-28T10:04:11.283Z
+            timestamp: 2026-07-29T07:21:33.229Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
-            message_id: cd250b25-9e2b-43ef-8daf-293017ecc0b4
+            message_id: 489b5464-15fb-47fc-83fb-d6f40fac0b7f
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -3176,7 +3176,7 @@ steps:
                       id: single_redirection
                     form_response:
                       status: SUCCESS
-                      submission_id: a8c70770-0d4d-474a-adc8-b85b0889ccb4
+                      submission_id: 3fe9c8af-c021-4500-bee6-89c53eb0ff71
               fulfillments:
                 - id: F1
         type: request
@@ -3230,9 +3230,9 @@ steps:
           context:
             domain: ONDC:FIS12
             action: on_select
-            timestamp: 2026-07-28T10:04:11.303Z
+            timestamp: 2026-07-29T07:21:33.282Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
-            message_id: cd250b25-9e2b-43ef-8daf-293017ecc0b4
+            message_id: 489b5464-15fb-47fc-83fb-d6f40fac0b7f
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -3588,7 +3588,7 @@ steps:
               - type: ON_FULFILLMENT
                 id: LOAN_DISBURSMENT_ID
                 status: NOT-PAID
-                collected_by: CONSUMER
+                collected_by: BPP
                 params:
                   amount: "197700"
                   currency: INR
@@ -3813,9 +3813,9 @@ steps:
           context:
             domain: ONDC:FIS12
             action: on_confirm
-            timestamp: 2026-07-28T10:04:11.369Z
+            timestamp: 2026-07-29T07:21:33.391Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
-            message_id: 692c7169-c6a4-4982-9f7c-69c1d86e900a
+            message_id: d1787bb1-b747-4cce-b5bf-472b6f4f1323
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -4104,13 +4104,13 @@ steps:
                 - type: ON_FULFILLMENT
                   id: LOAN_DISBURSMENT_ID
                   status: NOT-PAID
-                  collected_by: CONSUMER
+                  collected_by: BPP
                   params:
                     amount: "180000"
                     currency: INR
                   time:
                     label: LOAN_DISBURSMENT
-                    timestamp: 2026-07-28T10:04:11.372Z
+                    timestamp: 2026-07-29T07:21:33.395Z
                   tags:
                     - descriptor:
                         name: Account Details
@@ -4333,8 +4333,8 @@ steps:
                   url: https://lender.com/loan/loan-cancellation/O1.pdf
               status: ACTIVE
               id: SOLAR_LOAN_ID
-              created_at: 2026-07-28T10:04:11.372Z
-              updated_at: 2026-07-28T10:04:11.372Z
+              created_at: 2026-07-29T07:21:33.395Z
+              updated_at: 2026-07-29T07:21:33.395Z
         type: request
         description: The BPP confirms the customer's solar purchase finance application
           (LOAN_SANCTIONED) and returns the finalized transaction details and
@@ -4386,9 +4386,9 @@ steps:
           context:
             domain: ONDC:FIS12
             action: update
-            timestamp: 2026-07-28T10:04:11.408Z
+            timestamp: 2026-07-29T07:21:33.421Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
-            message_id: 0e6b81c8-11fa-456b-b98d-af34dc4d7197
+            message_id: a5db520d-b6dd-41f5-a73a-45f72d0e02db
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -4512,9 +4512,9 @@ steps:
           context:
             domain: ONDC:FIS12
             action: on_update
-            timestamp: 2026-07-28T10:04:11.472Z
+            timestamp: 2026-07-29T07:21:33.477Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
-            message_id: bfdde741-497d-4549-ab6c-04025fe3abd1
+            message_id: 03383907-80ce-478b-9ef6-eb254f437934
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -4802,13 +4802,13 @@ steps:
                 - type: ON_FULFILLMENT
                   id: LOAN_DISBURSMENT_ID
                   status: NOT-PAID
-                  collected_by: CONSUMER
+                  collected_by: BPP
                   params:
                     amount: "180000"
                     currency: INR
                   time:
                     label: LOAN_DISBURSMENT
-                    timestamp: 2026-07-28T10:04:11.372Z
+                    timestamp: 2026-07-29T07:21:33.395Z
                   tags:
                     - descriptor:
                         name: Account Details
@@ -5031,8 +5031,8 @@ steps:
                   url: https://lender.com/loan/loan-cancellation/O1.pdf
               status: ACTIVE
               id: SOLAR_LOAN_ID
-              created_at: 2026-07-28T10:04:11.372Z
-              updated_at: 2026-07-28T10:04:11.473Z
+              created_at: 2026-07-29T07:21:33.395Z
+              updated_at: 2026-07-29T07:21:33.479Z
         type: request
         description: please add relevant description
   - api: on_update
@@ -5129,9 +5129,9 @@ steps:
           context:
             domain: ONDC:FIS12
             action: on_update
-            timestamp: 2026-07-28T10:04:11.518Z
+            timestamp: 2026-07-29T07:21:33.520Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
-            message_id: a5c268c7-e3de-4d37-a27e-cddd785af5bf
+            message_id: 5719cb6a-cad2-4a6d-85d3-43b839577776
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -5419,14 +5419,14 @@ steps:
                 - type: ON_FULFILLMENT
                   id: LOAN_DISBURSMENT_ID
                   status: PAID
-                  collected_by: CONSUMER
+                  collected_by: BPP
                   params:
                     amount: "180000"
                     currency: INR
-                    transaction_id: c8cf6956-7e8a-4298-af99-4f3b46429912
+                    transaction_id: 09ccdc79-debe-48fa-bc63-33150f6224bc
                   time:
                     label: LOAN_DISBURSMENT
-                    timestamp: 2026-07-28T10:04:11.372Z
+                    timestamp: 2026-07-29T07:21:33.395Z
                   tags:
                     - descriptor:
                         name: Account Details
@@ -5649,8 +5649,8 @@ steps:
                   url: https://lender.com/loan/loan-cancellation/O1.pdf
               status: ACTIVE
               id: SOLAR_LOAN_ID
-              created_at: 2026-07-28T10:04:11.372Z
-              updated_at: 2026-07-28T10:04:11.519Z
+              created_at: 2026-07-29T07:21:33.395Z
+              updated_at: 2026-07-29T07:21:33.522Z
         type: request
         description: please add relevant description
 transaction_history: []
