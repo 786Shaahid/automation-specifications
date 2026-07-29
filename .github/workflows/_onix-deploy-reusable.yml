@@ -253,6 +253,20 @@ jobs:
         run: |
           npx -y @ondc/build-tools@latest push-to-db -f build.yaml -t generated/raw_table.json -u "$API_BASE_URL" -k "$API_KEY"
 
+      - name: Clear mock flows
+        env:
+          DOMAIN: ${{ steps.spec.outputs.domain }}
+          VERSION: ${{ steps.spec.outputs.version }}
+          IMAGE_TAG_PREFIX: ${{ inputs.image_tag_prefix }}
+        run: |
+          if [[ "${IMAGE_TAG_PREFIX}" == "dev" ]]; then
+            BASE_URL="https://dev-workbench.ondc.tech"
+          else
+            BASE_URL="https://workbench.ondc.tech"
+          fi
+          DOMAIN_ENCODED=$(python3 -c "import urllib.parse, os; print(urllib.parse.quote(os.environ['DOMAIN']))")
+          curl --location --request DELETE "${BASE_URL}/mock/${DOMAIN}/${VERSION}/backdoor/clear-flows?domain=${DOMAIN_ENCODED}"
+
       - name: Log in to GHCR
         uses: docker/login-action@v3
         with:
@@ -537,6 +551,20 @@ jobs:
           API_BASE_URL: ${{ inputs.db_api_base_url || secrets.db_api_base_url }}
         run: |
           npx -y @ondc/build-tools@latest push-to-db -f build.yaml -t generated/raw_table.json -u "$API_BASE_URL" -k "$API_KEY"
+
+      - name: Clear mock flows
+        env:
+          DOMAIN: ${{ steps.spec.outputs.domain }}
+          VERSION: ${{ steps.spec.outputs.version }}
+          IMAGE_TAG_PREFIX: ${{ inputs.image_tag_prefix }}
+        run: |
+          if [[ "${IMAGE_TAG_PREFIX}" == "dev" ]]; then
+            BASE_URL="https://dev-workbench.ondc.tech"
+          else
+            BASE_URL="https://workbench.ondc.tech"
+          fi
+          DOMAIN_ENCODED=$(python3 -c "import urllib.parse, os; print(urllib.parse.quote(os.environ['DOMAIN']))")
+          curl --location --request DELETE "${BASE_URL}/mock/${DOMAIN}/${VERSION}/backdoor/clear-flows?domain=${DOMAIN_ENCODED}"
 
       - name: Log in to GHCR
         uses: docker/login-action@v3
