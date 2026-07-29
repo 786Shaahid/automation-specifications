@@ -58,6 +58,27 @@ steps:
                   id: 0120TRVK
             payment:
               collected_by: BPP
+              tags:
+                - descriptor:
+                    code: BUYER_FINDER_FEES
+                  display: false
+                  list:
+                    - descriptor:
+                        code: BUYER_FINDER_FEES_TYPE
+                      value: percent-annualized
+                    - descriptor:
+                        code: BUYER_FINDER_FEES_PERCENTAGE
+                      value: "1"
+                - descriptor:
+                    code: SETTLEMENT_TERMS
+                  display: false
+                  list:
+                    - descriptor:
+                        code: STATIC_TERMS
+                      value: https://www.icicibank.com/personal-banking/loans/personal-loan
+                    - descriptor:
+                        code: OFFLINE_CONTRACT
+                      value: "true"
       saveData:
         transactionId: $.context.transaction_id
         latestMessage_id: $.context.message_id
@@ -113,6 +134,27 @@ steps:
                   code: MOTOR_INSURANCE
               payment:
                 collected_by: BPP
+                tags:
+                  - descriptor:
+                      code: BUYER_FINDER_FEES
+                    display: false
+                    list:
+                      - descriptor:
+                          code: BUYER_FINDER_FEES_TYPE
+                        value: percent-annualized
+                      - descriptor:
+                          code: BUYER_FINDER_FEES_PERCENTAGE
+                        value: "1"
+                  - descriptor:
+                      code: SETTLEMENT_TERMS
+                    display: false
+                    list:
+                      - descriptor:
+                          code: STATIC_TERMS
+                        value: https://www.icicibank.com/personal-banking/loans/personal-loan
+                      - descriptor:
+                          code: OFFLINE_CONTRACT
+                        value: "true"
         type: request
         description: The BAP initiates a search for available motor insurance offerings
           in a specified geographic location, establishing the transaction
@@ -436,6 +478,27 @@ steps:
                           code: DAILY_ALLOWANCE
                 payments:
                   - collected_by: BPP
+                    tags:
+                      - descriptor:
+                          code: BUYER_FINDER_FEES
+                        display: false
+                        list:
+                          - descriptor:
+                              code: BUYER_FINDER_FEES_TYPE
+                            value: percent-annualized
+                          - descriptor:
+                              code: BUYER_FINDER_FEES_PERCENTAGE
+                            value: "1"
+                      - descriptor:
+                          code: SETTLEMENT_TERMS
+                        display: false
+                        list:
+                          - descriptor:
+                              code: STATIC_TERMS
+                            value: https://www.icicibank.com/personal-banking/loans/personal-loan
+                          - descriptor:
+                              code: OFFLINE_CONTRACT
+                            value: "true"
       saveData:
         transactionId: $.context.transaction_id
         latestMessage_id: $.context.message_id
@@ -763,6 +826,27 @@ steps:
                             code: DAILY_ALLOWANCE
                   payments:
                     - collected_by: BPP
+                      tags:
+                        - descriptor:
+                            code: BUYER_FINDER_FEES
+                          display: false
+                          list:
+                            - descriptor:
+                                code: BUYER_FINDER_FEES_TYPE
+                              value: percent-annualized
+                            - descriptor:
+                                code: BUYER_FINDER_FEES_PERCENTAGE
+                              value: "1"
+                        - descriptor:
+                            code: SETTLEMENT_TERMS
+                          display: false
+                          list:
+                            - descriptor:
+                                code: STATIC_TERMS
+                              value: https://www.icicibank.com/personal-banking/loans/personal-loan
+                            - descriptor:
+                                code: OFFLINE_CONTRACT
+                              value: "true"
         type: request
         description: The BPP provides its motor insurance catalog containing available
           products, providers, and vehicle detail forms in response to the BAP's
@@ -857,6 +941,27 @@ steps:
                       submission_id: e9a3b4a5-10f8-42c7-b888-dbf0e2edd684
             payment:
               collected_by: BPP
+              tags:
+                - descriptor:
+                    code: BUYER_FINDER_FEES
+                  display: false
+                  list:
+                    - descriptor:
+                        code: BUYER_FINDER_FEES_TYPE
+                      value: percent-annualized
+                    - descriptor:
+                        code: BUYER_FINDER_FEES_PERCENTAGE
+                      value: "1"
+                - descriptor:
+                    code: SETTLEMENT_TERMS
+                  display: false
+                  list:
+                    - descriptor:
+                        code: STATIC_TERMS
+                      value: https://www.icicibank.com/personal-banking/loans/personal-loan
+                    - descriptor:
+                        code: OFFLINE_CONTRACT
+                      value: "true"
       saveData:
         transactionId: $.context.transaction_id
         latestMessage_id: $.context.message_id
@@ -943,6 +1048,27 @@ steps:
                         submission_id: ccd1c5fb-2d6f-40c7-9858-a36a9f019956
               payment:
                 collected_by: BPP
+                tags:
+                  - descriptor:
+                      code: BUYER_FINDER_FEES
+                    display: false
+                    list:
+                      - descriptor:
+                          code: BUYER_FINDER_FEES_TYPE
+                        value: percent-annualized
+                      - descriptor:
+                          code: BUYER_FINDER_FEES_PERCENTAGE
+                        value: "1"
+                  - descriptor:
+                      code: SETTLEMENT_TERMS
+                    display: false
+                    list:
+                      - descriptor:
+                          code: STATIC_TERMS
+                        value: https://www.icicibank.com/personal-banking/loans/personal-loan
+                      - descriptor:
+                          code: OFFLINE_CONTRACT
+                        value: "true"
         type: request
         description: The BAP searches for available motor insurance providers and their
           offerings based on the customer's location to discover suitable
@@ -1425,6 +1551,27 @@ steps:
                       duration: P1Y
                 payments:
                   - collected_by: BPP
+                    tags:
+                      - descriptor:
+                          code: BUYER_FINDER_FEES
+                        display: false
+                        list:
+                          - descriptor:
+                              code: BUYER_FINDER_FEES_TYPE
+                            value: percent-annualized
+                          - descriptor:
+                              code: BUYER_FINDER_FEES_PERCENTAGE
+                            value: "1"
+                      - descriptor:
+                          code: SETTLEMENT_TERMS
+                        display: false
+                        list:
+                          - descriptor:
+                              code: STATIC_TERMS
+                            value: https://www.icicibank.com/personal-banking/loans/personal-loan
+                          - descriptor:
+                              code: OFFLINE_CONTRACT
+                            value: "true"
       saveData:
         transactionId: $.context.transaction_id
         latestMessage_id: $.context.message_id
@@ -1905,6 +2052,27 @@ steps:
                         duration: P1Y
                   payments:
                     - collected_by: BPP
+                      tags:
+                        - descriptor:
+                            code: BUYER_FINDER_FEES
+                          display: false
+                          list:
+                            - descriptor:
+                                code: BUYER_FINDER_FEES_TYPE
+                              value: percent-annualized
+                            - descriptor:
+                                code: BUYER_FINDER_FEES_PERCENTAGE
+                              value: "1"
+                        - descriptor:
+                            code: SETTLEMENT_TERMS
+                          display: false
+                          list:
+                            - descriptor:
+                                code: STATIC_TERMS
+                              value: https://www.icicibank.com/personal-banking/loans/personal-loan
+                            - descriptor:
+                                code: OFFLINE_CONTRACT
+                              value: "true"
         type: request
         description: The BPP responds to the BAP's motor insurance search request with
           available insurance products, quotes, and coverage options for the
@@ -4615,6 +4783,27 @@ steps:
                   bank_account_number: "1800002341"
                   bank_code: SBIN0001234
                   currency: INR
+                tags:
+                  - descriptor:
+                      code: BUYER_FINDER_FEES
+                    display: false
+                    list:
+                      - descriptor:
+                          code: BUYER_FINDER_FEES_TYPE
+                        value: percent-annualized
+                      - descriptor:
+                          code: BUYER_FINDER_FEES_PERCENTAGE
+                        value: "1"
+                  - descriptor:
+                      code: SETTLEMENT_TERMS
+                    display: false
+                    list:
+                      - descriptor:
+                          code: STATIC_TERMS
+                        value: https://www.icicibank.com/personal-banking/loans/personal-loan
+                      - descriptor:
+                          code: OFFLINE_CONTRACT
+                        value: "true"
       saveData:
         transactionId: $.context.transaction_id
         latestMessage_id: $.context.message_id
@@ -4669,6 +4858,27 @@ steps:
                     bank_account_number: "1800002341"
                     bank_code: SBIN0001234
                     currency: INR
+                  tags:
+                    - descriptor:
+                        code: BUYER_FINDER_FEES
+                      display: false
+                      list:
+                        - descriptor:
+                            code: BUYER_FINDER_FEES_TYPE
+                          value: percent-annualized
+                        - descriptor:
+                            code: BUYER_FINDER_FEES_PERCENTAGE
+                          value: "1"
+                    - descriptor:
+                        code: SETTLEMENT_TERMS
+                      display: false
+                      list:
+                        - descriptor:
+                            code: STATIC_TERMS
+                          value: https://www.icicibank.com/personal-banking/loans/personal-loan
+                        - descriptor:
+                            code: OFFLINE_CONTRACT
+                          value: "true"
               items:
                 - id: CHILD_ITEM_CI1
                   parent_item_id: I1
@@ -4772,6 +4982,27 @@ steps:
                   currency: INR
                 status: NOT-PAID
                 type: PRE-FULFILLMENT
+                tags:
+                  - descriptor:
+                      code: BUYER_FINDER_FEES
+                    display: false
+                    list:
+                      - descriptor:
+                          code: BUYER_FINDER_FEES_TYPE
+                        value: percent-annualized
+                      - descriptor:
+                          code: BUYER_FINDER_FEES_PERCENTAGE
+                        value: "1"
+                  - descriptor:
+                      code: SETTLEMENT_TERMS
+                    display: false
+                    list:
+                      - descriptor:
+                          code: STATIC_TERMS
+                        value: https://www.icicibank.com/personal-banking/loans/personal-loan
+                      - descriptor:
+                          code: OFFLINE_CONTRACT
+                        value: "true"
       saveData:
         transactionId: $.context.transaction_id
         latestMessage_id: $.context.message_id
@@ -4837,6 +5068,27 @@ steps:
                     currency: INR
                   status: NOT-PAID
                   type: PRE-FULFILLMENT
+                  tags:
+                    - descriptor:
+                        code: BUYER_FINDER_FEES
+                      display: false
+                      list:
+                        - descriptor:
+                            code: BUYER_FINDER_FEES_TYPE
+                          value: percent-annualized
+                        - descriptor:
+                            code: BUYER_FINDER_FEES_PERCENTAGE
+                          value: "1"
+                    - descriptor:
+                        code: SETTLEMENT_TERMS
+                      display: false
+                      list:
+                        - descriptor:
+                            code: STATIC_TERMS
+                          value: https://www.icicibank.com/personal-banking/loans/personal-loan
+                        - descriptor:
+                            code: OFFLINE_CONTRACT
+                          value: "true"
               items:
                 - id: CHILD_ITEM_CI1
                   parent_item_id: I1
@@ -5248,6 +5500,27 @@ steps:
                     currency: INR
                   status: NOT-PAID
                   type: PRE-FULFILLMENT
+                  tags:
+                    - descriptor:
+                        code: BUYER_FINDER_FEES
+                      display: false
+                      list:
+                        - descriptor:
+                            code: BUYER_FINDER_FEES_TYPE
+                          value: percent-annualized
+                        - descriptor:
+                            code: BUYER_FINDER_FEES_PERCENTAGE
+                          value: "1"
+                    - descriptor:
+                        code: SETTLEMENT_TERMS
+                      display: false
+                      list:
+                        - descriptor:
+                            code: STATIC_TERMS
+                          value: https://www.icicibank.com/personal-banking/loans/personal-loan
+                        - descriptor:
+                            code: OFFLINE_CONTRACT
+                          value: "true"
               items:
                 - id: CHILD_ITEM_CI1
                   parent_item_id: I1
@@ -5395,6 +5668,27 @@ steps:
                     currency: INR
                   status: NOT-PAID
                   type: PRE-FULFILLMENT
+                  tags:
+                    - descriptor:
+                        code: BUYER_FINDER_FEES
+                      display: false
+                      list:
+                        - descriptor:
+                            code: BUYER_FINDER_FEES_TYPE
+                          value: percent-annualized
+                        - descriptor:
+                            code: BUYER_FINDER_FEES_PERCENTAGE
+                          value: "1"
+                    - descriptor:
+                        code: SETTLEMENT_TERMS
+                      display: false
+                      list:
+                        - descriptor:
+                            code: STATIC_TERMS
+                          value: https://www.icicibank.com/personal-banking/loans/personal-loan
+                        - descriptor:
+                            code: OFFLINE_CONTRACT
+                          value: "true"
               items:
                 - id: CHILD_ITEM_CI1
                   parent_item_id: I1
@@ -5800,6 +6094,27 @@ steps:
                     currency: INR
                   status: NOT-PAID
                   type: PRE-FULFILLMENT
+                  tags:
+                    - descriptor:
+                        code: BUYER_FINDER_FEES
+                      display: false
+                      list:
+                        - descriptor:
+                            code: BUYER_FINDER_FEES_TYPE
+                          value: percent-annualized
+                        - descriptor:
+                            code: BUYER_FINDER_FEES_PERCENTAGE
+                          value: "1"
+                    - descriptor:
+                        code: SETTLEMENT_TERMS
+                      display: false
+                      list:
+                        - descriptor:
+                            code: STATIC_TERMS
+                          value: https://www.icicibank.com/personal-banking/loans/personal-loan
+                        - descriptor:
+                            code: OFFLINE_CONTRACT
+                          value: "true"
               items:
                 - id: CHILD_ITEM_CI1
                   parent_item_id: I1
@@ -6086,6 +6401,27 @@ steps:
                   currency: INR
                 status: NOT-PAID
                 type: PRE-FULFILLMENT
+                tags:
+                  - descriptor:
+                      code: BUYER_FINDER_FEES
+                    display: false
+                    list:
+                      - descriptor:
+                          code: BUYER_FINDER_FEES_TYPE
+                        value: percent-annualized
+                      - descriptor:
+                          code: BUYER_FINDER_FEES_PERCENTAGE
+                        value: "1"
+                  - descriptor:
+                      code: SETTLEMENT_TERMS
+                    display: false
+                    list:
+                      - descriptor:
+                          code: STATIC_TERMS
+                        value: https://www.icicibank.com/personal-banking/loans/personal-loan
+                      - descriptor:
+                          code: OFFLINE_CONTRACT
+                        value: "true"
             provider:
               id: P1
               descriptor:
@@ -6189,6 +6525,27 @@ steps:
                     currency: INR
                   status: NOT-PAID
                   type: PRE-FULFILLMENT
+                  tags:
+                    - descriptor:
+                        code: BUYER_FINDER_FEES
+                      display: false
+                      list:
+                        - descriptor:
+                            code: BUYER_FINDER_FEES_TYPE
+                          value: percent-annualized
+                        - descriptor:
+                            code: BUYER_FINDER_FEES_PERCENTAGE
+                          value: "1"
+                    - descriptor:
+                        code: SETTLEMENT_TERMS
+                      display: false
+                      list:
+                        - descriptor:
+                            code: STATIC_TERMS
+                          value: https://www.icicibank.com/personal-banking/loans/personal-loan
+                        - descriptor:
+                            code: OFFLINE_CONTRACT
+                          value: "true"
               items:
                 - id: CHILD_ITEM_CI1
                   parent_item_id: I1
@@ -6580,6 +6937,27 @@ steps:
                     currency: INR
                   status: NOT-PAID
                   type: PRE-FULFILLMENT
+                  tags:
+                    - descriptor:
+                        code: BUYER_FINDER_FEES
+                      display: false
+                      list:
+                        - descriptor:
+                            code: BUYER_FINDER_FEES_TYPE
+                          value: percent-annualized
+                        - descriptor:
+                            code: BUYER_FINDER_FEES_PERCENTAGE
+                          value: "1"
+                    - descriptor:
+                        code: SETTLEMENT_TERMS
+                      display: false
+                      list:
+                        - descriptor:
+                            code: STATIC_TERMS
+                          value: https://www.icicibank.com/personal-banking/loans/personal-loan
+                        - descriptor:
+                            code: OFFLINE_CONTRACT
+                          value: "true"
               items:
                 - id: CHILD_ITEM_CI1
                   parent_item_id: I1
@@ -6939,6 +7317,27 @@ steps:
                     currency: INR
                   status: NOT-PAID
                   type: PRE-FULFILLMENT
+                  tags:
+                    - descriptor:
+                        code: BUYER_FINDER_FEES
+                      display: false
+                      list:
+                        - descriptor:
+                            code: BUYER_FINDER_FEES_TYPE
+                          value: percent-annualized
+                        - descriptor:
+                            code: BUYER_FINDER_FEES_PERCENTAGE
+                          value: "1"
+                    - descriptor:
+                        code: SETTLEMENT_TERMS
+                      display: false
+                      list:
+                        - descriptor:
+                            code: STATIC_TERMS
+                          value: https://www.icicibank.com/personal-banking/loans/personal-loan
+                        - descriptor:
+                            code: OFFLINE_CONTRACT
+                          value: "true"
               items:
                 - id: CHILD_ITEM_CI1
                   parent_item_id: I1
@@ -7321,6 +7720,27 @@ steps:
                   status: NOT-PAID
                   type: PRE-FULFILLMENT
                   url: undefined/forms/ONDC:FIS13/payment_form_motor/?transaction_id=d4cbadb6-a42d-42a1-b5c1-af9ad411fcc3&session_id=undefined&bap_uri=https%3A%2F%2Fbap.example.com
+                  tags:
+                    - descriptor:
+                        code: BUYER_FINDER_FEES
+                      display: false
+                      list:
+                        - descriptor:
+                            code: BUYER_FINDER_FEES_TYPE
+                          value: percent-annualized
+                        - descriptor:
+                            code: BUYER_FINDER_FEES_PERCENTAGE
+                          value: "1"
+                    - descriptor:
+                        code: SETTLEMENT_TERMS
+                      display: false
+                      list:
+                        - descriptor:
+                            code: STATIC_TERMS
+                          value: https://www.icicibank.com/personal-banking/loans/personal-loan
+                        - descriptor:
+                            code: OFFLINE_CONTRACT
+                          value: "true"
               provider:
                 descriptor:
                   long_desc: ABC Insurance Ltd. Deals in multiple Insurance Services like Health,
@@ -7733,6 +8153,27 @@ steps:
                     transaction_id: ae6eb4de-71f1-462e-a12f-1022e89c9c6a
                   status: PAID
                   type: PRE-FULFILLMENT
+                  tags:
+                    - descriptor:
+                        code: BUYER_FINDER_FEES
+                      display: false
+                      list:
+                        - descriptor:
+                            code: BUYER_FINDER_FEES_TYPE
+                          value: percent-annualized
+                        - descriptor:
+                            code: BUYER_FINDER_FEES_PERCENTAGE
+                          value: "1"
+                    - descriptor:
+                        code: SETTLEMENT_TERMS
+                      display: false
+                      list:
+                        - descriptor:
+                            code: STATIC_TERMS
+                          value: https://www.icicibank.com/personal-banking/loans/personal-loan
+                        - descriptor:
+                            code: OFFLINE_CONTRACT
+                          value: "true"
               provider:
                 descriptor:
                   long_desc: ABC Insurance Ltd. Deals in multiple Insurance Services like Health,
