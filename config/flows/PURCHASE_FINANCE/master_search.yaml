@@ -25,7 +25,7 @@ steps:
       requirements: LyoqCiAqIENoZWNrcyBpZiB0aGUgcmVxdWlyZW1lbnRzIGZvciBwcm9jZWVkaW5nIHdpdGggdGhlIEFQSSBjYWxsIGFyZSBtZXQuCiAqIAogKiBAcGFyYW0ge09iamVjdH0gc2Vzc2lvbkRhdGEgLSBEYXRhIGNvbGxlY3RlZCBmcm9tIHByZXZpb3VzIHRyYW5zYWN0aW9uIHN0ZXBzLgogKiAKICogQHJldHVybnMge09iamVjdH0geyB2YWxpZDogYm9vbGVhbiwgY29kZTogbnVtYmVyLCBkZXNjcmlwdGlvbjogc3RyaW5nIH0KICovCmZ1bmN0aW9uIG1lZXRzUmVxdWlyZW1lbnRzKHNlc3Npb25EYXRhKSB7CiAgcmV0dXJuIHsgdmFsaWQ6IHRydWUsIGNvZGU6IDIwMCwgZGVzY3JpcHRpb246ICJSZXF1aXJlbWVudHMgbWV0IiB9Owp9
       defaultPayload:
         context:
-          domain: ONDC:FIS12
+          domain: ONDC:FIS12:PF
           action: search
           timestamp: 2026-04-21T06:23:40.312Z
           transaction_id: 4179de3c-7088-4732-9786-e1fdba540b56
@@ -56,9 +56,9 @@ steps:
           context:
             domain: ONDC:FIS12
             action: search
-            timestamp: 2026-07-29T06:48:11.833Z
+            timestamp: 2026-07-30T07:25:44.292Z
             transaction_id: 4179de3c-7088-4732-9786-e1fdba540b56
-            message_id: d0b5f4ac-381c-4086-b693-7fac19655c92
+            message_id: d25e7063-7e6e-44ed-87ba-2604db6b280b
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -101,7 +101,7 @@ steps:
       requirements: LyoqCiAqIENoZWNrcyBpZiB0aGUgcmVxdWlyZW1lbnRzIGZvciBwcm9jZWVkaW5nIHdpdGggdGhlIEFQSSBjYWxsIGFyZSBtZXQuCiAqIAogKiBAcGFyYW0ge09iamVjdH0gc2Vzc2lvbkRhdGEgLSBEYXRhIGNvbGxlY3RlZCBmcm9tIHByZXZpb3VzIHRyYW5zYWN0aW9uIHN0ZXBzLgogKiAKICogQHJldHVybnMge09iamVjdH0geyB2YWxpZDogYm9vbGVhbiwgY29kZTogbnVtYmVyLCBkZXNjcmlwdGlvbjogc3RyaW5nIH0KICovCmZ1bmN0aW9uIG1lZXRzUmVxdWlyZW1lbnRzKHNlc3Npb25EYXRhKSB7CiAgcmV0dXJuIHsgdmFsaWQ6IHRydWUsIGNvZGU6IDIwMCwgZGVzY3JpcHRpb246ICJSZXF1aXJlbWVudHMgbWV0IiB9Owp9
       defaultPayload:
         context:
-          domain: ONDC:FIS12
+          domain: ONDC:FIS12:PF
           action: on_search
           timestamp: 2026-04-21T06:59:03.948Z
           transaction_id: 4179de3c-7088-4732-9786-e1fdba540b56
@@ -423,7 +423,7 @@ steps:
                           short_desc: Short desc about Loan Agreement eSign checklist
                 payments:
                   - type: POST_FULFILLMENT
-                    id: INSTALLMENT_ID_SOLAR_LOAN
+                    id: INSTALLMENT_ID_PURCHASE_FINANCE
                     status: NOT-PAID
                     collected_by: BPP
                     time:
@@ -512,9 +512,9 @@ steps:
           context:
             domain: ONDC:FIS12
             action: on_search
-            timestamp: 2026-07-29T06:48:11.841Z
+            timestamp: 2026-07-30T07:25:44.307Z
             transaction_id: 4179de3c-7088-4732-9786-e1fdba540b56
-            message_id: d0b5f4ac-381c-4086-b693-7fac19655c92
+            message_id: d25e7063-7e6e-44ed-87ba-2604db6b280b
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -832,7 +832,7 @@ steps:
                             short_desc: Short desc about Loan Agreement eSign checklist
                   payments:
                     - type: POST_FULFILLMENT
-                      id: INSTALLMENT_ID_SOLAR_LOAN
+                      id: INSTALLMENT_ID_PURCHASE_FINANCE
                       status: NOT-PAID
                       collected_by: BPP
                       time:
