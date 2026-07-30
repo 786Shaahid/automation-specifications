@@ -115,9 +115,9 @@ steps:
           context:
             domain: ONDC:FIS13
             action: search
-            timestamp: 2026-07-29T10:54:48.628Z
+            timestamp: 2026-07-30T07:24:20.057Z
             transaction_id: d4cbadb6-a42d-42a1-b5c1-af9ad411fcc3
-            message_id: 7acb9245-843f-467b-8a49-325b416e7f6a
+            message_id: 85c4c4de-986b-40b4-a058-5af4b35be791
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -525,9 +525,9 @@ steps:
           context:
             domain: ONDC:FIS13
             action: on_search
-            timestamp: 2026-07-29T10:54:48.646Z
+            timestamp: 2026-07-30T07:24:20.072Z
             transaction_id: d4cbadb6-a42d-42a1-b5c1-af9ad411fcc3
-            message_id: 7acb9245-843f-467b-8a49-325b416e7f6a
+            message_id: 85c4c4de-986b-40b4-a058-5af4b35be791
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -544,7 +544,7 @@ steps:
               descriptor:
                 name: ABC Insurance Ltd
               providers:
-                - id: 045a9de8-1439-4309-a2c7-cbaa977466b2
+                - id: c6c5f7fd-499a-4c2a-831a-77feb38209a6
                   categories:
                     - descriptor:
                         name: Two Wheeler Comprehensive
@@ -598,7 +598,7 @@ steps:
                       - url: https://www.abcinsurance.com/content/dam/abc/india/assets/images/header/logo.png
                         size_type: xs
                   items:
-                    - id: d51c15da-abb3-4636-99b9-8e42a24aa230
+                    - id: b9a93241-3f12-4083-9d12-85e127b87089
                       category_ids:
                         - C1
                         - C2
@@ -623,7 +623,7 @@ steps:
                           headings:
                             - VEHICLE_DETAILS
                         form:
-                          id: 261533ad-33a4-4ac6-b6d1-a44c0dcfa500
+                          id: 3803d877-c61c-4243-bd52-e44d78843d30
                           mime_type: text/html
                           url: undefined/forms/ONDC:FIS13/vehicle_details_form/?transaction_id=d4cbadb6-a42d-42a1-b5c1-af9ad411fcc3&session_id=undefined
                           multiple_sumbissions: false
@@ -711,7 +711,7 @@ steps:
                           descriptor:
                             name: Daily Allowance
                             code: DAILY_ALLOWANCE
-                    - id: 3879384a-7679-42fe-aff6-a2a3228a9317
+                    - id: 0ffb3012-df7f-48e9-a6e3-be1f25e2b1fb
                       category_ids:
                         - C4
                         - C5
@@ -736,7 +736,7 @@ steps:
                           headings:
                             - Vehicle Details
                         form:
-                          id: 5b1f2f65-30d8-4497-8b65-230c477b6425
+                          id: 5c225f83-c3f8-4641-8509-855e8be099f8
                           mime_type: text/html
                           url: undefined/forms/ONDC:FIS13/vehicle_details_form/?transaction_id=d4cbadb6-a42d-42a1-b5c1-af9ad411fcc3&session_id=undefined
                           multiple_sumbissions: false
@@ -874,10 +874,10 @@ steps:
           lastName: nikita
           email: nikita.sharma@ondc.org
           phone: "9877667788"
-          gender: female
+          gender: transgender
           vehicleUniqueCode: ""
           rtoCode: GJ98
-          registrationDate: 2026-07-14
+          registrationDate: 2026-07-21
           idv: ""
           coverType: ""
           PersonalAccidentCover: ""
@@ -1017,9 +1017,9 @@ steps:
           context:
             domain: ONDC:FIS13
             action: search
-            timestamp: 2026-07-29T10:55:01.595Z
+            timestamp: 2026-07-30T07:24:36.961Z
             transaction_id: d4cbadb6-a42d-42a1-b5c1-af9ad411fcc3
-            message_id: de010e8d-735d-4130-b33b-875f6c93d471
+            message_id: 82b7d79f-99a7-461d-b7c2-86f8dcefd376
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -1042,10 +1042,10 @@ steps:
                   - id: item5678
                     xinput:
                       form:
-                        id: 261533ad-33a4-4ac6-b6d1-a44c0dcfa500
+                        id: 3803d877-c61c-4243-bd52-e44d78843d30
                       form_response:
                         status: SUCCESS
-                        submission_id: ccd1c5fb-2d6f-40c7-9858-a36a9f019956
+                        submission_id: 5a19d81a-d743-461b-997f-a96504b939b0
               payment:
                 collected_by: BPP
                 tags:
@@ -1589,9 +1589,9 @@ steps:
           context:
             domain: ONDC:FIS13
             action: on_search
-            timestamp: 2026-07-29T10:55:01.609Z
+            timestamp: 2026-07-30T07:24:36.994Z
             transaction_id: d4cbadb6-a42d-42a1-b5c1-af9ad411fcc3
-            message_id: de010e8d-735d-4130-b33b-875f6c93d471
+            message_id: 82b7d79f-99a7-461d-b7c2-86f8dcefd376
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -2186,9 +2186,9 @@ steps:
           context:
             domain: ONDC:FIS13
             action: select
-            timestamp: 2026-07-29T10:55:03.184Z
+            timestamp: 2026-07-30T07:24:38.606Z
             transaction_id: d4cbadb6-a42d-42a1-b5c1-af9ad411fcc3
-            message_id: e94f9a3c-816b-4f5d-bf3a-7bb96de0c519
+            message_id: 36fcbe8a-27fb-466d-82de-6242911dc01f
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -2512,6 +2512,7 @@ steps:
                 short_desc: "ABC Insurance Ltd. India "
                 images:
                   - url: https://www.abcinsurance.com/content/dam/abc/india/assets/images/header/logo.png
+                    size_type: xs
               id: P1
             quote:
               id: Q1
@@ -2571,9 +2572,9 @@ steps:
           context:
             domain: ONDC:FIS13
             action: on_select
-            timestamp: 2026-07-29T10:55:03.209Z
+            timestamp: 2026-07-30T07:24:38.621Z
             transaction_id: d4cbadb6-a42d-42a1-b5c1-af9ad411fcc3
-            message_id: e94f9a3c-816b-4f5d-bf3a-7bb96de0c519
+            message_id: 36fcbe8a-27fb-466d-82de-6242911dc01f
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -2774,7 +2775,7 @@ steps:
                         - PAN_DOB
                         - KYC
                     form:
-                      id: 080e90ad-29dd-497f-883e-f1a3a5cd0b6e
+                      id: 02c139cc-bb6f-4303-9ec4-4d246c31ccc0
                       mime_type: application/html
                       url: undefined/forms/ONDC:FIS13/manual_review_form_motor/?transaction_id=d4cbadb6-a42d-42a1-b5c1-af9ad411fcc3&session_id=undefined&bap_uri=https%3A%2F%2Fbap.example.com
                       resubmit: false
@@ -2820,9 +2821,10 @@ steps:
                   short_desc: "ABC Insurance Ltd. India "
                   images:
                     - url: https://www.abcinsurance.com/content/dam/abc/india/assets/images/header/logo.png
+                      size_type: xs
                 id: pro909988888
               quote:
-                id: 320d7431-d309-4416-8ebe-43a64d06d09b
+                id: 799c7795-63ac-403a-886c-ec63967e8d4c
                 price:
                   currency: INR
                   value: "12631"
@@ -2939,9 +2941,9 @@ steps:
           context:
             domain: ONDC:FIS13
             action: on_status
-            timestamp: 2026-07-29T10:55:05.392Z
+            timestamp: 2026-07-30T07:24:41.094Z
             transaction_id: d4cbadb6-a42d-42a1-b5c1-af9ad411fcc3
-            message_id: b72dc3e8-d38f-45cd-a728-50e251706f87
+            message_id: 0e61542c-bcf5-4b12-bcdf-7561fc634e9e
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -3131,10 +3133,10 @@ steps:
                     label: TENURE
                   xinput:
                     form:
-                      id: 080e90ad-29dd-497f-883e-f1a3a5cd0b6e
+                      id: 02c139cc-bb6f-4303-9ec4-4d246c31ccc0
                     form_response:
                       status: SUCCESS
-                      submission_id: 2e04e304-9353-4f2e-ac9e-90ac366090ee
+                      submission_id: b14ce424-7dfb-45b7-89c6-5b44ab1cf632
                   add_ons:
                     - id: A1
                       price:
@@ -3175,9 +3177,10 @@ steps:
                   short_desc: "ABC Insurance Ltd. India "
                   images:
                     - url: https://www.abcinsurance.com/content/dam/abc/india/assets/images/header/logo.png
+                      size_type: xs
                 id: pro909988888
               quote:
-                id: 320d7431-d309-4416-8ebe-43a64d06d09b
+                id: 799c7795-63ac-403a-886c-ec63967e8d4c
                 price:
                   currency: INR
                   value: "12631"
@@ -3266,9 +3269,9 @@ steps:
           context:
             domain: ONDC:FIS13
             action: select
-            timestamp: 2026-07-29T10:55:05.428Z
+            timestamp: 2026-07-30T07:24:41.124Z
             transaction_id: d4cbadb6-a42d-42a1-b5c1-af9ad411fcc3
-            message_id: 7e9b51b3-0d62-4108-9d7d-32a909b7ffd2
+            message_id: 00d53a39-befc-4c87-bf71-105df4cc6c93
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -3287,10 +3290,10 @@ steps:
                   parent_item_id: I1
                   xinput:
                     form:
-                      id: 080e90ad-29dd-497f-883e-f1a3a5cd0b6e
+                      id: 02c139cc-bb6f-4303-9ec4-4d246c31ccc0
                     form_response:
                       status: SUCCESS
-                      submission_id: e02c021f-656d-4e7c-b564-266450f82883
+                      submission_id: 81bbbde5-0069-437e-aa3a-561d472b5425
                   add_ons:
                     - id: A1
                       price:
@@ -3388,9 +3391,9 @@ steps:
           context:
             domain: ONDC:FIS13
             action: on_select
-            timestamp: 2026-07-29T10:55:05.470Z
+            timestamp: 2026-07-30T07:24:41.160Z
             transaction_id: d4cbadb6-a42d-42a1-b5c1-af9ad411fcc3
-            message_id: 7e9b51b3-0d62-4108-9d7d-32a909b7ffd2
+            message_id: 00d53a39-befc-4c87-bf71-105df4cc6c93
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -3591,7 +3594,7 @@ steps:
                         - PAN_DOB
                         - KYC
                     form:
-                      id: 97e81689-9dd6-44fa-9d04-f1a34e1355a6
+                      id: e83e1618-7b81-4f86-b979-ef3c1dc0de83
                       mime_type: application/html
                       url: undefined/forms/ONDC:FIS13/pan_details_form/?transaction_id=d4cbadb6-a42d-42a1-b5c1-af9ad411fcc3&session_id=undefined
                       resubmit: false
@@ -3637,9 +3640,10 @@ steps:
                   short_desc: "ABC Insurance Ltd. India "
                   images:
                     - url: https://www.abcinsurance.com/content/dam/abc/india/assets/images/header/logo.png
+                      size_type: xs
                 id: pro909988888
               quote:
-                id: 320d7431-d309-4416-8ebe-43a64d06d09b
+                id: 799c7795-63ac-403a-886c-ec63967e8d4c
                 price:
                   currency: INR
                   value: "12631"
@@ -3756,9 +3760,9 @@ steps:
           context:
             domain: ONDC:FIS13
             action: select
-            timestamp: 2026-07-29T10:55:07.900Z
+            timestamp: 2026-07-30T07:24:42.475Z
             transaction_id: d4cbadb6-a42d-42a1-b5c1-af9ad411fcc3
-            message_id: 50b1b6bb-01ad-4a87-882c-ffb241542a08
+            message_id: f2725bef-5d04-4605-9c2e-1d8ab8944c7b
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -3777,10 +3781,10 @@ steps:
                   parent_item_id: I1
                   xinput:
                     form:
-                      id: 97e81689-9dd6-44fa-9d04-f1a34e1355a6
+                      id: e83e1618-7b81-4f86-b979-ef3c1dc0de83
                     form_response:
                       status: SUCCESS
-                      submission_id: 1e307b39-7c43-4d4f-a179-2978982c1c63
+                      submission_id: ca7f052d-9a12-4959-84c4-ddb82f4b9bb0
                   add_ons:
                     - id: A1
                       price:
@@ -4093,9 +4097,9 @@ steps:
           context:
             domain: ONDC:FIS13
             action: on_select
-            timestamp: 2026-07-29T10:55:07.918Z
+            timestamp: 2026-07-30T07:24:42.492Z
             transaction_id: d4cbadb6-a42d-42a1-b5c1-af9ad411fcc3
-            message_id: 50b1b6bb-01ad-4a87-882c-ffb241542a08
+            message_id: f2725bef-5d04-4605-9c2e-1d8ab8944c7b
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -4296,7 +4300,7 @@ steps:
                         - PAN_DOB
                         - KYC
                     form:
-                      id: 102f8a0d-16b7-463e-8b1d-4954f0588f66
+                      id: ef6c5805-d551-4b38-abdc-c774546b347b
                       mime_type: application/html
                       url: undefined/forms/ONDC:FIS13/kyc_details_form/?transaction_id=d4cbadb6-a42d-42a1-b5c1-af9ad411fcc3&session_id=undefined&bap_uri=https%3A%2F%2Fbap.example.com
                       resubmit: false
@@ -4342,9 +4346,10 @@ steps:
                   short_desc: "ABC Insurance Ltd. India "
                   images:
                     - url: https://www.abcinsurance.com/content/dam/abc/india/assets/images/header/logo.png
+                      size_type: xs
                 id: pro909988888
               quote:
-                id: 320d7431-d309-4416-8ebe-43a64d06d09b
+                id: 799c7795-63ac-403a-886c-ec63967e8d4c
                 price:
                   currency: INR
                   value: "12631"
@@ -4459,9 +4464,9 @@ steps:
           context:
             domain: ONDC:FIS13
             action: on_status
-            timestamp: 2026-07-29T10:55:10.064Z
+            timestamp: 2026-07-30T07:24:44.998Z
             transaction_id: d4cbadb6-a42d-42a1-b5c1-af9ad411fcc3
-            message_id: 70178a39-12cd-4153-b1c3-8513b94458f5
+            message_id: 287df486-5847-4c24-af65-4ceccd3b8bf7
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -4651,10 +4656,10 @@ steps:
                     label: TENURE
                   xinput:
                     form:
-                      id: 102f8a0d-16b7-463e-8b1d-4954f0588f66
+                      id: ef6c5805-d551-4b38-abdc-c774546b347b
                     form_response:
                       status: SUCCESS
-                      submission_id: 3f586b89-e617-4b79-a065-ca2abb50cc40
+                      submission_id: c73998c8-09b2-4722-aef2-db9aee50c66e
                   add_ons:
                     - id: A1
                       price:
@@ -4695,9 +4700,10 @@ steps:
                   short_desc: "ABC Insurance Ltd. India "
                   images:
                     - url: https://www.abcinsurance.com/content/dam/abc/india/assets/images/header/logo.png
+                      size_type: xs
                 id: pro909988888
               quote:
-                id: 320d7431-d309-4416-8ebe-43a64d06d09b
+                id: 799c7795-63ac-403a-886c-ec63967e8d4c
                 price:
                   currency: INR
                   value: "12631"
@@ -4826,9 +4832,9 @@ steps:
           context:
             domain: ONDC:FIS13
             action: init
-            timestamp: 2026-07-29T10:55:10.087Z
+            timestamp: 2026-07-30T07:24:45.017Z
             transaction_id: d4cbadb6-a42d-42a1-b5c1-af9ad411fcc3
-            message_id: 1f3ff3cd-5747-4307-a272-01f6aefffb41
+            message_id: 2b5d0822-f25e-4137-a8ec-7893904e8419
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -4884,10 +4890,10 @@ steps:
                   parent_item_id: I1
                   xinput:
                     form:
-                      id: 102f8a0d-16b7-463e-8b1d-4954f0588f66
+                      id: ef6c5805-d551-4b38-abdc-c774546b347b
                     form_response:
                       status: SUCCESS
-                      submission_id: 9ec43de0-acdf-4f63-a601-ec5c69c49c2f
+                      submission_id: f8194b0c-f095-43b3-ae3b-79c89f1d5423
                   add_ons:
                     - id: A1
                       price:
@@ -5029,9 +5035,9 @@ steps:
           context:
             domain: ONDC:FIS13
             action: on_init
-            timestamp: 2026-07-29T10:55:10.140Z
+            timestamp: 2026-07-30T07:24:45.066Z
             transaction_id: d4cbadb6-a42d-42a1-b5c1-af9ad411fcc3
-            message_id: 1f3ff3cd-5747-4307-a272-01f6aefffb41
+            message_id: 2b5d0822-f25e-4137-a8ec-7893904e8419
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -5052,14 +5058,14 @@ steps:
                       phone: +91-9999999999
                     person:
                       name: Joe Adam
-                  id: 1c8c9140-abee-43f0-8e6d-345b491ab8e5
+                  id: c62e194f-8cd0-4899-a94f-23ac933ff825
                   type: POLICY
                   state:
                     descriptor:
                       name: Insurance Initiated
                       code: INITIATED
               payments:
-                - id: 9e6f74c9-1aab-4b41-9e13-4448c2d61a9e
+                - id: 4024b4aa-1874-441b-9788-c35d15f6fc5c
                   collected_by: BPP
                   params:
                     amount: "12631"
@@ -5276,7 +5282,7 @@ steps:
                         - PERSONAL_INFO
                         - CIS
                     form:
-                      id: 6d9f4c94-aede-4662-b65e-00d43225e2ab
+                      id: 067e63aa-5365-4d20-b969-496e76d774b9
                       mime_type: application/html
                       url: undefined/forms/ONDC:FIS13/vehicle_nominee_details_form/?transaction_id=d4cbadb6-a42d-42a1-b5c1-af9ad411fcc3&session_id=undefined
                       resubmit: false
@@ -5315,7 +5321,7 @@ steps:
                                   values are separated by a pipe (|) symbol
                               value: Mr. | Joe | Wick | Adams | Son | +91-9988776655
                   fulfillment_ids:
-                    - 1c8c9140-abee-43f0-8e6d-345b491ab8e5
+                    - c62e194f-8cd0-4899-a94f-23ac933ff825
               provider:
                 descriptor:
                   long_desc: ABC Insurance Ltd. Deals in multiple Insurance Services like Health,
@@ -5324,9 +5330,10 @@ steps:
                   short_desc: "ABC Insurance Ltd. India "
                   images:
                     - url: https://www.abcinsurance.com/content/dam/abc/india/assets/images/header/logo.png
+                      size_type: xs
                 id: pro909988888
               quote:
-                id: 320d7431-d309-4416-8ebe-43a64d06d09b
+                id: 799c7795-63ac-403a-886c-ec63967e8d4c
                 price:
                   currency: INR
                   value: "12631"
@@ -5394,7 +5401,7 @@ steps:
           previousTPPolicyIssuer: ""
           previousTPPolicyNumber: ""
           nomineeName: erfwerf
-          nomineeDOB: 2026-07-21
+          nomineeDOB: 2026-07-07
           relationshipNominee: son
           apointeeName: ""
           apointeeRelationship: ""
@@ -5461,9 +5468,9 @@ steps:
           context:
             domain: ONDC:FIS13
             action: init
-            timestamp: 2026-07-29T10:55:20.923Z
+            timestamp: 2026-07-30T07:24:56.567Z
             transaction_id: d4cbadb6-a42d-42a1-b5c1-af9ad411fcc3
-            message_id: b4dbd786-ddaf-4a54-92ec-2b49052490d5
+            message_id: 4abc1bb0-cc43-4615-a86b-d4ae741eda01
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -5484,14 +5491,14 @@ steps:
                       phone: +91-9999999999
                     person:
                       name: Joe Adam
-                  id: 1c8c9140-abee-43f0-8e6d-345b491ab8e5
+                  id: c62e194f-8cd0-4899-a94f-23ac933ff825
                   type: POLICY
                   state:
                     descriptor:
                       name: Insurance Initiated
                       code: INITIATED
               payments:
-                - id: 9e6f74c9-1aab-4b41-9e13-4448c2d61a9e
+                - id: 4024b4aa-1874-441b-9788-c35d15f6fc5c
                   collected_by: BPP
                   params:
                     amount: "12631"
@@ -5526,10 +5533,10 @@ steps:
                   parent_item_id: I1
                   xinput:
                     form:
-                      id: 6d9f4c94-aede-4662-b65e-00d43225e2ab
+                      id: 067e63aa-5365-4d20-b969-496e76d774b9
                     form_response:
                       status: SUCCESS
-                      submission_id: 3b20c3c0-fd55-4559-ab12-6f9eaf19150d
+                      submission_id: b1205b9b-d1ff-471d-bc46-84ec370ebadc
                   add_ons:
                     - id: A1
                       price:
@@ -5629,9 +5636,9 @@ steps:
           context:
             domain: ONDC:FIS13
             action: on_init
-            timestamp: 2026-07-29T10:55:20.940Z
+            timestamp: 2026-07-30T07:24:56.612Z
             transaction_id: d4cbadb6-a42d-42a1-b5c1-af9ad411fcc3
-            message_id: b4dbd786-ddaf-4a54-92ec-2b49052490d5
+            message_id: 4abc1bb0-cc43-4615-a86b-d4ae741eda01
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -5652,14 +5659,14 @@ steps:
                       phone: +91-9999999999
                     person:
                       name: Joe Adam
-                  id: 1c8c9140-abee-43f0-8e6d-345b491ab8e5
+                  id: c62e194f-8cd0-4899-a94f-23ac933ff825
                   type: POLICY
                   state:
                     descriptor:
                       name: Insurance Initiated
                       code: INITIATED
               payments:
-                - id: 9e6f74c9-1aab-4b41-9e13-4448c2d61a9e
+                - id: 4024b4aa-1874-441b-9788-c35d15f6fc5c
                   collected_by: BPP
                   params:
                     amount: "12631"
@@ -5876,7 +5883,7 @@ steps:
                         - PERSONAL_INFO
                         - CIS
                     form:
-                      id: 1397a52f-7a00-4da5-bd6d-93f05fafdc33
+                      id: dc3bee89-7da5-4d45-83a4-9187acae76de
                       mime_type: application/html
                       url: undefined/forms/ONDC:FIS13/personal_details_form/?transaction_id=d4cbadb6-a42d-42a1-b5c1-af9ad411fcc3&session_id=undefined
                       resubmit: false
@@ -5915,7 +5922,7 @@ steps:
                                   values are separated by a pipe (|) symbol
                               value: Mr. | Joe | Wick | Adams | Son | +91-9988776655
                   fulfillment_ids:
-                    - 1c8c9140-abee-43f0-8e6d-345b491ab8e5
+                    - c62e194f-8cd0-4899-a94f-23ac933ff825
               provider:
                 descriptor:
                   long_desc: ABC Insurance Ltd. Deals in multiple Insurance Services like Health,
@@ -5924,9 +5931,10 @@ steps:
                   short_desc: "ABC Insurance Ltd. India "
                   images:
                     - url: https://www.abcinsurance.com/content/dam/abc/india/assets/images/header/logo.png
+                      size_type: xs
                 id: pro909988888
               quote:
-                id: 320d7431-d309-4416-8ebe-43a64d06d09b
+                id: 799c7795-63ac-403a-886c-ec63967e8d4c
                 price:
                   currency: INR
                   value: "12631"
@@ -5989,8 +5997,8 @@ steps:
           address: jhguguy
           pincode: "134242"
           state: PB
-          dob: 2026-07-15
-          gender: female
+          dob: 2026-07-08
+          gender: transgender
           email: nikita.sharma@ondc.org
           phone: "9877667788"
           formId: FO7
@@ -6055,9 +6063,9 @@ steps:
           context:
             domain: ONDC:FIS13
             action: init
-            timestamp: 2026-07-29T10:55:27.603Z
+            timestamp: 2026-07-30T07:25:03.546Z
             transaction_id: d4cbadb6-a42d-42a1-b5c1-af9ad411fcc3
-            message_id: 27b52a87-ba10-4e0d-85a6-b3513a07b800
+            message_id: a4ccd113-d55a-4b08-8ec0-d8e29219edc6
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -6078,14 +6086,14 @@ steps:
                       phone: +91-9999999999
                     person:
                       name: Joe Adam
-                  id: 1c8c9140-abee-43f0-8e6d-345b491ab8e5
+                  id: c62e194f-8cd0-4899-a94f-23ac933ff825
                   type: POLICY
                   state:
                     descriptor:
                       name: Insurance Initiated
                       code: INITIATED
               payments:
-                - id: 9e6f74c9-1aab-4b41-9e13-4448c2d61a9e
+                - id: 4024b4aa-1874-441b-9788-c35d15f6fc5c
                   collected_by: BPP
                   params:
                     amount: "12631"
@@ -6120,10 +6128,10 @@ steps:
                   parent_item_id: I1
                   xinput:
                     form:
-                      id: 1397a52f-7a00-4da5-bd6d-93f05fafdc33
+                      id: dc3bee89-7da5-4d45-83a4-9187acae76de
                     form_response:
                       status: SUCCESS
-                      submission_id: 78cb00e8-6942-4c37-91fe-22886cfd9c2d
+                      submission_id: b95af8b7-8be2-4383-b4f0-56973b896734
                   add_ons:
                     - id: A1
                       price:
@@ -6486,9 +6494,9 @@ steps:
           context:
             domain: ONDC:FIS13
             action: on_init
-            timestamp: 2026-07-29T10:55:27.621Z
+            timestamp: 2026-07-30T07:25:03.585Z
             transaction_id: d4cbadb6-a42d-42a1-b5c1-af9ad411fcc3
-            message_id: 27b52a87-ba10-4e0d-85a6-b3513a07b800
+            message_id: a4ccd113-d55a-4b08-8ec0-d8e29219edc6
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -6509,14 +6517,14 @@ steps:
                       phone: +91-9999999999
                     person:
                       name: Joe Adam
-                  id: 1c8c9140-abee-43f0-8e6d-345b491ab8e5
+                  id: c62e194f-8cd0-4899-a94f-23ac933ff825
                   type: POLICY
                   state:
                     descriptor:
                       name: Insurance Initiated
                       code: INITIATED
               payments:
-                - id: 9e6f74c9-1aab-4b41-9e13-4448c2d61a9e
+                - id: 4024b4aa-1874-441b-9788-c35d15f6fc5c
                   collected_by: BPP
                   params:
                     amount: "12631"
@@ -6733,7 +6741,7 @@ steps:
                         - PERSONAL_INFO
                         - CIS
                     form:
-                      id: 93bb7b90-e8bb-4ea7-b1e0-b2373fe2ef37
+                      id: 0793f3f0-05ea-4103-8ce9-c1f2be6d15d2
                       mime_type: application/html
                       url: undefined/forms/ONDC:FIS13/consumer_information_form/?transaction_id=d4cbadb6-a42d-42a1-b5c1-af9ad411fcc3&session_id=undefined&bap_uri=https%3A%2F%2Fbap.example.com
                       resubmit: false
@@ -6772,7 +6780,7 @@ steps:
                                   values are separated by a pipe (|) symbol
                               value: Mr. | Joe | Wick | Adams | Son | +91-9988776655
                   fulfillment_ids:
-                    - 1c8c9140-abee-43f0-8e6d-345b491ab8e5
+                    - c62e194f-8cd0-4899-a94f-23ac933ff825
               provider:
                 descriptor:
                   long_desc: ABC Insurance Ltd. Deals in multiple Insurance Services like Health,
@@ -6781,9 +6789,10 @@ steps:
                   short_desc: "ABC Insurance Ltd. India "
                   images:
                     - url: https://www.abcinsurance.com/content/dam/abc/india/assets/images/header/logo.png
+                      size_type: xs
                 id: pro909988888
               quote:
-                id: 320d7431-d309-4416-8ebe-43a64d06d09b
+                id: 799c7795-63ac-403a-886c-ec63967e8d4c
                 price:
                   currency: INR
                   value: "12631"
@@ -6898,9 +6907,9 @@ steps:
           context:
             domain: ONDC:FIS13
             action: on_status
-            timestamp: 2026-07-29T10:55:29.862Z
+            timestamp: 2026-07-30T07:25:05.670Z
             transaction_id: d4cbadb6-a42d-42a1-b5c1-af9ad411fcc3
-            message_id: d6704161-15de-4472-833f-3ffbdc3d95c3
+            message_id: 48ef6ced-9e0b-4dfa-8200-be96d848b37e
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -6921,14 +6930,14 @@ steps:
                       phone: +91-9999999999
                     person:
                       name: Joe Adam
-                  id: 1c8c9140-abee-43f0-8e6d-345b491ab8e5
+                  id: c62e194f-8cd0-4899-a94f-23ac933ff825
                   type: POLICY
                   state:
                     descriptor:
                       name: Insurance Initiated
                       code: INITIATED
               payments:
-                - id: 9e6f74c9-1aab-4b41-9e13-4448c2d61a9e
+                - id: 4024b4aa-1874-441b-9788-c35d15f6fc5c
                   collected_by: BPP
                   params:
                     amount: "12631"
@@ -7134,10 +7143,10 @@ steps:
                     label: TENURE
                   xinput:
                     form:
-                      id: 93bb7b90-e8bb-4ea7-b1e0-b2373fe2ef37
+                      id: 0793f3f0-05ea-4103-8ce9-c1f2be6d15d2
                     form_response:
                       status: SUCCESS
-                      submission_id: 785c12d9-f363-4a8b-9ab9-c92c4f5c628f
+                      submission_id: 3dafb7b7-a43c-49ab-8fb0-4a584112ffd1
                   add_ons:
                     - id: A1
                       price:
@@ -7171,7 +7180,7 @@ steps:
                                   values are separated by a pipe (|) symbol
                               value: Mr. | Joe | Wick | Adams | Son | +91-9988776655
                   fulfillment_ids:
-                    - 1c8c9140-abee-43f0-8e6d-345b491ab8e5
+                    - c62e194f-8cd0-4899-a94f-23ac933ff825
               provider:
                 descriptor:
                   long_desc: ABC Insurance Ltd. Deals in multiple Insurance Services like Health,
@@ -7180,9 +7189,10 @@ steps:
                   short_desc: "ABC Insurance Ltd. India "
                   images:
                     - url: https://www.abcinsurance.com/content/dam/abc/india/assets/images/header/logo.png
+                      size_type: xs
                 id: pro909988888
               quote:
-                id: 320d7431-d309-4416-8ebe-43a64d06d09b
+                id: 799c7795-63ac-403a-886c-ec63967e8d4c
                 price:
                   currency: INR
                   value: "12631"
@@ -7278,9 +7288,9 @@ steps:
           context:
             domain: ONDC:FIS13
             action: confirm
-            timestamp: 2026-07-29T10:55:29.883Z
+            timestamp: 2026-07-30T07:25:05.692Z
             transaction_id: d4cbadb6-a42d-42a1-b5c1-af9ad411fcc3
-            message_id: 269557d2-9ef6-4119-8036-61326e3ca5cb
+            message_id: fd1a7fdf-eb41-4400-9a02-82a188fc757b
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -7301,14 +7311,14 @@ steps:
                       phone: +91-9999999999
                     person:
                       name: Joe Adam
-                  id: 1c8c9140-abee-43f0-8e6d-345b491ab8e5
+                  id: c62e194f-8cd0-4899-a94f-23ac933ff825
                   type: POLICY
                   state:
                     descriptor:
                       name: Insurance Initiated
                       code: INITIATED
               payments:
-                - id: 9e6f74c9-1aab-4b41-9e13-4448c2d61a9e
+                - id: 4024b4aa-1874-441b-9788-c35d15f6fc5c
                   collected_by: BPP
                   params:
                     amount: "12631"
@@ -7343,10 +7353,10 @@ steps:
                   parent_item_id: I1
                   xinput:
                     form:
-                      id: 93bb7b90-e8bb-4ea7-b1e0-b2373fe2ef37
+                      id: 0793f3f0-05ea-4103-8ce9-c1f2be6d15d2
                     form_response:
                       status: SUCCESS
-                      submission_id: f1b91c1f-0126-4ef5-82f5-faed7dd02b37
+                      submission_id: c2dab9c6-9147-4b56-8b73-2d04a73176c0
                   add_ons:
                     - id: A1
                       price:
@@ -7450,9 +7460,9 @@ steps:
           context:
             domain: ONDC:FIS13
             action: on_confirm
-            timestamp: 2026-07-29T10:55:29.938Z
+            timestamp: 2026-07-30T07:25:05.745Z
             transaction_id: d4cbadb6-a42d-42a1-b5c1-af9ad411fcc3
-            message_id: 269557d2-9ef6-4119-8036-61326e3ca5cb
+            message_id: fd1a7fdf-eb41-4400-9a02-82a188fc757b
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -7466,9 +7476,9 @@ steps:
                 code: "*"
           message:
             order:
-              id: de9ee10b-d497-496a-89bc-794fdec9e1ba
+              id: 72f944a4-8131-4840-8093-b9413aaff0e6
               status: ACTIVE
-              updated_at: 2026-07-29T10:55:29.939Z
+              updated_at: 2026-07-30T07:25:05.746Z
               fulfillments:
                 - customer:
                     contact:
@@ -7476,7 +7486,7 @@ steps:
                       phone: +91-9999999999
                     person:
                       name: Joe Adam
-                  id: 1c8c9140-abee-43f0-8e6d-345b491ab8e5
+                  id: c62e194f-8cd0-4899-a94f-23ac933ff825
                   type: POLICY
                   state:
                     descriptor:
@@ -7669,7 +7679,7 @@ steps:
                         - PERSONAL_INFO
                         - CIS
                     form:
-                      id: 93bb7b90-e8bb-4ea7-b1e0-b2373fe2ef37
+                      id: 0793f3f0-05ea-4103-8ce9-c1f2be6d15d2
                       mime_type: application/html
                       url: undefined/forms/ONDC:FIS13/consumer_information_form/?transaction_id=d4cbadb6-a42d-42a1-b5c1-af9ad411fcc3&session_id=undefined&bap_uri=https%3A%2F%2Fbap.example.com
                       resubmit: false
@@ -7708,9 +7718,9 @@ steps:
                                   values are separated by a pipe (|) symbol
                               value: Mr. | Joe | Wick | Adams | Son | +91-9988776655
                   fulfillment_ids:
-                    - 1c8c9140-abee-43f0-8e6d-345b491ab8e5
+                    - c62e194f-8cd0-4899-a94f-23ac933ff825
               payments:
-                - id: 9e6f74c9-1aab-4b41-9e13-4448c2d61a9e
+                - id: 4024b4aa-1874-441b-9788-c35d15f6fc5c
                   collected_by: BPP
                   params:
                     amount: "12631"
@@ -7719,6 +7729,27 @@ steps:
                     currency: INR
                   status: NOT-PAID
                   type: PRE-FULFILLMENT
+                  tags:
+                    - descriptor:
+                        code: BUYER_FINDER_FEES
+                      display: false
+                      list:
+                        - descriptor:
+                            code: BUYER_FINDER_FEES_TYPE
+                          value: percent-annualized
+                        - descriptor:
+                            code: BUYER_FINDER_FEES_PERCENTAGE
+                          value: "1"
+                    - descriptor:
+                        code: SETTLEMENT_TERMS
+                      display: false
+                      list:
+                        - descriptor:
+                            code: STATIC_TERMS
+                          value: https://www.icicibank.com/personal-banking/loans/personal-loan
+                        - descriptor:
+                            code: OFFLINE_CONTRACT
+                          value: "true"
                   url: undefined/forms/ONDC:FIS13/payment_form_motor/?transaction_id=d4cbadb6-a42d-42a1-b5c1-af9ad411fcc3&session_id=undefined&bap_uri=https%3A%2F%2Fbap.example.com
                   tags:
                     - descriptor:
@@ -7749,9 +7780,10 @@ steps:
                   short_desc: "ABC Insurance Ltd. India "
                   images:
                     - url: https://www.abcinsurance.com/content/dam/abc/india/assets/images/header/logo.png
+                      size_type: xs
                 id: pro909988888
               quote:
-                id: 320d7431-d309-4416-8ebe-43a64d06d09b
+                id: 799c7795-63ac-403a-886c-ec63967e8d4c
                 price:
                   currency: INR
                   value: "12631"
@@ -7785,7 +7817,7 @@ steps:
                       value: "0"
                       currency: INR
                 ttl: P15D
-              created_at: 2026-07-29T10:55:29.939Z
+              created_at: 2026-07-30T07:25:05.746Z
         type: request
         description: The BPP confirms the motor insurance order by transmitting the
           finalized order record, quote details, and payment gateway link in
@@ -7887,9 +7919,9 @@ steps:
           context:
             domain: ONDC:FIS13
             action: on_update
-            timestamp: 2026-07-29T10:55:31.647Z
+            timestamp: 2026-07-30T07:25:07.600Z
             transaction_id: d4cbadb6-a42d-42a1-b5c1-af9ad411fcc3
-            message_id: d0057492-aaf5-4d2e-a60e-ee068a78624e
+            message_id: 7b1c725c-c779-49df-91aa-447d2d1e8b91
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -7903,7 +7935,7 @@ steps:
                 code: "*"
           message:
             order:
-              id: de9ee10b-d497-496a-89bc-794fdec9e1ba
+              id: 72f944a4-8131-4840-8093-b9413aaff0e6
               status: ACTIVE
               documents:
                 - descriptor:
@@ -7920,8 +7952,8 @@ steps:
                     long_desc: Buyer can claim their insurance by visiting the below url
                   mime_type: application/html
                   url: undefined/forms/ONDC:FIS13/claim_form_motor/?transaction_id=d4cbadb6-a42d-42a1-b5c1-af9ad411fcc3&session_id=undefined&bap_uri=https%3A%2F%2Fbap.example.com
-              created_at: 2026-07-29T10:55:29.939Z
-              updated_at: 2026-07-29T10:55:31.648Z
+              created_at: 2026-07-30T07:25:05.746Z
+              updated_at: 2026-07-30T07:25:07.601Z
               fulfillments:
                 - customer:
                     contact:
@@ -7929,7 +7961,7 @@ steps:
                       phone: +91-9999999999
                     person:
                       name: Joe Adam
-                  id: 1c8c9140-abee-43f0-8e6d-345b491ab8e5
+                  id: c62e194f-8cd0-4899-a94f-23ac933ff825
                   type: POLICY
                   state:
                     descriptor:
@@ -8141,16 +8173,16 @@ steps:
                                   values are separated by a pipe (|) symbol
                               value: Mr. | Joe | Wick | Adams | Son | +91-9988776655
                   fulfillment_ids:
-                    - 1c8c9140-abee-43f0-8e6d-345b491ab8e5
+                    - c62e194f-8cd0-4899-a94f-23ac933ff825
               payments:
-                - id: 9e6f74c9-1aab-4b41-9e13-4448c2d61a9e
+                - id: 4024b4aa-1874-441b-9788-c35d15f6fc5c
                   collected_by: BPP
                   params:
                     amount: "12631"
                     bank_account_number: "1800002341"
                     bank_code: SBIN0001234
                     currency: INR
-                    transaction_id: ae6eb4de-71f1-462e-a12f-1022e89c9c6a
+                    transaction_id: 1ec74410-660a-473a-8d69-d1832bfebc8a
                   status: PAID
                   type: PRE-FULFILLMENT
                   tags:
@@ -8182,9 +8214,10 @@ steps:
                   short_desc: "ABC Insurance Ltd. India "
                   images:
                     - url: https://www.abcinsurance.com/content/dam/abc/india/assets/images/header/logo.png
+                      size_type: xs
                 id: pro909988888
               quote:
-                id: 320d7431-d309-4416-8ebe-43a64d06d09b
+                id: 799c7795-63ac-403a-886c-ec63967e8d4c
                 price:
                   currency: INR
                   value: "12631"
