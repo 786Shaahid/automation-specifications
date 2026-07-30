@@ -7751,27 +7751,6 @@ steps:
                             code: OFFLINE_CONTRACT
                           value: "true"
                   url: undefined/forms/ONDC:FIS13/payment_form_motor/?transaction_id=d4cbadb6-a42d-42a1-b5c1-af9ad411fcc3&session_id=undefined&bap_uri=https%3A%2F%2Fbap.example.com
-                  tags:
-                    - descriptor:
-                        code: BUYER_FINDER_FEES
-                      display: false
-                      list:
-                        - descriptor:
-                            code: BUYER_FINDER_FEES_TYPE
-                          value: percent-annualized
-                        - descriptor:
-                            code: BUYER_FINDER_FEES_PERCENTAGE
-                          value: "1"
-                    - descriptor:
-                        code: SETTLEMENT_TERMS
-                      display: false
-                      list:
-                        - descriptor:
-                            code: STATIC_TERMS
-                          value: https://www.icicibank.com/personal-banking/loans/personal-loan
-                        - descriptor:
-                            code: OFFLINE_CONTRACT
-                          value: "true"
               provider:
                 descriptor:
                   long_desc: ABC Insurance Ltd. Deals in multiple Insurance Services like Health,
