@@ -1,5 +1,5 @@
 meta:
-  domain: ONDC:FIS12
+  domain: ONDC:FIS12:PF
   version: 2.3.0
   flowId: master_search
   config_version: 0.0.0001
@@ -20,12 +20,12 @@ steps:
     unsolicited: false
     description: please add relevant description
     mock:
-      generate: LyoqCiAqIEdlbmVyYXRlcyB0aGUgbW9jayBwYXlsb2FkIGZvciBhbiBBUEkgY2FsbCBpbiB0aGUgdHJhbnNhY3Rpb24gZmxvdy4KICogVGhpcyBmdW5jdGlvbiBhbGxvd3MgY3VzdG9taXphdGlvbiBvZiB0aGUgZGVmYXVsdCBwYXlsb2FkIHVzaW5nIHNlc3Npb24gZGF0YQogKiBmcm9tIHByZXZpb3VzIHN0ZXBzIGFuZCB1c2VyIGlucHV0cy4KICogCiAqIEBwYXJhbSB7T2JqZWN0fSBkZWZhdWx0UGF5bG9hZCAtIFRoZSBiYXNlIHBheWxvYWQgb2JqZWN0IHdpdGggY29udGV4dCBhbHJlYWR5IHBvcHVsYXRlZC4KICogQHBhcmFtIHtPYmplY3R9IHNlc3Npb25EYXRhIC0gRGF0YSBjb2xsZWN0ZWQgZnJvbSBwcmV2aW91cyB0cmFuc2FjdGlvbiBzdGVwcy4KICogQHBhcmFtIHtPYmplY3R9IHNlc3Npb25EYXRhLnVzZXJfaW5wdXRzIC0gVXNlci1wcm92aWRlZCBpbnB1dCB2YWx1ZXMgZm9yIHRoaXMgc3RlcC4KICogQHBhcmFtIHsqfSBzZXNzaW9uRGF0YS5ba2V5XSAtIEFueSBzYXZlZCBkYXRhIGZyb20gcHJldmlvdXMgc3RlcHMgKGRlZmluZWQgaW4gc2F2ZURhdGEgY29uZmlnKS4KICogCiAqIEByZXR1cm5zIHtPYmplY3R9IFRoZSBnZW5lcmF0ZWQgcGF5bG9hZCBvYmplY3QgdG8gYmUgc2VudCBpbiB0aGUgQVBJIHJlcXVlc3QuCiAqLwphc3luYyBmdW5jdGlvbiBnZW5lcmF0ZShkZWZhdWx0UGF5bG9hZCwgc2Vzc2lvbkRhdGEpIHsKCiAgZGVmYXVsdFBheWxvYWQubWVzc2FnZSA9IHsKICAgIGludGVudDogewogICAgICBjYXRlZ29yeTogewogICAgICAgIGRlc2NyaXB0b3I6IHsKICAgICAgICAgIGNvZGU6ICJMT0FOIgogICAgICAgIH0KICAgICAgfSwKICAgICAgcGF5bWVudDogewogICAgICAgIGNvbGxlY3RlZF9ieTogIkJQUCIKICAgICAgfSwKICAgICAgdGFnczogWwogICAgICAgIHsKICAgICAgICAgIGRpc3BsYXk6IGZhbHNlLAogICAgICAgICAgZGVzY3JpcHRvcjogewogICAgICAgICAgICBuYW1lOiAiQkFQIFRlcm1zIG9mIEVuZ2FnZW1lbnQiLAogICAgICAgICAgICBjb2RlOiAiQkFQX1RFUk1TIgogICAgICAgICAgfSwKICAgICAgICAgIGxpc3Q6IFsKICAgICAgICAgICAgewogICAgICAgICAgICAgIGRlc2NyaXB0b3I6IHsKICAgICAgICAgICAgICAgIGNvZGU6ICJTVEFUSUNfVEVSTVMiCiAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICB2YWx1ZTogJ2h0dHBzOi8vYmFwLmNyZWRpdC5iZWNrbnByb3RvY29sLmlvL3dvcmtpbmctY2FwaXRhbC9sb2Fucy93b3JraW5nLWNhcGl0YWwnCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICBkZXNjcmlwdG9yOiB7CiAgICAgICAgICAgICAgICBjb2RlOiAiT0ZGTElORV9DT05UUkFDVCIKICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgIHZhbHVlOiAidHJ1ZSIKICAgICAgICAgICAgfQogICAgICAgICAgXQogICAgICAgIH0KICAgICAgXQogICAgfQogIH07CgogIHJldHVybiBkZWZhdWx0UGF5bG9hZDsKfQ==
+      generate: LyoqCiAqIEdlbmVyYXRlcyB0aGUgbW9jayBwYXlsb2FkIGZvciBhbiBBUEkgY2FsbCBpbiB0aGUgdHJhbnNhY3Rpb24gZmxvdy4KICogVGhpcyBmdW5jdGlvbiBhbGxvd3MgY3VzdG9taXphdGlvbiBvZiB0aGUgZGVmYXVsdCBwYXlsb2FkIHVzaW5nIHNlc3Npb24gZGF0YQogKiBmcm9tIHByZXZpb3VzIHN0ZXBzIGFuZCB1c2VyIGlucHV0cy4KICogCiAqIEBwYXJhbSB7T2JqZWN0fSBkZWZhdWx0UGF5bG9hZCAtIFRoZSBiYXNlIHBheWxvYWQgb2JqZWN0IHdpdGggY29udGV4dCBhbHJlYWR5IHBvcHVsYXRlZC4KICogQHBhcmFtIHtPYmplY3R9IHNlc3Npb25EYXRhIC0gRGF0YSBjb2xsZWN0ZWQgZnJvbSBwcmV2aW91cyB0cmFuc2FjdGlvbiBzdGVwcy4KICogQHBhcmFtIHtPYmplY3R9IHNlc3Npb25EYXRhLnVzZXJfaW5wdXRzIC0gVXNlci1wcm92aWRlZCBpbnB1dCB2YWx1ZXMgZm9yIHRoaXMgc3RlcC4KICogQHBhcmFtIHsqfSBzZXNzaW9uRGF0YS5ba2V5XSAtIEFueSBzYXZlZCBkYXRhIGZyb20gcHJldmlvdXMgc3RlcHMgKGRlZmluZWQgaW4gc2F2ZURhdGEgY29uZmlnKS4KICogCiAqIEByZXR1cm5zIHtPYmplY3R9IFRoZSBnZW5lcmF0ZWQgcGF5bG9hZCBvYmplY3QgdG8gYmUgc2VudCBpbiB0aGUgQVBJIHJlcXVlc3QuCiAqLwphc3luYyBmdW5jdGlvbiBnZW5lcmF0ZShkZWZhdWx0UGF5bG9hZCwgc2Vzc2lvbkRhdGEpIHsKCiAgZGVmYXVsdFBheWxvYWQubWVzc2FnZSA9IHsKICAgIGludGVudDogewogICAgICBjYXRlZ29yeTogewogICAgICAgIGRlc2NyaXB0b3I6IHsKICAgICAgICAgIGNvZGU6ICJQVVJDSEFTRV9GSU5BTkNFIgogICAgICAgIH0KICAgICAgfSwKICAgICAgcGF5bWVudDogewogICAgICAgIGNvbGxlY3RlZF9ieTogIkJQUCIKICAgICAgfSwKICAgICAgdGFnczogWwogICAgICAgIHsKICAgICAgICAgIGRpc3BsYXk6IGZhbHNlLAogICAgICAgICAgZGVzY3JpcHRvcjogewogICAgICAgICAgICBuYW1lOiAiQkFQIFRlcm1zIG9mIEVuZ2FnZW1lbnQiLAogICAgICAgICAgICBjb2RlOiAiQkFQX1RFUk1TIgogICAgICAgICAgfSwKICAgICAgICAgIGxpc3Q6IFsKICAgICAgICAgICAgewogICAgICAgICAgICAgIGRlc2NyaXB0b3I6IHsKICAgICAgICAgICAgICAgIGNvZGU6ICJTVEFUSUNfVEVSTVMiCiAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICB2YWx1ZTogJ2h0dHBzOi8vYmFwLmNyZWRpdC5iZWNrbnByb3RvY29sLmlvL3dvcmtpbmctY2FwaXRhbC9sb2Fucy93b3JraW5nLWNhcGl0YWwnCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICBkZXNjcmlwdG9yOiB7CiAgICAgICAgICAgICAgICBjb2RlOiAiT0ZGTElORV9DT05UUkFDVCIKICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgIHZhbHVlOiAidHJ1ZSIKICAgICAgICAgICAgfQogICAgICAgICAgXQogICAgICAgIH0KICAgICAgXQogICAgfQogIH07CgogIHJldHVybiBkZWZhdWx0UGF5bG9hZDsKfQ==
       validate: LyoqCiAqIFZhbGlkYXRlcyB0aGUgaW5jb21pbmcgcmVxdWVzdCBwYXlsb2FkIGZvciBhbiBBUEkgY2FsbCBpbiB0aGUgdHJhbnNhY3Rpb24gZmxvdy4KICogCiAqIEBwYXJhbSB7T2JqZWN0fSB0YXJnZXRQYXlsb2FkIC0gVGhlIGluY29taW5nIHJlcXVlc3QgcGF5bG9hZCB0byB2YWxpZGF0ZS4KICogQHBhcmFtIHtPYmplY3R9IHNlc3Npb25EYXRhIC0gRGF0YSBjb2xsZWN0ZWQgZnJvbSBwcmV2aW91cyB0cmFuc2FjdGlvbiBzdGVwcy4KICogCiAqIEByZXR1cm5zIHtPYmplY3R9IHsgdmFsaWQ6IGJvb2xlYW4sIGNvZGU6IG51bWJlciwgZGVzY3JpcHRpb246IHN0cmluZyB9CiAqLwpmdW5jdGlvbiB2YWxpZGF0ZSh0YXJnZXRQYXlsb2FkLCBzZXNzaW9uRGF0YSkgewogIGNvbnN0IGNhdGVnb3J5Q29kZSA9CiAgICB0YXJnZXRQYXlsb2FkPy5tZXNzYWdlPy5pbnRlbnQ/LmNhdGVnb3J5Py5kZXNjcmlwdG9yPy5jb2RlOwoKICBpZiAoIWNhdGVnb3J5Q29kZSkgewogICAgcmV0dXJuIHsKICAgICAgdmFsaWQ6IGZhbHNlLAogICAgICBjb2RlOiA0MDAsCiAgICAgIGRlc2NyaXB0aW9uOiAiTWlzc2luZyBjYXRlZ29yeSBkZXNjcmlwdG9yIGNvZGUiCiAgICB9OwogIH0KCiAgcmV0dXJuIHsKICAgIHZhbGlkOiB0cnVlLAogICAgY29kZTogMjAwLAogICAgZGVzY3JpcHRpb246ICJWYWxpZCByZXF1ZXN0IgogIH07Cn0=
       requirements: LyoqCiAqIENoZWNrcyBpZiB0aGUgcmVxdWlyZW1lbnRzIGZvciBwcm9jZWVkaW5nIHdpdGggdGhlIEFQSSBjYWxsIGFyZSBtZXQuCiAqIAogKiBAcGFyYW0ge09iamVjdH0gc2Vzc2lvbkRhdGEgLSBEYXRhIGNvbGxlY3RlZCBmcm9tIHByZXZpb3VzIHRyYW5zYWN0aW9uIHN0ZXBzLgogKiAKICogQHJldHVybnMge09iamVjdH0geyB2YWxpZDogYm9vbGVhbiwgY29kZTogbnVtYmVyLCBkZXNjcmlwdGlvbjogc3RyaW5nIH0KICovCmZ1bmN0aW9uIG1lZXRzUmVxdWlyZW1lbnRzKHNlc3Npb25EYXRhKSB7CiAgcmV0dXJuIHsgdmFsaWQ6IHRydWUsIGNvZGU6IDIwMCwgZGVzY3JpcHRpb246ICJSZXF1aXJlbWVudHMgbWV0IiB9Owp9
       defaultPayload:
         context:
-          domain: ONDC:FIS12
+          domain: ONDC:FIS12:PF
           action: search
           timestamp: 2026-04-21T06:23:40.312Z
           transaction_id: 4179de3c-7088-4732-9786-e1fdba540b56
@@ -54,11 +54,11 @@ steps:
       - name: example for search
         payload:
           context:
-            domain: ONDC:FIS12
+            domain: ONDC:FIS12:PF
             action: search
-            timestamp: 2026-07-29T06:48:11.833Z
+            timestamp: 2026-07-31T10:02:45.228Z
             transaction_id: 4179de3c-7088-4732-9786-e1fdba540b56
-            message_id: d0b5f4ac-381c-4086-b693-7fac19655c92
+            message_id: f3816f1a-b9eb-45fc-887e-794776092f1f
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -72,7 +72,7 @@ steps:
             intent:
               category:
                 descriptor:
-                  code: LOAN
+                  code: PURCHASE_FINANCE
               payment:
                 collected_by: BPP
               tags:
@@ -101,7 +101,7 @@ steps:
       requirements: LyoqCiAqIENoZWNrcyBpZiB0aGUgcmVxdWlyZW1lbnRzIGZvciBwcm9jZWVkaW5nIHdpdGggdGhlIEFQSSBjYWxsIGFyZSBtZXQuCiAqIAogKiBAcGFyYW0ge09iamVjdH0gc2Vzc2lvbkRhdGEgLSBEYXRhIGNvbGxlY3RlZCBmcm9tIHByZXZpb3VzIHRyYW5zYWN0aW9uIHN0ZXBzLgogKiAKICogQHJldHVybnMge09iamVjdH0geyB2YWxpZDogYm9vbGVhbiwgY29kZTogbnVtYmVyLCBkZXNjcmlwdGlvbjogc3RyaW5nIH0KICovCmZ1bmN0aW9uIG1lZXRzUmVxdWlyZW1lbnRzKHNlc3Npb25EYXRhKSB7CiAgcmV0dXJuIHsgdmFsaWQ6IHRydWUsIGNvZGU6IDIwMCwgZGVzY3JpcHRpb246ICJSZXF1aXJlbWVudHMgbWV0IiB9Owp9
       defaultPayload:
         context:
-          domain: ONDC:FIS12
+          domain: ONDC:FIS12:PF
           action: on_search
           timestamp: 2026-04-21T06:59:03.948Z
           transaction_id: 4179de3c-7088-4732-9786-e1fdba540b56
@@ -131,195 +131,29 @@ steps:
                   short_desc: ICICI Bank Ltd
                   long_desc: ICICI Bank Ltd, India.
                 categories:
-                  - id: "101110"
-                    descriptor:
-                      code: LOAN
-                      name: Loan
-                  - id: "104110"
-                    parent_category_id: "101110"
-                    descriptor:
-                      code: UNSECURED_PERSONAL
-                      name: Unsecured Personal
-                  - id: "104111"
-                    parent_category_id: "101110"
-                    descriptor:
-                      code: SECURED_PERSONAL
-                      name: Secured Personal
-                  - id: "104112"
-                    parent_category_id: "101110"
-                    descriptor:
-                      code: OFFERS
-                      name: offers
-                  - id: "104129"
-                    parent_category_id: "101110"
-                    descriptor:
-                      code: ADDITIONAL_DATA
-                      name: additional data
-                  - id: "101111"
-                    parent_category_id: "104110"
-                    descriptor:
-                      code: PERSONAL_FINANCING
-                      name: Personal Financing
-                  - id: "104115"
-                    parent_category_id: "104110"
-                    descriptor:
-                      code: CONSUMER_INVOICE_FINANCING
-                      name: consumer invoice financing
-                  - id: "101213"
-                    parent_category_id: "104115"
-                    descriptor:
+                  - descriptor:
+                      code: PURCHASE_FINANCE
+                      name: Purchase Finance
+                    id: "101212"
+                  - descriptor:
                       code: AGRI_PURCHASE_FINANCE
                       name: Agri Purchase Finance
-                  - id: "101214"
-                    parent_category_id: "104115"
-                    descriptor:
+                    id: "101213"
+                    parent_category_id: "101212"
+                  - descriptor:
                       code: ELECTRONICS_PURCHASE_FINANCE
                       name: Electronics Purchase Finance
-                  - id: "101215"
-                    parent_category_id: "101211"
-                    descriptor:
+                    id: "101214"
+                    parent_category_id: "101212"
+                  - descriptor:
                       code: SOLAR_PURCHASE_FINANCE
                       name: Solar Purchase Finance
-                  - id: "104116"
-                    parent_category_id: "101110"
-                    descriptor:
-                      code: BUSINESS
-                      name: Business
-                  - id: "101124"
-                    parent_category_id: "104116"
-                    descriptor:
-                      code: SOLE_PROPRIETORSHIP
-                      name: Sole Proprietorship
-                  - id: "104118"
-                    parent_category_id: "104116"
-                    descriptor:
-                      code: OTHER
-                      name: Other
-                  - id: "101217"
-                    parent_category_id: "104118"
-                    descriptor:
-                      code: PARTNERSHIP_FIRM
-                      name: Partnership Firm
-                  - id: "101125"
-                    parent_category_id: "104118"
-                    descriptor:
-                      code: PRIVATE_LTD
-                      name: Private Ltd
-                  - id: "101112"
-                    parent_category_id: "104118"
-                    descriptor:
-                      code: INVOICE_FINANCING
-                      name: Invoice Financing
-                  - id: "101115"
-                    parent_category_id: "104111"
-                    descriptor:
-                      code: GOLD_LOAN
-                      name: Gold Loan
-                  - id: " 101118"
-                    parent_category_id: "104111"
-                    descriptor:
-                      code: LAMF
-                      name: Loan Against Mutual Funds
-                  - id: "101117"
-                    parent_category_id: "104112"
-                    descriptor:
-                      code: TERM_LOAN
-                      name: Term Loan
-                  - id: "104125"
-                    parent_category_id: "104112"
-                    descriptor:
-                      code: CREDIT_LINE
-                      name: Credit Line
-                  - id: "104126"
-                    parent_category_id: "104125"
-                    descriptor:
-                      code: DOCUMENT_BASED_DRAWDOWN
-                      name: Document Based Drawdown
-                  - id: "104127"
-                    parent_category_id: "104125"
-                    descriptor:
-                      code: NON_DOCUMENT_BASED_DRAWDOWN
-                      name: Non Document Based Drawdown
-                  - id: "104130"
-                    parent_category_id: "104129"
-                    descriptor:
-                      code: BANKING
-                      name: Banking
-                  - id: "104137"
-                    parent_category_id: "104130"
-                    descriptor:
-                      code: STATEMENT_UPLOAD
-                      name: statement Upload
-                  - id: "101212"
-                    parent_category_id: "104130"
-                    descriptor:
-                      code: AA_BANKING
-                      name: AA Banking
-                  - id: "104131"
-                    parent_category_id: "104129"
-                    descriptor:
-                      code: GST
-                      name: gst
-                  - id: "104139"
-                    parent_category_id: "104131"
-                    descriptor:
-                      code: AA_GST
-                      name: AA gst
-                  - id: "104140"
-                    parent_category_id: "104131"
-                    descriptor:
-                      code: GSP
-                      name: gsp
-                  - id: "104141"
-                    parent_category_id: "104131"
-                    descriptor:
-                      code: RETURN_UPLOAD
-                      name: return upload
-                  - id: "104132"
-                    parent_category_id: "104129"
-                    descriptor:
-                      code: MUTUAL_FUND
-                      name: Mutual Fund
-                  - id: "104142"
-                    parent_category_id: "104132"
-                    descriptor:
-                      code: AA_LOAN
-                      name: AA Loan
-                  - id: "101119"
-                    parent_category_id: "104132"
-                    descriptor:
-                      code: MFC
-                      name: mfc
-                  - id: "101120"
-                    parent_category_id: "104132"
-                    descriptor:
-                      code: RTA
-                      name: rta
-                  - id: "104133"
-                    parent_category_id: "104129"
-                    descriptor:
-                      code: ITR
-                      name: ITR
-                  - id: "104145"
-                    parent_category_id: "104133"
-                    descriptor:
-                      code: UPLOAD
-                      name: upload
-                  - id: "101211"
-                    parent_category_id: "104129"
-                    descriptor:
+                    id: "101215"
+                    parent_category_id: "101212"
+                  - descriptor:
                       code: BUREAU_LOAN
                       name: Bureau Loan
-                  - id: "104135"
-                    parent_category_id: "104129"
-                    descriptor:
-                      code: DERIVED_DATA
-                      name: Derived Data
-                  - id: "104136"
-                    parent_category_id: "104129"
-                    descriptor:
-                      code: ADDITIONAL_UPLOAD
-                      name: Additional Upload
+                    id: "101211"
                 items:
                   - id: ITEM_ID_SOLAR_PURCHASE_FINANCE
                     descriptor:
@@ -327,7 +161,6 @@ steps:
                       name: Solar Purchase Finance
                     category_ids:
                       - "101215"
-                      - "101117"
                       - "101211"
                     matched: true
                     recommended: true
@@ -339,10 +172,10 @@ steps:
                           code: MERCHANT_AND_PRODUCT_DETAILS
                           name: Merchant & Product Details
                         headings:
-                          - MERCHANT_AND_PRDOUCT_DEATILS
+                          - MERCHANT_AND_PRODUCT_DETAILS
                           - PERSONAL_INFORMATION_SOLAR
                       form:
-                        id: F01
+                        id: merchant_product_details
                         mime_type: none
                         data:
                           merchantPan:
@@ -423,17 +256,17 @@ steps:
                           short_desc: Short desc about Loan Agreement eSign checklist
                 payments:
                   - type: POST_FULFILLMENT
-                    id: INSTALLMENT_ID_SOLAR_LOAN
+                    id: INSTALLMENT_ID_PURCHASE_FINANCE
                     status: NOT-PAID
                     collected_by: BPP
                     time:
                       label: INSTALLMENT
-                  - type: ON_FULFILLMENT
+                  - collected_by: BAP
                     id: LOAN_DISBURSMENT_ID
                     status: NOT-PAID
-                    collected_by: BPP
                     time:
-                      label: LOAN_DISBURSMENT
+                      label: LOAN_DISBURSEMENT
+                    type: ON_FULFILLMENT
                 tags:
                   - descriptor:
                       code: CONTACT_INFO
@@ -510,11 +343,11 @@ steps:
       - name: example for on_search
         payload:
           context:
-            domain: ONDC:FIS12
+            domain: ONDC:FIS12:PF
             action: on_search
-            timestamp: 2026-07-29T06:48:11.841Z
+            timestamp: 2026-07-31T10:02:45.236Z
             transaction_id: 4179de3c-7088-4732-9786-e1fdba540b56
-            message_id: d0b5f4ac-381c-4086-b693-7fac19655c92
+            message_id: f3816f1a-b9eb-45fc-887e-794776092f1f
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -540,195 +373,29 @@ steps:
                     short_desc: ICICI Bank Ltd
                     long_desc: ICICI Bank Ltd, India.
                   categories:
-                    - id: "101110"
-                      descriptor:
-                        code: LOAN
-                        name: Loan
-                    - id: "104110"
-                      parent_category_id: "101110"
-                      descriptor:
-                        code: UNSECURED_PERSONAL
-                        name: Unsecured Personal
-                    - id: "104111"
-                      parent_category_id: "101110"
-                      descriptor:
-                        code: SECURED_PERSONAL
-                        name: Secured Personal
-                    - id: "104112"
-                      parent_category_id: "101110"
-                      descriptor:
-                        code: OFFERS
-                        name: offers
-                    - id: "104129"
-                      parent_category_id: "101110"
-                      descriptor:
-                        code: ADDITIONAL_DATA
-                        name: additional data
-                    - id: "101111"
-                      parent_category_id: "104110"
-                      descriptor:
-                        code: PERSONAL_FINANCING
-                        name: Personal Financing
-                    - id: "104115"
-                      parent_category_id: "104110"
-                      descriptor:
-                        code: CONSUMER_INVOICE_FINANCING
-                        name: consumer invoice financing
-                    - id: "101213"
-                      parent_category_id: "104115"
-                      descriptor:
+                    - descriptor:
+                        code: PURCHASE_FINANCE
+                        name: Purchase Finance
+                      id: "101212"
+                    - descriptor:
                         code: AGRI_PURCHASE_FINANCE
                         name: Agri Purchase Finance
-                    - id: "101214"
-                      parent_category_id: "104115"
-                      descriptor:
+                      id: "101213"
+                      parent_category_id: "101212"
+                    - descriptor:
                         code: ELECTRONICS_PURCHASE_FINANCE
                         name: Electronics Purchase Finance
-                    - id: "101215"
-                      parent_category_id: "101211"
-                      descriptor:
+                      id: "101214"
+                      parent_category_id: "101212"
+                    - descriptor:
                         code: SOLAR_PURCHASE_FINANCE
                         name: Solar Purchase Finance
-                    - id: "104116"
-                      parent_category_id: "101110"
-                      descriptor:
-                        code: BUSINESS
-                        name: Business
-                    - id: "101124"
-                      parent_category_id: "104116"
-                      descriptor:
-                        code: SOLE_PROPRIETORSHIP
-                        name: Sole Proprietorship
-                    - id: "104118"
-                      parent_category_id: "104116"
-                      descriptor:
-                        code: OTHER
-                        name: Other
-                    - id: "101217"
-                      parent_category_id: "104118"
-                      descriptor:
-                        code: PARTNERSHIP_FIRM
-                        name: Partnership Firm
-                    - id: "101125"
-                      parent_category_id: "104118"
-                      descriptor:
-                        code: PRIVATE_LTD
-                        name: Private Ltd
-                    - id: "101112"
-                      parent_category_id: "104118"
-                      descriptor:
-                        code: INVOICE_FINANCING
-                        name: Invoice Financing
-                    - id: "101115"
-                      parent_category_id: "104111"
-                      descriptor:
-                        code: GOLD_LOAN
-                        name: Gold Loan
-                    - id: " 101118"
-                      parent_category_id: "104111"
-                      descriptor:
-                        code: LAMF
-                        name: Loan Against Mutual Funds
-                    - id: "101117"
-                      parent_category_id: "104112"
-                      descriptor:
-                        code: TERM_LOAN
-                        name: Term Loan
-                    - id: "104125"
-                      parent_category_id: "104112"
-                      descriptor:
-                        code: CREDIT_LINE
-                        name: Credit Line
-                    - id: "104126"
-                      parent_category_id: "104125"
-                      descriptor:
-                        code: DOCUMENT_BASED_DRAWDOWN
-                        name: Document Based Drawdown
-                    - id: "104127"
-                      parent_category_id: "104125"
-                      descriptor:
-                        code: NON_DOCUMENT_BASED_DRAWDOWN
-                        name: Non Document Based Drawdown
-                    - id: "104130"
-                      parent_category_id: "104129"
-                      descriptor:
-                        code: BANKING
-                        name: Banking
-                    - id: "104137"
-                      parent_category_id: "104130"
-                      descriptor:
-                        code: STATEMENT_UPLOAD
-                        name: statement Upload
-                    - id: "101212"
-                      parent_category_id: "104130"
-                      descriptor:
-                        code: AA_BANKING
-                        name: AA Banking
-                    - id: "104131"
-                      parent_category_id: "104129"
-                      descriptor:
-                        code: GST
-                        name: gst
-                    - id: "104139"
-                      parent_category_id: "104131"
-                      descriptor:
-                        code: AA_GST
-                        name: AA gst
-                    - id: "104140"
-                      parent_category_id: "104131"
-                      descriptor:
-                        code: GSP
-                        name: gsp
-                    - id: "104141"
-                      parent_category_id: "104131"
-                      descriptor:
-                        code: RETURN_UPLOAD
-                        name: return upload
-                    - id: "104132"
-                      parent_category_id: "104129"
-                      descriptor:
-                        code: MUTUAL_FUND
-                        name: Mutual Fund
-                    - id: "104142"
-                      parent_category_id: "104132"
-                      descriptor:
-                        code: AA_LOAN
-                        name: AA Loan
-                    - id: "101119"
-                      parent_category_id: "104132"
-                      descriptor:
-                        code: MFC
-                        name: mfc
-                    - id: "101120"
-                      parent_category_id: "104132"
-                      descriptor:
-                        code: RTA
-                        name: rta
-                    - id: "104133"
-                      parent_category_id: "104129"
-                      descriptor:
-                        code: ITR
-                        name: ITR
-                    - id: "104145"
-                      parent_category_id: "104133"
-                      descriptor:
-                        code: UPLOAD
-                        name: upload
-                    - id: "101211"
-                      parent_category_id: "104129"
-                      descriptor:
+                      id: "101215"
+                      parent_category_id: "101212"
+                    - descriptor:
                         code: BUREAU_LOAN
                         name: Bureau Loan
-                    - id: "104135"
-                      parent_category_id: "104129"
-                      descriptor:
-                        code: DERIVED_DATA
-                        name: Derived Data
-                    - id: "104136"
-                      parent_category_id: "104129"
-                      descriptor:
-                        code: ADDITIONAL_UPLOAD
-                        name: Additional Upload
+                      id: "101211"
                   items:
                     - id: ITEM_ID_SOLAR_PURCHASE_FINANCE
                       descriptor:
@@ -736,7 +403,6 @@ steps:
                         name: Solar Purchase Finance
                       category_ids:
                         - "101215"
-                        - "101117"
                         - "101211"
                       matched: true
                       recommended: true
@@ -748,10 +414,10 @@ steps:
                             code: MERCHANT_AND_PRODUCT_DETAILS
                             name: Merchant & Product Details
                           headings:
-                            - MERCHANT_AND_PRDOUCT_DEATILS
+                            - MERCHANT_AND_PRODUCT_DETAILS
                             - PERSONAL_INFORMATION_SOLAR
                         form:
-                          id: F01
+                          id: merchant_product_details
                           mime_type: none
                           data:
                             merchantPan:
@@ -832,17 +498,17 @@ steps:
                             short_desc: Short desc about Loan Agreement eSign checklist
                   payments:
                     - type: POST_FULFILLMENT
-                      id: INSTALLMENT_ID_SOLAR_LOAN
+                      id: INSTALLMENT_ID_PURCHASE_FINANCE
                       status: NOT-PAID
                       collected_by: BPP
                       time:
                         label: INSTALLMENT
-                    - type: ON_FULFILLMENT
+                    - collected_by: BAP
                       id: LOAN_DISBURSMENT_ID
                       status: NOT-PAID
-                      collected_by: BPP
                       time:
-                        label: LOAN_DISBURSMENT
+                        label: LOAN_DISBURSEMENT
+                      type: ON_FULFILLMENT
                   tags:
                     - descriptor:
                         code: CONTACT_INFO
