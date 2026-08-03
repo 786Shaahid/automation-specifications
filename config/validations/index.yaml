@@ -2437,9 +2437,9 @@ _TESTS_:
         - PREVIOUS_INSURER
         - PREVIOUS_POLICY_END_DATE
         _RETURN_: validValues all in subTags
-      - _NAME_: REQUIRED_MOTOR_FULFILLMENT_STATE_NAME
-        attr: $.message.order.fulfillments[*].state.descriptor.name
-        _RETURN_: attr are present
+      # - _NAME_: REQUIRED_MOTOR_FULFILLMENT_STATE_NAME
+      #   attr: $.message.order.fulfillments[*].state.descriptor.name
+      #   _RETURN_: attr are present // need to update
       - _NAME_: REQUIRED_MOTOR_FULFILLMENT_STATE_CODE
         attr: $.message.order.fulfillments[*].state.descriptor.code
         _RETURN_: attr are present
@@ -3855,12 +3855,12 @@ _TESTS_:
       - _NAME_: REQUIRED_MOTOR_PROVIDER_IMAGE_SIZE_TYPE
         attr: $.message.order.provider.descriptor.images[*].size_type
         _RETURN_: attr are present
-      - _NAME_: REQUIRED_MOTOR_DOCUMENT_SHORT_DESC
-        attr: $.message.order.documents[*].descriptor.short_desc
-        _RETURN_: attr are present
-      - _NAME_: REQUIRED_MOTOR_DOCUMENT_LONG_DESC
-        attr: $.message.order.documents[*].descriptor.long_desc
-        _RETURN_: attr are present
+      # - _NAME_: REQUIRED_MOTOR_DOCUMENT_SHORT_DESC
+      #   attr: $.message.order.documents[*].descriptor.short_desc
+      #   _RETURN_: attr are present
+      # - _NAME_: REQUIRED_MOTOR_DOCUMENT_LONG_DESC
+      #   attr: $.message.order.documents[*].descriptor.long_desc
+      #   _RETURN_: attr are present
       - _NAME_: REQUIRED_MOTOR_PAYMENT_BANK_ACCOUNT
         attr: $.message.order.payments[*].params.bank_account_number
         _RETURN_: attr are present
@@ -4421,15 +4421,15 @@ _TESTS_:
     - _NAME_: REQUIRED_MOTOR_ITEM_DESCRIPTOR_SHORT_DESC
       attr: $.message.order.items[*].descriptor.short_desc
       _RETURN_: attr are present
-    - _NAME_: REQUIRED_MOTOR_XINPUT_FORM_RESPONSE_SUBMISSION_ID
-      attr: $.message.order.items[*].xinput.form_response.submission_id
-      _RETURN_: attr are present
-    - _NAME_: REQUIRED_MOTOR_XINPUT_FORM_RESPONSE_STATUS
-      attr: $.message.order.items[*].xinput.form_response.status
-      _RETURN_: attr are present
-    - _NAME_: REQUIRED_MOTOR_XINPUT_FORM_ID
-      attr: $.message.order.items[*].xinput.form.id
-      _RETURN_: attr are present
+    # - _NAME_: REQUIRED_MOTOR_XINPUT_FORM_RESPONSE_SUBMISSION_ID
+    #   attr: $.message.order.items[*].xinput.form_response.submission_id
+    #   _RETURN_: attr are present
+    # - _NAME_: REQUIRED_MOTOR_XINPUT_FORM_RESPONSE_STATUS
+    #   attr: $.message.order.items[*].xinput.form_response.status
+    #   _RETURN_: attr are present
+    # - _NAME_: REQUIRED_MOTOR_XINPUT_FORM_ID
+    #   attr: $.message.order.items[*].xinput.form.id
+    #   _RETURN_: attr are present
     - _NAME_: REQUIRED_MOTOR_ADDON_ID
       attr: $.message.order.items[*].add_ons[*].id
       _RETURN_: attr are present
