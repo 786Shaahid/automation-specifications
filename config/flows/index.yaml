@@ -59,7 +59,17 @@ flows:
     description: A customer applies for family health insurance coverage by searching and selecting a suitable plan, providing household member details through guided forms, and completing the application for policy issuance.
     config:
       $ref: ./HEALTH INSURANCE/Health_Insurance_Application_Family_.yaml
-  
+  - type: playground
+    id: Payment_Failure_Health_Insurance(Family)
+    meta:
+      order: 14
+    usecase: HEALTH INSURANCE
+    tags:
+      - WORKBENCH
+    description: A family health insurance journey that follows the standard application flow up to on_confirm, then exercises a payment-failure path with a Not-Pay option, an unsolicited on_update marking the payment FAILED, a BAP update retry, and an on_update returning a fresh NOT-PAID payment link.
+    config:
+      $ref: ./HEALTH INSURANCE/Payment_Failure_Health_Insurance_Family_.yaml
+
   - type: playground
     id: Health_Insurance_Application(Family)_With_IGM(v-1.0.0)
     meta:
@@ -83,7 +93,18 @@ flows:
     description: An individual searches and selects a health insurance plan, completes an interactive application with personal details across multiple forms, and confirms enrollment.
     config:
       $ref: ./HEALTH INSURANCE/Health_Insurance_Application_Individual_.yaml
-  
+  - type: playground
+    id: Payment_Failure_Health_Insurance(Individual)
+    meta:
+      order: 15
+    usecase: HEALTH INSURANCE
+    tags:
+      - WORKBENCH
+      
+    description: An individual health insurance journey that follows the standard application flow up to on_confirm, then exercises a payment-failure path with a Not-Pay option, an unsolicited on_update marking the payment FAILED, a BAP update retry, and an on_update returning a fresh NOT-PAID payment link.
+    config:
+      $ref: ./HEALTH INSURANCE/Payment_Failure_Health_Insurance_Individual_.yaml
+
   - type: playground
     id: Health_Insurance_Application(Individual)_With_IGM(v-1.0.0)
     meta:
