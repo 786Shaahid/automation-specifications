@@ -38,6 +38,7 @@ enums:
       - &DERIVED_DATA DERIVED_DATA
       - &ADDITIONAL_UPLOAD ADDITIONAL_UPLOAD
       - &RTA RTA
+      - &PRE_QUALIFIER PRE_QUALIFIER
   fulfillment:  
     types: &fulfillmentTypes
       - &ONLINE ONLINE
@@ -80,6 +81,7 @@ enums:
   items:  
     descriptorCode: &itemCode
       - LOAN
+      - PRE_QUALIFIER
     searchForms: &searchForms
       - PERSONAL_INFORMATION
       - CONSENT_APPROVAL
@@ -1351,16 +1353,32 @@ _TESTS_:
               _RETURN_: attr are present
             - _NAME_: REQUIRED_STOPS_ID
               attr: $.message.catalog.providers[*].fulfillments[*].stops[*].id
+              fulfillmentType: $.message.catalog.providers[*].fulfillments[*].type
+              dedupeFulfillmentType:
+                - DEDUPE
+              _CONTINUE_: '(fulfillmentType any in dedupeFulfillmentType)'
               _RETURN_: attr are present
             - _NAME_: REQUIRED_STOPS_TYPE
               attr: $.message.catalog.providers[*].fulfillments[*].stops[*].type
-              _RETURN_: attr are present 
+              fulfillmentType: $.message.catalog.providers[*].fulfillments[*].type
+              dedupeFulfillmentType:
+                - DEDUPE
+              _CONTINUE_: '(fulfillmentType any in dedupeFulfillmentType)'
+              _RETURN_: attr are present
             - _NAME_: REQUIRED_STOPS_NAME
               attr: $.message.catalog.providers[*].fulfillments[*].stops[*].instructions.name
-              _RETURN_: attr are present     
+              fulfillmentType: $.message.catalog.providers[*].fulfillments[*].type
+              dedupeFulfillmentType:
+                - DEDUPE
+              _CONTINUE_: '(fulfillmentType any in dedupeFulfillmentType)'
+              _RETURN_: attr are present
             - _NAME_: REQUIRED_STOPS_CODE
               attr: $.message.catalog.providers[*].fulfillments[*].stops[*].instructions.code
-              _RETURN_: attr are present   
+              fulfillmentType: $.message.catalog.providers[*].fulfillments[*].type
+              dedupeFulfillmentType:
+                - DEDUPE
+              _CONTINUE_: '(fulfillmentType any in dedupeFulfillmentType)'
+              _RETURN_: attr are present
                 
 
         - _NAME_: VALID_FULFILLMENT_ITEMS
