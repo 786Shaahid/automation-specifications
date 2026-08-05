@@ -243,28 +243,28 @@ flows:
     config:
       $ref:  "./BUSINESS_LOAN/business_term_loan_with_file_upload_with_igm_1.0.0.yaml"
 
-  #Purchase Finance Flows
+  #Dedupe Check Flows
   - type: playground
     id: master_search
     meta:
       order: 0
-    usecase: PURCHASE FINANCE
+    usecase: DEDUPE CHECK
     tags:
       - WORKBENCH
       - MANDATORY
       - REPORTABLE
     description: Master Search
     config:
-      $ref: "./PURCHASE_FINANCE/master_search.yaml"
+      $ref: "./DEDUPE_CHECK/master_search.yaml"
   - type: playground
-    id: solar_purchase_finance_single_redirection
+    id: dedupe_check
     meta:
       order: 1
-    usecase: PURCHASE FINANCE
+    usecase: DEDUPE CHECK
     tags:
       - WORKBENCH
       - MANDATORY
       - REPORTABLE
-    description: Solar Purchase Finance Single Redirection
+    description: Dedupe Check
     config:
-      $ref: "./PURCHASE_FINANCE/solar_purchase_finance_single_redirection.yaml"
+      $ref: "./DEDUPE_CHECK/dedupe_check.yaml"

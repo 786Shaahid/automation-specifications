@@ -7,14 +7,7 @@ info:
   x-usecases:
     - BUSINESS LOAN
     - LAMF LOAN
-    - PURCHASE FINANCE
-  x-status:
-    - use_case: BUSINESS LOAN
-      status: DRAFT
-    - use_case: LAMF LOAN
-      status: DRAFT
-    - use_case: PURCHASE FINANCE
-      status: DRAFT
+    - DEDUPE CHECK
   x-branch-name: draft-FIS12-2.3.0
   x-reporting: true
 security: 
