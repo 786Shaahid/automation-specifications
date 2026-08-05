@@ -20,7 +20,7 @@ steps:
     unsolicited: false
     description: The borrower selects the dedupe item.
     mock:
-      generate: YXN5bmMgZnVuY3Rpb24gZ2VuZXJhdGUoZGVmYXVsdFBheWxvYWQsIHNlc3Npb25EYXRhKSB7CiAgYXdhaXQgZ2VuZXJhdGVQYXlsb2FkKGRlZmF1bHRQYXlsb2FkLCBzZXNzaW9uRGF0YSk7CiAgcmV0dXJuIGRlZmF1bHRQYXlsb2FkOwp9Cgphc3luYyBmdW5jdGlvbiBnZW5lcmF0ZVBheWxvYWQoZGVmYXVsdFBheWxvYWQsIHNlc3Npb25EYXRhKSB7CiAgY29uc3QgeyB1c2VyX2lucHV0cyB9ID0gc2Vzc2lvbkRhdGE7CgogIGNvbnN0IHByb3ZpZGVyID0gdXNlcl9pbnB1dHM/LnByb3ZpZGVyOwogIGNvbnN0IGl0ZW1zID0gdXNlcl9pbnB1dHM/Lml0ZW1zOwogIGNvbnN0IGZ1bGZpbGxtZW50cyA9IHVzZXJfaW5wdXRzPy5mdWxmaWxsbWVudHM7CgogIGlmICghcHJvdmlkZXI/LmlkKSB7CiAgICB0aHJvdyBuZXcgRXJyb3IoInByb3ZpZGVyLmlkIG1pc3NpbmcgaW4gdXNlcl9pbnB1dHMiKTsKICB9CgogIGlmICghQXJyYXkuaXNBcnJheShpdGVtcykgfHwgaXRlbXMubGVuZ3RoID09PSAwKSB7CiAgICB0aHJvdyBuZXcgRXJyb3IoIml0ZW1zIG1pc3NpbmcgaW4gdXNlcl9pbnB1dHMiKTsKICB9CgogIGlmICghQXJyYXkuaXNBcnJheShmdWxmaWxsbWVudHMpIHx8IGZ1bGZpbGxtZW50cy5sZW5ndGggPT09IDApIHsKICAgIHRocm93IG5ldyBFcnJvcigiZnVsZmlsbG1lbnRzIG1pc3NpbmcgaW4gdXNlcl9pbnB1dHMiKTsKICB9CgogIGRlZmF1bHRQYXlsb2FkLm1lc3NhZ2UgPSB7CiAgICBvcmRlcjogewogICAgICBwcm92aWRlciwKICAgICAgaXRlbXMsCiAgICAgIGZ1bGZpbGxtZW50cwogICAgfQogIH07CgogIHJldHVybiBkZWZhdWx0UGF5bG9hZDsKfQ==
+      generate: YXN5bmMgZnVuY3Rpb24gZ2VuZXJhdGUoZGVmYXVsdFBheWxvYWQsIHNlc3Npb25EYXRhKSB7CiAgYXdhaXQgZ2VuZXJhdGVQYXlsb2FkKGRlZmF1bHRQYXlsb2FkLCBzZXNzaW9uRGF0YSk7CiAgcmV0dXJuIGRlZmF1bHRQYXlsb2FkOwp9Cgphc3luYyBmdW5jdGlvbiBnZW5lcmF0ZVBheWxvYWQoZGVmYXVsdFBheWxvYWQsIHNlc3Npb25EYXRhKSB7CiAgY29uc3QgeyB1c2VyX2lucHV0cyB9ID0gc2Vzc2lvbkRhdGE7CmRlZmF1bHRQYXlsb2FkLmNvbnRleHQgPSBkZWZhdWx0UGF5bG9hZC5jb250ZXh0IHx8IHt9OwoKICAgIC8vIEV4dHJhY3QgdmFsdWVzIGZyb20gdXNlcl9pbnB1dHMKICAgIGNvbnN0IGJwcElkID0gdXNlcl9pbnB1dHM/LmJwcF9pZDsKICAgIGNvbnN0IGJwcFVyaSA9IHVzZXJfaW5wdXRzPy5icHBfdXJpOwoKICAgIC8vIFZhbGlkYXRlIHJlcXVpcmVkIGZpZWxkcwogICAgaWYgKCFicHBJZCB8fCAhYnBwVXJpKSB7CiAgICAgIGNvbnNvbGUubG9nKCJicHBfaWQgb3IgYnBwX3VyaSBtaXNzaW5nIGluIHVzZXJfaW5wdXRzIik7CiAgICAgIHJldHVybiBkZWZhdWx0UGF5bG9hZDsKICAgIH0KCiAgZGVmYXVsdFBheWxvYWQuY29udGV4dC5icHBfaWQgPSBicHBJZDsKICBkZWZhdWx0UGF5bG9hZC5jb250ZXh0LmJwcF91cmkgPSBicHBVcmk7CiAgY29uc3QgcHJvdmlkZXIgPSB1c2VyX2lucHV0cz8ucHJvdmlkZXI7CiAgY29uc3QgaXRlbXMgPSB1c2VyX2lucHV0cz8uaXRlbXM7CiAgY29uc3QgZnVsZmlsbG1lbnRzID0gdXNlcl9pbnB1dHM/LmZ1bGZpbGxtZW50czsKCiAgaWYgKCFwcm92aWRlcj8uaWQpIHsKICAgIHRocm93IG5ldyBFcnJvcigicHJvdmlkZXIuaWQgbWlzc2luZyBpbiB1c2VyX2lucHV0cyIpOwogIH0KCiAgaWYgKCFBcnJheS5pc0FycmF5KGl0ZW1zKSB8fCBpdGVtcy5sZW5ndGggPT09IDApIHsKICAgIHRocm93IG5ldyBFcnJvcigiaXRlbXMgbWlzc2luZyBpbiB1c2VyX2lucHV0cyIpOwogIH0KCiAgaWYgKCFBcnJheS5pc0FycmF5KGZ1bGZpbGxtZW50cykgfHwgZnVsZmlsbG1lbnRzLmxlbmd0aCA9PT0gMCkgewogICAgdGhyb3cgbmV3IEVycm9yKCJmdWxmaWxsbWVudHMgbWlzc2luZyBpbiB1c2VyX2lucHV0cyIpOwogIH0KCiAgZGVmYXVsdFBheWxvYWQubWVzc2FnZSA9IHsKICAgIG9yZGVyOiB7CiAgICAgIHByb3ZpZGVyLAogICAgICBpdGVtcywKICAgICAgZnVsZmlsbG1lbnRzCiAgICB9CiAgfTsKCiAgcmV0dXJuIGRlZmF1bHRQYXlsb2FkOwp9
       validate: ZnVuY3Rpb24gdmFsaWRhdGUodGFyZ2V0UGF5bG9hZCwgc2Vzc2lvbkRhdGEpIHsKICB0cnkgewoKICAgIGNvbnN0IGNvbnRleHQgPSB0YXJnZXRQYXlsb2FkPy5jb250ZXh0OwogICAgaWYgKCFjb250ZXh0IHx8IGNvbnRleHQuYWN0aW9uICE9PSAic2VsZWN0IikgewogICAgICByZXR1cm4gewogICAgICAgIHZhbGlkOiBmYWxzZSwKICAgICAgICBjb2RlOiA0MDAsCiAgICAgICAgZGVzY3JpcHRpb246ICJjb250ZXh0LmFjdGlvbiBtdXN0IGJlIHNlbGVjdCIKICAgICAgfTsKICAgIH0KCgogICAgY29uc3Qgb3JkZXIgPSB0YXJnZXRQYXlsb2FkPy5tZXNzYWdlPy5vcmRlcjsKCiAgICBpZiAoIW9yZGVyPy5wcm92aWRlcj8uaWQpIHsKICAgICAgcmV0dXJuIHsKICAgICAgICB2YWxpZDogZmFsc2UsCiAgICAgICAgY29kZTogNDAwLAogICAgICAgIGRlc2NyaXB0aW9uOiAibWVzc2FnZS5vcmRlci5wcm92aWRlci5pZCBpcyByZXF1aXJlZCIKICAgICAgfTsKICAgIH0KCiAgICBpZiAoIUFycmF5LmlzQXJyYXkob3JkZXIuaXRlbXMpIHx8IG9yZGVyLml0ZW1zLmxlbmd0aCA9PT0gMCkgewogICAgICByZXR1cm4gewogICAgICAgIHZhbGlkOiBmYWxzZSwKICAgICAgICBjb2RlOiA0MDAsCiAgICAgICAgZGVzY3JpcHRpb246ICJtZXNzYWdlLm9yZGVyLml0ZW1zIGlzIHJlcXVpcmVkIgogICAgICB9OwogICAgfQoKICAgIGlmICghQXJyYXkuaXNBcnJheShvcmRlci5mdWxmaWxsbWVudHMpIHx8IG9yZGVyLmZ1bGZpbGxtZW50cy5sZW5ndGggPT09IDApIHsKICAgICAgcmV0dXJuIHsKICAgICAgICB2YWxpZDogZmFsc2UsCiAgICAgICAgY29kZTogNDAwLAogICAgICAgIGRlc2NyaXB0aW9uOiAibWVzc2FnZS5vcmRlci5mdWxmaWxsbWVudHMgaXMgcmVxdWlyZWQiCiAgICAgIH07CiAgICB9CgogICAgY29uc3QgaW5wdXRzID0gc2Vzc2lvbkRhdGE/LnVzZXJfaW5wdXRzOwoKICAgIGlmIChpbnB1dHMpIHsKICAgICAgLy8gUHJvdmlkZXIgdmFsaWRhdGlvbgogICAgICBpZiAoCiAgICAgICAgaW5wdXRzLnByb3ZpZGVyPy5pZCAmJgogICAgICAgIG9yZGVyLnByb3ZpZGVyLmlkICE9PSBpbnB1dHMucHJvdmlkZXIuaWQKICAgICAgKSB7CiAgICAgICAgcmV0dXJuIHsKICAgICAgICAgIHZhbGlkOiBmYWxzZSwKICAgICAgICAgIGNvZGU6IDQwMCwKICAgICAgICAgIGRlc2NyaXB0aW9uOgogICAgICAgICAgICAibWVzc2FnZS5vcmRlci5wcm92aWRlci5pZCBkb2VzIG5vdCBtYXRjaCB1c2VyX2lucHV0cy5wcm92aWRlci5pZCIKICAgICAgICB9OwogICAgICB9CgogICAgICAvLyBJdGVtcyB2YWxpZGF0aW9uCiAgICAgIGlmIChBcnJheS5pc0FycmF5KGlucHV0cy5pdGVtcykpIHsKICAgICAgICBpZiAob3JkZXIuaXRlbXMubGVuZ3RoICE9PSBpbnB1dHMuaXRlbXMubGVuZ3RoKSB7CiAgICAgICAgICByZXR1cm4gewogICAgICAgICAgICB2YWxpZDogZmFsc2UsCiAgICAgICAgICAgIGNvZGU6IDQwMCwKICAgICAgICAgICAgZGVzY3JpcHRpb246CiAgICAgICAgICAgICAgIm1lc3NhZ2Uub3JkZXIuaXRlbXMgY291bnQgZG9lcyBub3QgbWF0Y2ggdXNlcl9pbnB1dHMuaXRlbXMiCiAgICAgICAgICB9OwogICAgICAgIH0KCiAgICAgICAgZm9yIChsZXQgaSA9IDA7IGkgPCBpbnB1dHMuaXRlbXMubGVuZ3RoOyBpKyspIHsKICAgICAgICAgIGlmIChvcmRlci5pdGVtc1tpXS5pZCAhPT0gaW5wdXRzLml0ZW1zW2ldLmlkKSB7CiAgICAgICAgICAgIHJldHVybiB7CiAgICAgICAgICAgICAgdmFsaWQ6IGZhbHNlLAogICAgICAgICAgICAgIGNvZGU6IDQwMCwKICAgICAgICAgICAgICBkZXNjcmlwdGlvbjogYG1lc3NhZ2Uub3JkZXIuaXRlbXNbJHtpfV0uaWQgZG9lcyBub3QgbWF0Y2ggdXNlcl9pbnB1dHMuaXRlbXNbJHtpfV0uaWRgCiAgICAgICAgICAgIH07CiAgICAgICAgICB9CiAgICAgICAgfQogICAgICB9CgogICAgICAvLyBGdWxmaWxsbWVudHMgdmFsaWRhdGlvbgogICAgICBpZiAoQXJyYXkuaXNBcnJheShpbnB1dHMuZnVsZmlsbG1lbnRzKSkgewogICAgICAgIGlmIChvcmRlci5mdWxmaWxsbWVudHMubGVuZ3RoICE9PSBpbnB1dHMuZnVsZmlsbG1lbnRzLmxlbmd0aCkgewogICAgICAgICAgcmV0dXJuIHsKICAgICAgICAgICAgdmFsaWQ6IGZhbHNlLAogICAgICAgICAgICBjb2RlOiA0MDAsCiAgICAgICAgICAgIGRlc2NyaXB0aW9uOgogICAgICAgICAgICAgICJtZXNzYWdlLm9yZGVyLmZ1bGZpbGxtZW50cyBjb3VudCBkb2VzIG5vdCBtYXRjaCB1c2VyX2lucHV0cy5mdWxmaWxsbWVudHMiCiAgICAgICAgICB9OwogICAgICAgIH0KCiAgICAgICAgZm9yIChsZXQgaSA9IDA7IGkgPCBpbnB1dHMuZnVsZmlsbG1lbnRzLmxlbmd0aDsgaSsrKSB7CiAgICAgICAgICBpZiAob3JkZXIuZnVsZmlsbG1lbnRzW2ldLmlkICE9PSBpbnB1dHMuZnVsZmlsbG1lbnRzW2ldLmlkKSB7CiAgICAgICAgICAgIHJldHVybiB7CiAgICAgICAgICAgICAgdmFsaWQ6IGZhbHNlLAogICAgICAgICAgICAgIGNvZGU6IDQwMCwKICAgICAgICAgICAgICBkZXNjcmlwdGlvbjogYG1lc3NhZ2Uub3JkZXIuZnVsZmlsbG1lbnRzWyR7aX1dLmlkIGRvZXMgbm90IG1hdGNoIHVzZXJfaW5wdXRzLmZ1bGZpbGxtZW50c1ske2l9XS5pZGAKICAgICAgICAgICAgfTsKICAgICAgICAgIH0KICAgICAgICB9CiAgICAgIH0KICAgIH0KCiAgICByZXR1cm4gewogICAgICB2YWxpZDogdHJ1ZSwKICAgICAgY29kZTogMjAwLAogICAgICBkZXNjcmlwdGlvbjogIlZhbGlkIHJlcXVlc3QiCiAgICB9OwogIH0gY2F0Y2ggKGVycm9yKSB7CiAgICByZXR1cm4gewogICAgICB2YWxpZDogZmFsc2UsCiAgICAgIGNvZGU6IDUwMCwKICAgICAgZGVzY3JpcHRpb246ICJJbnRlcm5hbCB2YWxpZGF0aW9uIGVycm9yIgogICAgfTsKICB9Cn0=
       requirements: ZnVuY3Rpb24gbWVldHNSZXF1aXJlbWVudHMoc2Vzc2lvbkRhdGEpIHsKICB0cnkgewogICAgcmV0dXJuIHsgdmFsaWQ6IHRydWUsIGNvZGU6IDIwMCwgZGVzY3JpcHRpb246ICJSZXF1aXJlbWVudHMgbWV0IiB9OwogIH0gY2F0Y2ggKGVycm9yKSB7CiAgICByZXR1cm4geyB2YWxpZDogZmFsc2UsIGNvZGU6IDUwMCwgZGVzY3JpcHRpb246ICJJbnRlcm5hbCByZXF1aXJlbWVudHMgZXJyb3IiIH07CiAgfQp9Cg==
       defaultPayload:
@@ -58,6 +58,14 @@ steps:
           $schema: http://json-schema.org/draft-07/schema#
           type: object
           properties:
+            bpp_id:
+              type: string
+              description: Enter bpp id
+              default: dev-workbench.ondc.tech
+            bpp_uri:
+              type: string
+              description: Enter bpp uri
+              default: https://dev-workbench.ondc.tech/api-service/ONDC:FIS12/2.3.0/seller
             provider:
               type: object
               description: Provider details
@@ -168,14 +176,14 @@ steps:
           context:
             domain: ONDC:FIS12
             action: select
-            timestamp: 2026-08-05T12:07:03.557Z
+            timestamp: 2026-08-05T12:21:56.458Z
             transaction_id: 97c8aa10-3357-4514-ae11-6bf97a72b677
-            message_id: 101bf7f6-d851-44ba-9723-b754bf78433a
+            message_id: 9cf5a083-a36e-48be-b630-0cc220b8a4dc
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
-            bpp_id: bpp.example.com
-            bpp_uri: https://bpp.example.com
+            bpp_id: dev-workbench.ondc.tech
+            bpp_uri: https://dev-workbench.ondc.tech/api-service/ONDC:FIS12/2.3.0/seller
             version: 2.3.0
             location:
               country:
@@ -250,9 +258,9 @@ steps:
           context:
             domain: ONDC:FIS12
             action: on_select
-            timestamp: 2026-08-05T12:07:03.565Z
+            timestamp: 2026-08-05T12:21:56.464Z
             transaction_id: 97c8aa10-3357-4514-ae11-6bf97a72b677
-            message_id: 101bf7f6-d851-44ba-9723-b754bf78433a
+            message_id: 9cf5a083-a36e-48be-b630-0cc220b8a4dc
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
