@@ -4,9 +4,17 @@ info:
   domain: ONDC:FIS12
   description: ONDC Specification
   version: 2.3.0
-  x-usecases:  
+  x-usecases:
     - BUSINESS LOAN
     - LAMF LOAN
+    - DEDUPE CHECK
+  x-status:
+    - use_case: BUSINESS LOAN
+      status: DRAFT
+    - use_case: LAMF LOAN
+      status: DRAFT
+    - use_case: DEDUPE CHECK
+      status: DRAFT
   x-branch-name: draft-FIS12-2.3.0
   x-reporting: true
 security: 
