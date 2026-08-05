@@ -165,6 +165,26 @@ flows:
     config:
       $ref: ./HEALTH INSURANCE/Health_Insurance_Application_PRE-ORDER-Individual-With-ManualReview_.yaml
   - type: playground
+    id: Payment_Failure_Health_Insurance(PRE-ORDER-Family-With-ManualReview)
+    meta:
+      order: 16
+    usecase: HEALTH INSURANCE
+    tags:
+      - WORKBENCH
+    description: A family health insurance PRE-ORDER journey that follows the standard application flow up to on_init, then exercises a payment-failure path - an unsolicited on_status marks the payment FAILED with an ERROR_INFORMATION reason, the BAP retries with a fresh NOT-PAID init, and the BPP responds with a new NOT-PAID payment link on on_init.
+    config:
+      $ref: ./HEALTH INSURANCE/Payment_Failure_Health_Insurance_PRE-ORDER-Family-With-ManualReview_.yaml
+  - type: playground
+    id: Payment_Failure_Health_Insurance(PRE-ORDER-Individual-With-ManualReview)
+    meta:
+      order: 17
+    usecase: HEALTH INSURANCE
+    tags:
+      - WORKBENCH
+    description: An individual health insurance PRE-ORDER journey (with manual review) that follows the standard application flow up to on_init, then exercises a payment-failure path - an unsolicited on_status marks the payment FAILED with an ERROR_INFORMATION reason, the BAP retries with a fresh NOT-PAID init, and the BPP responds with a new NOT-PAID payment link on on_init.
+    config:
+      $ref: ./HEALTH INSURANCE/Payment_Failure_Health_Insurance_PRE-ORDER-Individual-With-ManualReview_.yaml
+  - type: playground
     id: Renew_Health_Insurance(Family)
     meta:
       order: 9
