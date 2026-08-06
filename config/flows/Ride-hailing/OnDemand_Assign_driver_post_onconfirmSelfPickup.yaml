@@ -116,12 +116,12 @@ steps:
               type: string
               description: Enter start gps coordinates
               x-payloadField: $.message.intent.fulfillment.stops[?(@.type=='START')].location.gps
-              default: 19.0760,72.8777
+              default: 30.748844, 76.642899
             end_gps:
               type: string
               description: Enter end gps coordinates
               x-payloadField: $.message.intent.fulfillment.stops[?(@.type=='END')].location.gps
-              default: 18.5204,73.8567
+              default: 30.690880, 76.711488
             start_address:
               type: string
               description: Enter pickup address
@@ -181,8 +181,8 @@ steps:
           additionalProperties: false
         sampleData:
           city_code: std:080
-          start_gps: 19.0760,72.8777
-          end_gps: 18.5204,73.8567
+          start_gps: 30.748844, 76.642899
+          end_gps: 30.690880, 76.711488
           start_address: MG Road, Bengaluru
           start_city_code: std:080
           start_district: Bangalore
