@@ -67,11 +67,25 @@ steps:
               stops:
                 - location:
                     gps: 13.008935, 77.644408
+                    address: MG Road, Bengaluru
+                    city:
+                      code: std:080
+                    district: Bangalore
+                    country:
+                      code: IND
+                    area_code: "560001"
                   type: START
                   time:
                     timestamp: 2024-11-07T00:32:19.000Z
                 - location:
                     gps: 12.971186, 77.586812
+                    address: MG Road, Bengaluru
+                    city:
+                      code: std:080
+                    district: Bangalore
+                    country:
+                      code: IND
+                    area_code: "560001"
                   type: END
             payment:
               collected_by: BPP
@@ -107,11 +121,11 @@ steps:
             start_gps:
               type: string
               description: Enter start gps coordinates
-              default: 19.0760,72.8777
+              default: 30.748844, 76.642899
             end_gps:
               type: string
               description: Enter end gps coordinates
-              default: 18.5204,73.8567
+              default: 30.690880, 76.711488
             time:
               type: string
               description: Enter Time (24-hour format)
@@ -176,8 +190,8 @@ steps:
           additionalProperties: false
         sampleData:
           city_code: std:080
-          start_gps: 19.0760,72.8777
-          end_gps: 18.5204,73.8567
+          start_gps: 30.748844, 76.642899
+          end_gps: 30.690880, 76.711488
           time: "14:30"
           start_address: MG Road, Bengaluru
           start_city_code: std:080
@@ -348,6 +362,35 @@ steps:
                       maximum_value: "176"
                       minimum_value: "136"
                       value: "146"
+                    cancellation_terms:
+                      - cancellation_fee:
+                          percentage: "0"
+                        fulfillment_state:
+                          descriptor:
+                            code: RIDE_ASSIGNED
+                        reason_required: true
+                      - cancellation_fee:
+                          amount:
+                            currency: INR
+                            value: "10"
+                        fulfillment_state:
+                          descriptor:
+                            code: RIDE_ENROUTE_PICKUP
+                        reason_required: true
+                      - cancellation_fee:
+                          amount:
+                            currency: INR
+                            value: "10"
+                        fulfillment_state:
+                          descriptor:
+                            code: RIDE_ARRIVED_PICKUP
+                        reason_required: true
+                      - cancellation_fee:
+                          percentage: "100"
+                        fulfillment_state:
+                          descriptor:
+                            code: RIDE_STARTED
+                        reason_required: true
                   - descriptor:
                       code: RIDE
                       name: CAB Economy Ride
@@ -364,6 +407,35 @@ steps:
                       maximum_value: "236"
                       minimum_value: "206"
                       value: "206"
+                    cancellation_terms:
+                      - cancellation_fee:
+                          percentage: "0"
+                        fulfillment_state:
+                          descriptor:
+                            code: RIDE_ASSIGNED
+                        reason_required: true
+                      - cancellation_fee:
+                          amount:
+                            currency: INR
+                            value: "10"
+                        fulfillment_state:
+                          descriptor:
+                            code: RIDE_ENROUTE_PICKUP
+                        reason_required: true
+                      - cancellation_fee:
+                          amount:
+                            currency: INR
+                            value: "10"
+                        fulfillment_state:
+                          descriptor:
+                            code: RIDE_ARRIVED_PICKUP
+                        reason_required: true
+                      - cancellation_fee:
+                          percentage: "100"
+                        fulfillment_state:
+                          descriptor:
+                            code: RIDE_STARTED
+                        reason_required: true
                 locations:
                   - gps: 12.916468,77.608998
                     id: L1
