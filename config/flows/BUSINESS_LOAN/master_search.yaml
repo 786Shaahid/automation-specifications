@@ -56,9 +56,9 @@ steps:
           context:
             domain: ONDC:FIS12
             action: search
-            timestamp: 2026-06-29T09:41:15.586Z
+            timestamp: 2026-08-05T07:42:04.702Z
             transaction_id: 4179de3c-7088-4732-9786-e1fdba540b56
-            message_id: 799360e4-d3f2-4f86-a802-c8a09a1a9b0c
+            message_id: e41bba39-6e8d-4f8a-949f-fec43efa2d96
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -103,9 +103,9 @@ steps:
         context:
           domain: ONDC:FIS12
           action: on_search
-          timestamp: 2026-04-21T06:59:03.948Z
+          timestamp: 2026-06-05T09:08:26.058Z
           transaction_id: 4179de3c-7088-4732-9786-e1fdba540b56
-          message_id: a7c973b7-3213-4969-a8e5-0f8996d24270
+          message_id: 519ea1f3-bf56-4397-804c-23740cffb75f
           bap_id: bap.example.com
           bap_uri: https://bap.example.com
           ttl: PT30S
@@ -130,6 +130,196 @@ steps:
                   name: ICICI Bank
                   short_desc: ICICI Bank Ltd
                   long_desc: ICICI Bank Ltd, India.
+                categories:
+                  - id: "101110"
+                    descriptor:
+                      code: LOAN
+                      name: Loan
+                  - id: "104110"
+                    parent_category_id: "101110"
+                    descriptor:
+                      code: UNSECURED_PERSONAL
+                      name: Unsecured Personal
+                  - id: "104111"
+                    parent_category_id: "101110"
+                    descriptor:
+                      code: SECURED_PERSONAL
+                      name: Secured Personal
+                  - id: "104112"
+                    parent_category_id: "101110"
+                    descriptor:
+                      code: OFFERS
+                      name: offers
+                  - id: "104129"
+                    parent_category_id: "101110"
+                    descriptor:
+                      code: ADDITIONAL_DATA
+                      name: additional data
+                  - id: "101111"
+                    parent_category_id: "104110"
+                    descriptor:
+                      code: PERSONAL_FINANCING
+                      name: Personal Financing
+                  - id: "104115"
+                    parent_category_id: "104110"
+                    descriptor:
+                      code: CONSUMER_INVOICE_FINANCING
+                      name: consumer invoice financing
+                  - id: "101213"
+                    parent_category_id: "104115"
+                    descriptor:
+                      code: AGRI_PURCHASE_FINANCE
+                      name: Agri Purchase Finance
+                  - id: "101214"
+                    parent_category_id: "104115"
+                    descriptor:
+                      code: ELECTRONICS_PURCHASE_FINANCE
+                      name: Electronics Purchase Finance
+                  - id: "104116"
+                    parent_category_id: "101110"
+                    descriptor:
+                      code: BUSINESS
+                      name: Business
+                  - id: "101124"
+                    parent_category_id: "104116"
+                    descriptor:
+                      code: SOLE_PROPRIETORSHIP
+                      name: Sole Proprietorship
+                  - id: "104118"
+                    parent_category_id: "104116"
+                    descriptor:
+                      code: OTHER
+                      name: Other
+                  - id: "101217"
+                    parent_category_id: "104118"
+                    descriptor:
+                      code: PARTNERSHIP_FIRM
+                      name: Partnership Firm
+                  - id: "101125"
+                    parent_category_id: "104118"
+                    descriptor:
+                      code: PRIVATE_LTD
+                      name: Private Ltd
+                  - id: "101112"
+                    parent_category_id: "104118"
+                    descriptor:
+                      code: INVOICE_FINANCING
+                      name: Invoice Financing
+                  - id: "101115"
+                    parent_category_id: "104111"
+                    descriptor:
+                      code: GOLD_LOAN
+                      name: Gold Loan
+                  - id: " 101118"
+                    parent_category_id: "104111"
+                    descriptor:
+                      code: LAMF
+                      name: Loan Against Mutual Funds
+                  - id: "101117"
+                    parent_category_id: "104112"
+                    descriptor:
+                      code: TERM_LOAN
+                      name: Term Loan
+                  - id: "104125"
+                    parent_category_id: "104112"
+                    descriptor:
+                      code: CREDIT_LINE
+                      name: Credit Line
+                  - id: "104126"
+                    parent_category_id: "104125"
+                    descriptor:
+                      code: DOCUMENT_BASED_DRAWDOWN
+                      name: Document Based Drawdown
+                  - id: "104127"
+                    parent_category_id: "104125"
+                    descriptor:
+                      code: NON_DOCUMENT_BASED_DRAWDOWN
+                      name: Non Document Based Drawdown
+                  - id: "104130"
+                    parent_category_id: "104129"
+                    descriptor:
+                      code: BANKING
+                      name: Banking
+                  - id: "104137"
+                    parent_category_id: "104130"
+                    descriptor:
+                      code: STATEMENT_UPLOAD
+                      name: statement Upload
+                  - id: "101212"
+                    parent_category_id: "104130"
+                    descriptor:
+                      code: AA_BANKING
+                      name: AA Banking
+                  - id: "104131"
+                    parent_category_id: "104129"
+                    descriptor:
+                      code: GST
+                      name: gst
+                  - id: "104139"
+                    parent_category_id: "104131"
+                    descriptor:
+                      code: AA_GST
+                      name: AA gst
+                  - id: "104140"
+                    parent_category_id: "104131"
+                    descriptor:
+                      code: GSP
+                      name: gsp
+                  - id: "104141"
+                    parent_category_id: "104131"
+                    descriptor:
+                      code: RETURN_UPLOAD
+                      name: return upload
+                  - id: "104132"
+                    parent_category_id: "104129"
+                    descriptor:
+                      code: MUTUAL_FUND
+                      name: Mutual Fund
+                  - id: "104142"
+                    parent_category_id: "104132"
+                    descriptor:
+                      code: AA_LOAN
+                      name: AA Loan
+                  - id: "101119"
+                    parent_category_id: "104132"
+                    descriptor:
+                      code: MFC
+                      name: mfc
+                  - id: "101120"
+                    parent_category_id: "104132"
+                    descriptor:
+                      code: RTA
+                      name: rta
+                  - id: "104133"
+                    parent_category_id: "104129"
+                    descriptor:
+                      code: ITR
+                      name: ITR
+                  - id: "104145"
+                    parent_category_id: "104133"
+                    descriptor:
+                      code: UPLOAD
+                      name: upload
+                  - id: "101211"
+                    parent_category_id: "104129"
+                    descriptor:
+                      code: BUREAU_LOAN
+                      name: Bureau Loan
+                  - id: "104135"
+                    parent_category_id: "104129"
+                    descriptor:
+                      code: DERIVED_DATA
+                      name: Derived Data
+                  - id: "104136"
+                    parent_category_id: "104129"
+                    descriptor:
+                      code: ADDITIONAL_UPLOAD
+                      name: Additional Upload
+                  - id: "104137"
+                    parent_category_id: "101110"
+                    descriptor:
+                      code: PRE_QUALIFIER
+                      name: Pre Qualifier
                 items:
                   - id: TERM_LOAN_ID_1
                     descriptor:
@@ -356,6 +546,16 @@ steps:
                         resubmit: false
                         multiple_sumbissions: false
                       required: true
+                  - id: ITEM_ID_DEDUPE
+                    descriptor:
+                      code: PRE_QUALIFIER
+                      name: Pre Qualifier
+                    category_ids:
+                      - "104137"
+                    fulfillment_ids:
+                      - F9
+                    matched: true
+                    recommended: true
                 fulfillments:
                   - id: F6
                     type: ONLINE
@@ -475,9 +675,17 @@ steps:
                           name: Loan Agreement
                           code: PENDING
                           short_desc: Short desc about Loan Agreement checklist
+                  - id: F9
+                    type: DEDUPE
                 payments:
                   - type: POST_FULFILLMENT
                     id: INSTALLMENT_ID_TERM_LOAN
+                    status: NOT-PAID
+                    collected_by: BPP
+                    time:
+                      label: INSTALLMENT
+                  - type: POST_FULFILLMENT
+                    id: INSTALLMENT_ID_PERSONAL_LOAN
                     status: NOT-PAID
                     collected_by: BPP
                     time:
@@ -536,7 +744,8 @@ steps:
                       - descriptor:
                           code: LSP_ADDRESS
                           name: Lsp Address
-                        value: One Indiabulls centre, Tower 1, 18th Floor Jupiter mill compound 841, Senapati Bapat Marg, Elphinstone Road, Mumbai 400013
+                        value: One Indiabulls centre, Tower 1, 18th Floor Jupiter mill compound 841,
+                          Senapati Bapat Marg, Elphinstone Road, Mumbai 400013
             tags:
               - display: false
                 descriptor:
@@ -565,9 +774,9 @@ steps:
           context:
             domain: ONDC:FIS12
             action: on_search
-            timestamp: 2026-06-29T09:41:15.616Z
+            timestamp: 2026-08-05T07:42:04.740Z
             transaction_id: 4179de3c-7088-4732-9786-e1fdba540b56
-            message_id: 799360e4-d3f2-4f86-a802-c8a09a1a9b0c
+            message_id: e41bba39-6e8d-4f8a-949f-fec43efa2d96
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -592,6 +801,196 @@ steps:
                     name: ICICI Bank
                     short_desc: ICICI Bank Ltd
                     long_desc: ICICI Bank Ltd, India.
+                  categories:
+                    - id: "101110"
+                      descriptor:
+                        code: LOAN
+                        name: Loan
+                    - id: "104110"
+                      parent_category_id: "101110"
+                      descriptor:
+                        code: UNSECURED_PERSONAL
+                        name: Unsecured Personal
+                    - id: "104111"
+                      parent_category_id: "101110"
+                      descriptor:
+                        code: SECURED_PERSONAL
+                        name: Secured Personal
+                    - id: "104112"
+                      parent_category_id: "101110"
+                      descriptor:
+                        code: OFFERS
+                        name: offers
+                    - id: "104129"
+                      parent_category_id: "101110"
+                      descriptor:
+                        code: ADDITIONAL_DATA
+                        name: additional data
+                    - id: "101111"
+                      parent_category_id: "104110"
+                      descriptor:
+                        code: PERSONAL_FINANCING
+                        name: Personal Financing
+                    - id: "104115"
+                      parent_category_id: "104110"
+                      descriptor:
+                        code: CONSUMER_INVOICE_FINANCING
+                        name: consumer invoice financing
+                    - id: "101213"
+                      parent_category_id: "104115"
+                      descriptor:
+                        code: AGRI_PURCHASE_FINANCE
+                        name: Agri Purchase Finance
+                    - id: "101214"
+                      parent_category_id: "104115"
+                      descriptor:
+                        code: ELECTRONICS_PURCHASE_FINANCE
+                        name: Electronics Purchase Finance
+                    - id: "104116"
+                      parent_category_id: "101110"
+                      descriptor:
+                        code: BUSINESS
+                        name: Business
+                    - id: "101124"
+                      parent_category_id: "104116"
+                      descriptor:
+                        code: SOLE_PROPRIETORSHIP
+                        name: Sole Proprietorship
+                    - id: "104118"
+                      parent_category_id: "104116"
+                      descriptor:
+                        code: OTHER
+                        name: Other
+                    - id: "101217"
+                      parent_category_id: "104118"
+                      descriptor:
+                        code: PARTNERSHIP_FIRM
+                        name: Partnership Firm
+                    - id: "101125"
+                      parent_category_id: "104118"
+                      descriptor:
+                        code: PRIVATE_LTD
+                        name: Private Ltd
+                    - id: "101112"
+                      parent_category_id: "104118"
+                      descriptor:
+                        code: INVOICE_FINANCING
+                        name: Invoice Financing
+                    - id: "101115"
+                      parent_category_id: "104111"
+                      descriptor:
+                        code: GOLD_LOAN
+                        name: Gold Loan
+                    - id: " 101118"
+                      parent_category_id: "104111"
+                      descriptor:
+                        code: LAMF
+                        name: Loan Against Mutual Funds
+                    - id: "101117"
+                      parent_category_id: "104112"
+                      descriptor:
+                        code: TERM_LOAN
+                        name: Term Loan
+                    - id: "104125"
+                      parent_category_id: "104112"
+                      descriptor:
+                        code: CREDIT_LINE
+                        name: Credit Line
+                    - id: "104126"
+                      parent_category_id: "104125"
+                      descriptor:
+                        code: DOCUMENT_BASED_DRAWDOWN
+                        name: Document Based Drawdown
+                    - id: "104127"
+                      parent_category_id: "104125"
+                      descriptor:
+                        code: NON_DOCUMENT_BASED_DRAWDOWN
+                        name: Non Document Based Drawdown
+                    - id: "104130"
+                      parent_category_id: "104129"
+                      descriptor:
+                        code: BANKING
+                        name: Banking
+                    - id: "104137"
+                      parent_category_id: "104130"
+                      descriptor:
+                        code: STATEMENT_UPLOAD
+                        name: statement Upload
+                    - id: "101212"
+                      parent_category_id: "104130"
+                      descriptor:
+                        code: AA_BANKING
+                        name: AA Banking
+                    - id: "104131"
+                      parent_category_id: "104129"
+                      descriptor:
+                        code: GST
+                        name: gst
+                    - id: "104139"
+                      parent_category_id: "104131"
+                      descriptor:
+                        code: AA_GST
+                        name: AA gst
+                    - id: "104140"
+                      parent_category_id: "104131"
+                      descriptor:
+                        code: GSP
+                        name: gsp
+                    - id: "104141"
+                      parent_category_id: "104131"
+                      descriptor:
+                        code: RETURN_UPLOAD
+                        name: return upload
+                    - id: "104132"
+                      parent_category_id: "104129"
+                      descriptor:
+                        code: MUTUAL_FUND
+                        name: Mutual Fund
+                    - id: "104142"
+                      parent_category_id: "104132"
+                      descriptor:
+                        code: AA_LOAN
+                        name: AA Loan
+                    - id: "101119"
+                      parent_category_id: "104132"
+                      descriptor:
+                        code: MFC
+                        name: mfc
+                    - id: "101120"
+                      parent_category_id: "104132"
+                      descriptor:
+                        code: RTA
+                        name: rta
+                    - id: "104133"
+                      parent_category_id: "104129"
+                      descriptor:
+                        code: ITR
+                        name: ITR
+                    - id: "104145"
+                      parent_category_id: "104133"
+                      descriptor:
+                        code: UPLOAD
+                        name: upload
+                    - id: "101211"
+                      parent_category_id: "104129"
+                      descriptor:
+                        code: BUREAU_LOAN
+                        name: Bureau Loan
+                    - id: "104135"
+                      parent_category_id: "104129"
+                      descriptor:
+                        code: DERIVED_DATA
+                        name: Derived Data
+                    - id: "104136"
+                      parent_category_id: "104129"
+                      descriptor:
+                        code: ADDITIONAL_UPLOAD
+                        name: Additional Upload
+                    - id: "104137"
+                      parent_category_id: "101110"
+                      descriptor:
+                        code: PRE_QUALIFIER
+                        name: Pre Qualifier
                   items:
                     - id: TERM_LOAN_ID_1
                       descriptor:
@@ -818,6 +1217,16 @@ steps:
                           resubmit: false
                           multiple_sumbissions: false
                         required: true
+                    - id: ITEM_ID_DEDUPE
+                      descriptor:
+                        code: PRE_QUALIFIER
+                        name: Pre Qualifier
+                      category_ids:
+                        - "104137"
+                      fulfillment_ids:
+                        - F9
+                      matched: true
+                      recommended: true
                   fulfillments:
                     - id: F6
                       type: ONLINE
@@ -937,9 +1346,17 @@ steps:
                             name: Loan Agreement
                             code: PENDING
                             short_desc: Short desc about Loan Agreement checklist
+                    - id: F9
+                      type: DEDUPE
                   payments:
                     - type: POST_FULFILLMENT
                       id: INSTALLMENT_ID_TERM_LOAN
+                      status: NOT-PAID
+                      collected_by: BPP
+                      time:
+                        label: INSTALLMENT
+                    - type: POST_FULFILLMENT
+                      id: INSTALLMENT_ID_PERSONAL_LOAN
                       status: NOT-PAID
                       collected_by: BPP
                       time:
@@ -998,7 +1415,8 @@ steps:
                         - descriptor:
                             code: LSP_ADDRESS
                             name: Lsp Address
-                          value: One Indiabulls centre, Tower 1, 18th Floor Jupiter mill compound 841, Senapati Bapat Marg, Elphinstone Road, Mumbai 400013
+                          value: One Indiabulls centre, Tower 1, 18th Floor Jupiter mill compound 841,
+                            Senapati Bapat Marg, Elphinstone Road, Mumbai 400013
               tags:
                 - display: false
                   descriptor:
