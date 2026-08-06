@@ -243,28 +243,15 @@ flows:
     config:
       $ref:  "./BUSINESS_LOAN/business_term_loan_with_file_upload_with_igm_1.0.0.yaml"
 
-  #Dedupe Check Flows
-  - type: playground
-    id: master_search
-    meta:
-      order: 0
-    usecase: DEDUPE CHECK
-    tags:
-      - WORKBENCH
-      - MANDATORY
-      - REPORTABLE
-    description: Master Search
-    config:
-      $ref: "./DEDUPE_CHECK/master_search.yaml"
   - type: playground
     id: dedupe_check
     meta:
-      order: 1
-    usecase: DEDUPE CHECK
+      order: 8
+    usecase: BUSINESS LOAN
     tags:
       - WORKBENCH
       - MANDATORY
       - REPORTABLE
     description: Dedupe Check
     config:
-      $ref: "./DEDUPE_CHECK/dedupe_check.yaml"
+      $ref:  "./BUSINESS_LOAN/dedupe_check.yaml"
