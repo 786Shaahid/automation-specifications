@@ -6,6 +6,9 @@ info:
   version: 2.1.0
   x-usecases:
     - Ride-hailing
+  x-status:
+    - use_case: Ride-hailing
+      status: RELEASED
   x-branch-name: draft-TRV10-2.1.0
   x-reporting: true
 security:
