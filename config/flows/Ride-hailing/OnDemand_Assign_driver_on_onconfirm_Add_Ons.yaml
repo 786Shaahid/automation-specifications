@@ -4217,7 +4217,6 @@ steps:
                     type: string
                     description: Charge type
                     enum:
-                      - BASE_FARE
                       - DISTANCE_FARE
                       - CANCELLATION_CHARGES
                       - REFUND
@@ -4234,9 +4233,6 @@ steps:
                   - title
                   - value
                 additionalProperties: false
-              default:
-                - title: TOLL_CHARGES
-                  value: "40"
           additionalProperties: false
   - api: status
     action_id: status
