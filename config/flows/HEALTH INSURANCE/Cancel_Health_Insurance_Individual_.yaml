@@ -47,6 +47,18 @@ steps:
               code: "*"
         message:
           intent:
+            tags:
+              - descriptor:
+                  code: BAP_TERMS
+                  name: BAP Terms of Engagement
+                display: false
+                list:
+                  - descriptor:
+                      code: STATIC_TERMS
+                    value: https://api.example-bap.com/booking/terms
+                  - descriptor:
+                      code: OFFLINE_CONTRACT
+                    value: 'true'
             category:
               descriptor:
                 code: HEALTH_INSURANCE
@@ -185,6 +197,18 @@ steps:
               code: "*"
         message:
           catalog:
+            tags:
+              - descriptor:
+                  code: BPP_TERMS
+                  name: BPP Terms of Engagement
+                display: false
+                list:
+                  - descriptor:
+                      code: STATIC_TERMS
+                    value: https://api.example-bap.com/booking/terms
+                  - descriptor:
+                      code: OFFLINE_CONTRACT
+                    value: 'true'
             descriptor:
               name: ABC Insurance Ltd
             providers:
@@ -259,6 +283,9 @@ steps:
                           - descriptor:
                               code: ROOM_CATEGORY
                             value: Deluxe
+                          - descriptor:
+                              code: UIN
+                            value: "512N314V02"
                     add_ons:
                       - id: A1
                         quantity:
@@ -605,6 +632,18 @@ steps:
               code: "*"
         message:
           intent:
+            tags:
+              - descriptor:
+                  code: BAP_TERMS
+                  name: BAP Terms of Engagement
+                display: false
+                list:
+                  - descriptor:
+                      code: STATIC_TERMS
+                    value: https://api.example-bap.com/booking/terms
+                  - descriptor:
+                      code: OFFLINE_CONTRACT
+                    value: 'true'
             provider:
               id: ""
               items:
@@ -760,6 +799,18 @@ steps:
               code: "*"
         message:
           catalog:
+            tags:
+              - descriptor:
+                  code: BPP_TERMS
+                  name: BPP Terms of Engagement
+                display: false
+                list:
+                  - descriptor:
+                      code: STATIC_TERMS
+                    value: https://api.example-bap.com/booking/terms
+                  - descriptor:
+                      code: OFFLINE_CONTRACT
+                    value: 'true'
             descriptor:
               name: ABC Insurance Ltd
             providers:
@@ -831,6 +882,9 @@ steps:
                           - descriptor:
                               code: ROOM_CATEGORY
                             value: Deluxe
+                          - descriptor:
+                              code: UIN
+                            value: "512N314V02"
                     time:
                       duration: P1Y
                       label: TENURE
@@ -959,6 +1013,9 @@ steps:
                               name: Offer validity
                               short_desc: Describes the offer validity
                             value: P15D
+                          - descriptor:
+                              code: UIN
+                            value: "512N314V02"
                     time:
                       duration: P1Y
                       label: TENURE
@@ -1110,6 +1167,9 @@ steps:
                           - descriptor:
                               code: ROOM_CATEGORY
                             value: Deluxe
+                          - descriptor:
+                              code: UIN
+                            value: "512N314V02"
                     time:
                       duration: P1Y
                       label: TENURE
@@ -1909,6 +1969,9 @@ steps:
                       - descriptor:
                           code: PROPOSAL_ID
                         value: ""
+                      - descriptor:
+                          code: UIN
+                        value: "512N314V02"
                 time:
                   duration: P1Y
                   label: TENURE
@@ -3803,6 +3866,9 @@ steps:
                       - descriptor:
                           code: PROPOSAL_ID
                         value: PROPOSAL_ID
+                      - descriptor:
+                          code: UIN
+                        value: "512N314V02"
                 time:
                   label: TENURE
                   duration: P1Y
