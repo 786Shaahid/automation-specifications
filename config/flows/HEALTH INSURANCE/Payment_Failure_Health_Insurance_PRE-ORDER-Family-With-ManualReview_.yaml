@@ -4848,7 +4848,7 @@ steps:
   - api: on_init
     action_id: on_init_retry
     owner: BPP
-    responseFor: init4_motor
+    responseFor: init_retry
     unsolicited: false
     description: BPP responds with a fresh NOT-PAID payment link after the payment failure.
     mock:
