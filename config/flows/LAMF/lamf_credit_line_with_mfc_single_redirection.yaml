@@ -70,14 +70,6 @@ steps:
               type: string
               description: Enter provider id
               default: PROVIDER_ID
-            bpp_id:
-              type: string
-              description: Enter bpp id
-              default: dev-workbench.ondc.tech
-            bpp_uri:
-              type: string
-              description: Enter bpp uri
-              default: https://dev-workbench.ondc.tech/api-service/ONDC:FIS12:SL/2.3.0/seller
             form_id:
               type: string
               description: Enter form id
