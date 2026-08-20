@@ -1,5 +1,5 @@
 meta:
-  domain: ONDC:FIS12
+  domain: ONDC:FIS12:SL
   version: 2.3.0
   flowId: lamf_credit_line_with_mfc_single_redirection_with_igm_1.0.0
   config_version: 0.0.0001
@@ -32,7 +32,7 @@ steps:
       requirements: LyoqCiAqIENoZWNrcyBpZiB0aGUgcmVxdWlyZW1lbnRzIGZvciBwcm9jZWVkaW5nIHdpdGggdGhlIEFQSSBjYWxsIGFyZSBtZXQuCiAqIAogKiBAcGFyYW0ge09iamVjdH0gc2Vzc2lvbkRhdGEgLSBEYXRhIGNvbGxlY3RlZCBmcm9tIHByZXZpb3VzIHRyYW5zYWN0aW9uIHN0ZXBzLgogKiAKICogQHJldHVybnMge09iamVjdH0geyB2YWxpZDogYm9vbGVhbiwgY29kZTogbnVtYmVyLCBkZXNjcmlwdGlvbjogc3RyaW5nIH0KICovCmZ1bmN0aW9uIG1lZXRzUmVxdWlyZW1lbnRzKHNlc3Npb25EYXRhKSB7CiAgcmV0dXJuIHsgdmFsaWQ6IHRydWUsIGNvZGU6IDIwMCwgZGVzY3JpcHRpb246ICJSZXF1aXJlbWVudHMgbWV0IiB9Owp9
       defaultPayload:
         context:
-          domain: ONDC:FIS12
+          domain: ONDC:FIS12:SL
           action: search
           timestamp: 2026-04-16T07:09:54.198Z
           transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
@@ -77,7 +77,7 @@ steps:
             bpp_uri:
               type: string
               description: Enter bpp uri
-              default: https://dev-workbench.ondc.tech/api-service/ONDC:FIS12/2.3.0/seller
+              default: https://dev-workbench.ondc.tech/api-service/ONDC:FIS12:SL/2.3.0/seller
             form_id:
               type: string
               description: Enter form id
@@ -180,7 +180,7 @@ steps:
       - name: example for search
         payload:
           context:
-            domain: ONDC:FIS12
+            domain: ONDC:FIS12:SL
             action: search
             timestamp: 2026-07-14T14:19:54.336Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
@@ -195,7 +195,7 @@ steps:
               city:
                 code: "*"
             bpp_id: dev-workbench.ondc.tech
-            bpp_uri: https://dev-workbench.ondc.tech/api-service/ONDC:FIS12/2.3.0/seller
+            bpp_uri: https://dev-workbench.ondc.tech/api-service/ONDC:FIS12:SL/2.3.0/seller
           message:
             intent:
               provider:
@@ -281,7 +281,7 @@ steps:
       requirements: LyoqCiAqIENoZWNrcyBpZiB0aGUgcmVxdWlyZW1lbnRzIGZvciBwcm9jZWVkaW5nIHdpdGggdGhlIEFQSSBjYWxsIGFyZSBtZXQuCiAqIAogKiBAcGFyYW0ge09iamVjdH0gc2Vzc2lvbkRhdGEgLSBEYXRhIGNvbGxlY3RlZCBmcm9tIHByZXZpb3VzIHRyYW5zYWN0aW9uIHN0ZXBzLgogKiAKICogQHJldHVybnMge09iamVjdH0geyB2YWxpZDogYm9vbGVhbiwgY29kZTogbnVtYmVyLCBkZXNjcmlwdGlvbjogc3RyaW5nIH0KICovCmZ1bmN0aW9uIG1lZXRzUmVxdWlyZW1lbnRzKHNlc3Npb25EYXRhKSB7CiAgcmV0dXJuIHsgdmFsaWQ6IHRydWUsIGNvZGU6IDIwMCwgZGVzY3JpcHRpb246ICJSZXF1aXJlbWVudHMgbWV0IiB9Owp9
       defaultPayload:
         context:
-          domain: ONDC:FIS12
+          domain: ONDC:FIS12:SL
           location:
             country:
               code: IND
@@ -660,7 +660,7 @@ steps:
       - name: example for on_search
         payload:
           context:
-            domain: ONDC:FIS12
+            domain: ONDC:FIS12:SL
             action: on_search
             timestamp: 2026-07-14T14:19:54.356Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
@@ -1041,7 +1041,7 @@ steps:
       requirements: LyoqCiAqIENoZWNrcyBpZiB0aGUgcmVxdWlyZW1lbnRzIGZvciBwcm9jZWVkaW5nIHdpdGggdGhlIEFQSSBjYWxsIGFyZSBtZXQuCiAqIAogKiBAcGFyYW0ge09iamVjdH0gc2Vzc2lvbkRhdGEgLSBEYXRhIGNvbGxlY3RlZCBmcm9tIHByZXZpb3VzIHRyYW5zYWN0aW9uIHN0ZXBzLgogKiAKICogQHJldHVybnMge09iamVjdH0geyB2YWxpZDogYm9vbGVhbiwgY29kZTogbnVtYmVyLCBkZXNjcmlwdGlvbjogc3RyaW5nIH0KICovCmZ1bmN0aW9uIG1lZXRzUmVxdWlyZW1lbnRzKHNlc3Npb25EYXRhKSB7CiAgcmV0dXJuIHsgdmFsaWQ6IHRydWUsIGNvZGU6IDIwMCwgZGVzY3JpcHRpb246ICJSZXF1aXJlbWVudHMgbWV0IiB9Owp9
       defaultPayload:
         context:
-          domain: ONDC:FIS12
+          domain: ONDC:FIS12:SL
           action: select
           timestamp: 2026-04-16T08:10:48.166Z
           transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
@@ -1091,7 +1091,7 @@ steps:
       - name: example for select
         payload:
           context:
-            domain: ONDC:FIS12
+            domain: ONDC:FIS12:SL
             action: select
             timestamp: 2026-07-14T14:19:55.862Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
@@ -1171,7 +1171,7 @@ steps:
       requirements: LyoqCiAqIENoZWNrcyBpZiB0aGUgcmVxdWlyZW1lbnRzIGZvciBwcm9jZWVkaW5nIHdpdGggdGhlIEFQSSBjYWxsIGFyZSBtZXQuCiAqIAogKiBAcGFyYW0ge09iamVjdH0gc2Vzc2lvbkRhdGEgLSBEYXRhIGNvbGxlY3RlZCBmcm9tIHByZXZpb3VzIHRyYW5zYWN0aW9uIHN0ZXBzLgogKiAKICogQHJldHVybnMge09iamVjdH0geyB2YWxpZDogYm9vbGVhbiwgY29kZTogbnVtYmVyLCBkZXNjcmlwdGlvbjogc3RyaW5nIH0KICovCmZ1bmN0aW9uIG1lZXRzUmVxdWlyZW1lbnRzKHNlc3Npb25EYXRhKSB7CiAgcmV0dXJuIHsgdmFsaWQ6IHRydWUsIGNvZGU6IDIwMCwgZGVzY3JpcHRpb246ICJSZXF1aXJlbWVudHMgbWV0IiB9Owp9
       defaultPayload:
         context:
-          domain: ONDC:FIS12
+          domain: ONDC:FIS12:SL
           action: on_select
           timestamp: 2026-04-16T08:35:35.282Z
           transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
@@ -1205,7 +1205,7 @@ steps:
       - name: example for on_select
         payload:
           context:
-            domain: ONDC:FIS12
+            domain: ONDC:FIS12:SL
             action: on_select
             timestamp: 2026-07-14T14:19:55.879Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
@@ -1467,7 +1467,7 @@ steps:
                     form:
                       id: single_redirection
                       mime_type: application/html
-                      url: undefined/forms/ONDC:FIS12/single_redirection/?transaction_id=c751921f-ca28-4de5-b4e9-192cf3a38e43&session_id=undefined&bap_uri=https%3A%2F%2Fbap.example.com
+                      url: undefined/forms/ONDC:FIS12:SL/single_redirection/?transaction_id=c751921f-ca28-4de5-b4e9-192cf3a38e43&session_id=undefined&bap_uri=https%3A%2F%2Fbap.example.com
                       resubmit: false
                       multiple_sumbissions: false
                     required: true
@@ -1565,7 +1565,7 @@ steps:
       requirements: LyoqCiAqIENoZWNrcyBpZiB0aGUgcmVxdWlyZW1lbnRzIGZvciBwcm9jZWVkaW5nIHdpdGggdGhlIEFQSSBjYWxsIGFyZSBtZXQuCiAqIAogKiBAcGFyYW0ge09iamVjdH0gc2Vzc2lvbkRhdGEgLSBEYXRhIGNvbGxlY3RlZCBmcm9tIHByZXZpb3VzIHRyYW5zYWN0aW9uIHN0ZXBzLgogKiAKICogQHJldHVybnMge09iamVjdH0geyB2YWxpZDogYm9vbGVhbiwgY29kZTogbnVtYmVyLCBkZXNjcmlwdGlvbjogc3RyaW5nIH0KICovCmZ1bmN0aW9uIG1lZXRzUmVxdWlyZW1lbnRzKHNlc3Npb25EYXRhKSB7CiAgcmV0dXJuIHsgdmFsaWQ6IHRydWUsIGNvZGU6IDIwMCwgZGVzY3JpcHRpb246ICJSZXF1aXJlbWVudHMgbWV0IiB9Owp9
       defaultPayload:
         context:
-          domain: ONDC:FIS12
+          domain: ONDC:FIS12:SL
           action: on_status
           timestamp: 2026-04-16T10:31:41.759Z
           transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
@@ -1631,7 +1631,7 @@ steps:
       - name: example for on_status
         payload:
           context:
-            domain: ONDC:FIS12
+            domain: ONDC:FIS12:SL
             action: on_status
             timestamp: 2026-07-14T14:19:55.905Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
@@ -2007,7 +2007,7 @@ steps:
       requirements: LyoqCiAqIENoZWNrcyBpZiB0aGUgcmVxdWlyZW1lbnRzIGZvciBwcm9jZWVkaW5nIHdpdGggdGhlIEFQSSBjYWxsIGFyZSBtZXQuCiAqIAogKiBAcGFyYW0ge09iamVjdH0gc2Vzc2lvbkRhdGEgLSBEYXRhIGNvbGxlY3RlZCBmcm9tIHByZXZpb3VzIHRyYW5zYWN0aW9uIHN0ZXBzLgogKiAKICogQHJldHVybnMge09iamVjdH0geyB2YWxpZDogYm9vbGVhbiwgY29kZTogbnVtYmVyLCBkZXNjcmlwdGlvbjogc3RyaW5nIH0KICovCmZ1bmN0aW9uIG1lZXRzUmVxdWlyZW1lbnRzKHNlc3Npb25EYXRhKSB7CiAgcmV0dXJuIHsgdmFsaWQ6IHRydWUsIGNvZGU6IDIwMCwgZGVzY3JpcHRpb246ICJSZXF1aXJlbWVudHMgbWV0IiB9Owp9
       defaultPayload:
         context:
-          domain: ONDC:FIS12
+          domain: ONDC:FIS12:SL
           action: on_status
           timestamp: 2026-05-28T08:19:14.802Z
           transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
@@ -2038,7 +2038,7 @@ steps:
       - name: example for on_status
         payload:
           context:
-            domain: ONDC:FIS12
+            domain: ONDC:FIS12:SL
             action: on_status
             timestamp: 2026-07-14T14:19:55.926Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
@@ -2394,7 +2394,7 @@ steps:
       requirements: LyoqCiAqIENoZWNrcyBpZiB0aGUgcmVxdWlyZW1lbnRzIGZvciBwcm9jZWVkaW5nIHdpdGggdGhlIEFQSSBjYWxsIGFyZSBtZXQuCiAqIAogKiBAcGFyYW0ge09iamVjdH0gc2Vzc2lvbkRhdGEgLSBEYXRhIGNvbGxlY3RlZCBmcm9tIHByZXZpb3VzIHRyYW5zYWN0aW9uIHN0ZXBzLgogKiAKICogQHJldHVybnMge09iamVjdH0geyB2YWxpZDogYm9vbGVhbiwgY29kZTogbnVtYmVyLCBkZXNjcmlwdGlvbjogc3RyaW5nIH0KICovCmZ1bmN0aW9uIG1lZXRzUmVxdWlyZW1lbnRzKHNlc3Npb25EYXRhKSB7CiAgcmV0dXJuIHsgdmFsaWQ6IHRydWUsIGNvZGU6IDIwMCwgZGVzY3JpcHRpb246ICJSZXF1aXJlbWVudHMgbWV0IiB9Owp9
       defaultPayload:
         context:
-          domain: ONDC:FIS12
+          domain: ONDC:FIS12:SL
           action: on_status
           timestamp: 2026-05-28T08:22:41.134Z
           transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
@@ -2425,7 +2425,7 @@ steps:
       - name: example for on_status
         payload:
           context:
-            domain: ONDC:FIS12
+            domain: ONDC:FIS12:SL
             action: on_status
             timestamp: 2026-07-14T14:19:55.945Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
@@ -2781,7 +2781,7 @@ steps:
       requirements: LyoqCiAqIENoZWNrcyBpZiB0aGUgcmVxdWlyZW1lbnRzIGZvciBwcm9jZWVkaW5nIHdpdGggdGhlIEFQSSBjYWxsIGFyZSBtZXQuCiAqIAogKiBAcGFyYW0ge09iamVjdH0gc2Vzc2lvbkRhdGEgLSBEYXRhIGNvbGxlY3RlZCBmcm9tIHByZXZpb3VzIHRyYW5zYWN0aW9uIHN0ZXBzLgogKiAKICogQHJldHVybnMge09iamVjdH0geyB2YWxpZDogYm9vbGVhbiwgY29kZTogbnVtYmVyLCBkZXNjcmlwdGlvbjogc3RyaW5nIH0KICovCmZ1bmN0aW9uIG1lZXRzUmVxdWlyZW1lbnRzKHNlc3Npb25EYXRhKSB7CiAgcmV0dXJuIHsgdmFsaWQ6IHRydWUsIGNvZGU6IDIwMCwgZGVzY3JpcHRpb246ICJSZXF1aXJlbWVudHMgbWV0IiB9Owp9
       defaultPayload:
         context:
-          domain: ONDC:FIS12
+          domain: ONDC:FIS12:SL
           action: on_status
           timestamp: 2026-05-28T10:18:56.244Z
           transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
@@ -2814,7 +2814,7 @@ steps:
       - name: example for on_status
         payload:
           context:
-            domain: ONDC:FIS12
+            domain: ONDC:FIS12:SL
             action: on_status
             timestamp: 2026-07-14T14:19:55.965Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
@@ -3204,7 +3204,7 @@ steps:
       requirements: LyoqCiAqIENoZWNrcyBpZiB0aGUgcmVxdWlyZW1lbnRzIGZvciBwcm9jZWVkaW5nIHdpdGggdGhlIEFQSSBjYWxsIGFyZSBtZXQuCiAqIAogKiBAcGFyYW0ge09iamVjdH0gc2Vzc2lvbkRhdGEgLSBEYXRhIGNvbGxlY3RlZCBmcm9tIHByZXZpb3VzIHRyYW5zYWN0aW9uIHN0ZXBzLgogKiAKICogQHJldHVybnMge09iamVjdH0geyB2YWxpZDogYm9vbGVhbiwgY29kZTogbnVtYmVyLCBkZXNjcmlwdGlvbjogc3RyaW5nIH0KICovCmZ1bmN0aW9uIG1lZXRzUmVxdWlyZW1lbnRzKHNlc3Npb25EYXRhKSB7CiAgcmV0dXJuIHsgdmFsaWQ6IHRydWUsIGNvZGU6IDIwMCwgZGVzY3JpcHRpb246ICJSZXF1aXJlbWVudHMgbWV0IiB9Owp9
       defaultPayload:
         context:
-          domain: ONDC:FIS12
+          domain: ONDC:FIS12:SL
           action: select
           timestamp: 2026-05-28T10:27:05.075Z
           transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
@@ -3235,7 +3235,7 @@ steps:
       - name: example for select
         payload:
           context:
-            domain: ONDC:FIS12
+            domain: ONDC:FIS12:SL
             action: select
             timestamp: 2026-07-14T14:20:01.417Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
@@ -3288,7 +3288,7 @@ steps:
       requirements: LyoqCiAqIENoZWNrcyBpZiB0aGUgcmVxdWlyZW1lbnRzIGZvciBwcm9jZWVkaW5nIHdpdGggdGhlIEFQSSBjYWxsIGFyZSBtZXQuCiAqIAogKiBAcGFyYW0ge09iamVjdH0gc2Vzc2lvbkRhdGEgLSBEYXRhIGNvbGxlY3RlZCBmcm9tIHByZXZpb3VzIHRyYW5zYWN0aW9uIHN0ZXBzLgogKiAKICogQHJldHVybnMge09iamVjdH0geyB2YWxpZDogYm9vbGVhbiwgY29kZTogbnVtYmVyLCBkZXNjcmlwdGlvbjogc3RyaW5nIH0KICovCmZ1bmN0aW9uIG1lZXRzUmVxdWlyZW1lbnRzKHNlc3Npb25EYXRhKSB7CiAgcmV0dXJuIHsgdmFsaWQ6IHRydWUsIGNvZGU6IDIwMCwgZGVzY3JpcHRpb246ICJSZXF1aXJlbWVudHMgbWV0IiB9Owp9
       defaultPayload:
         context:
-          domain: ONDC:FIS12
+          domain: ONDC:FIS12:SL
           action: on_select
           timestamp: 2026-05-28T10:27:16.375Z
           transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
@@ -3319,7 +3319,7 @@ steps:
       - name: example for on_select
         payload:
           context:
-            domain: ONDC:FIS12
+            domain: ONDC:FIS12:SL
             action: on_select
             timestamp: 2026-07-14T14:20:01.430Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
@@ -3667,7 +3667,7 @@ steps:
       requirements: LyoqCiAqIENoZWNrcyBpZiB0aGUgcmVxdWlyZW1lbnRzIGZvciBwcm9jZWVkaW5nIHdpdGggdGhlIEFQSSBjYWxsIGFyZSBtZXQuCiAqIAogKiBAcGFyYW0ge09iamVjdH0gc2Vzc2lvbkRhdGEgLSBEYXRhIGNvbGxlY3RlZCBmcm9tIHByZXZpb3VzIHRyYW5zYWN0aW9uIHN0ZXBzLgogKiAKICogQHJldHVybnMge09iamVjdH0geyB2YWxpZDogYm9vbGVhbiwgY29kZTogbnVtYmVyLCBkZXNjcmlwdGlvbjogc3RyaW5nIH0KICovCmZ1bmN0aW9uIG1lZXRzUmVxdWlyZW1lbnRzKHNlc3Npb25EYXRhKSB7CiAgcmV0dXJuIHsgdmFsaWQ6IHRydWUsIGNvZGU6IDIwMCwgZGVzY3JpcHRpb246ICJSZXF1aXJlbWVudHMgbWV0IiB9Owp9
       defaultPayload:
         context:
-          domain: ONDC:FIS12
+          domain: ONDC:FIS12:SL
           action: on_confirm
           timestamp: 2026-04-16T12:03:40.330Z
           transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
@@ -3762,7 +3762,7 @@ steps:
       - name: example for on_confirm
         payload:
           context:
-            domain: ONDC:FIS12
+            domain: ONDC:FIS12:SL
             action: on_confirm
             timestamp: 2026-07-14T14:20:01.450Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
@@ -4208,7 +4208,7 @@ steps:
       - name: example for issue
         payload:
           context:
-            domain: ONDC:FIS12
+            domain: ONDC:FIS12:SL
             action: issue
             timestamp: 2026-07-14T14:20:01.470Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
@@ -4269,7 +4269,7 @@ steps:
                     updated_at: 2026-07-14T14:20:01.470Z
                     updated_by:
                       org:
-                        name: bap.example.com::ONDC:FIS12
+                        name: bap.example.com::ONDC:FIS12:SL
                       contact:
                         phone: "9879879870"
                         email: sam@yahoo.com
@@ -4332,7 +4332,7 @@ steps:
       - name: example for on_issue
         payload:
           context:
-            domain: ONDC:FIS12
+            domain: ONDC:FIS12:SL
             action: on_issue
             timestamp: 2026-07-14T14:20:01.489Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
@@ -4358,7 +4358,7 @@ steps:
                     updated_at: 2026-07-14T14:20:01.489Z
                     updated_by:
                       org:
-                        name: bpp.example.com::ONDC:FIS12
+                        name: bpp.example.com::ONDC:FIS12:SL
                       contact:
                         phone: "9450394140"
                         email: respondentapp@respond.com
@@ -4421,7 +4421,7 @@ steps:
       - name: example for on_issue_status
         payload:
           context:
-            domain: ONDC:FIS12
+            domain: ONDC:FIS12:SL
             action: on_issue_status
             timestamp: 2026-07-14T14:20:01.511Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
@@ -4447,7 +4447,7 @@ steps:
                     updated_at: 2026-07-14T14:20:01.489Z
                     updated_by:
                       org:
-                        name: bpp.example.com::ONDC:FIS12
+                        name: bpp.example.com::ONDC:FIS12:SL
                       contact:
                         phone: "9450394140"
                         email: respondentapp@respond.com
@@ -4459,7 +4459,7 @@ steps:
                     updated_at: 2026-07-14T14:20:01.511Z
                     updated_by:
                       org:
-                        name: bpp.example.com::ONDC:FIS12
+                        name: bpp.example.com::ONDC:FIS12:SL
                       contact:
                         phone: "9450394140"
                         email: respondentapp@respond.com
@@ -4471,7 +4471,7 @@ steps:
                   type: TRANSACTION-COUNTERPARTY-NP
                   organization:
                     org:
-                      name: bpp.example.com::ONDC:FIS12
+                      name: bpp.example.com::ONDC:FIS12:SL
                     contact:
                       phone: "9059304940"
                       email: email@resolutionproviderorg.com
@@ -4579,7 +4579,7 @@ steps:
       - name: example for issue
         payload:
           context:
-            domain: ONDC:FIS12
+            domain: ONDC:FIS12:SL
             action: issue
             timestamp: 2026-07-14T14:20:04.710Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
@@ -4609,7 +4609,7 @@ steps:
                     updated_at: 2026-07-14T14:20:01.470Z
                     updated_by:
                       org:
-                        name: bap.example.com::ONDC:FIS12
+                        name: bap.example.com::ONDC:FIS12:SL
                       contact:
                         phone: "9879879870"
                         email: sam@yahoo.com
@@ -4620,7 +4620,7 @@ steps:
                     updated_at: 2026-07-14T14:20:04.710Z
                     updated_by:
                       org:
-                        name: bap.example.com::ONDC:FIS12
+                        name: bap.example.com::ONDC:FIS12:SL
                       contact:
                         phone: "9879879870"
                         email: sam@yahoo.com
