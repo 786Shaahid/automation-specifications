@@ -29,7 +29,6 @@ supportedActions:
     - on_track
   status:
     - on_status
-    - status
   on_status:
     - status
     - cancel
