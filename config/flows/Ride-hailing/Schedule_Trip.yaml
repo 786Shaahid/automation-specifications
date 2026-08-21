@@ -4406,13 +4406,6 @@ steps:
         bppId: $.context.bpp_id
         bppUri: $.context.bpp_uri
         city_code: $.context.location.city.code
-        order_id: $.message.order.id
-        status: $.message.order.status
-        selected_fulfillments: $.message.order.fulfillments[*]
-        quote: $.message.order.quote
-        items: $.message.order.items[*]
-        payments: $.message.order.payments[*]
-        fulfillments_copy: $.message.order.fulfillments[*]
       inputs: {}
     examples:
       - name: example for on_support
@@ -4448,7 +4441,7 @@ steps:
         type: request
         description: The BPP sends a status callback to the BAP confirming driver
           assignment and providing real-time fulfillment updates including
-          driver location and ride progress.        
+          driver location and ride progress.         
   - api: on_status
     action_id: on_status_ride_ended
     owner: BPP
