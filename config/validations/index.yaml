@@ -2084,7 +2084,7 @@ _TESTS_:
             - attr: $.context.action
               _RETURN_: attr all in enumList
               enumList:
-                - support
+                - on_support
               _NAME_: VALID_ENUM_context_action
     - _NAME_: MESSAGE_SUPPORT
       _RETURN_:
