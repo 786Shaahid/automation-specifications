@@ -13877,7 +13877,7 @@ attribute_set:
       action:
         _description:
           required: true
-          usage: issue
+          usage: support
           info: The Beckn protocol method name being invoked. For the issue action, the BAP sets context.action to 'issue', and both the BAP and BPP validate it matches the expected step API.
           owner: BAP
           type: string
@@ -14035,7 +14035,7 @@ attribute_set:
       action:
         _description:
           required: true
-          usage: issue
+          usage: on_support
           info: The Beckn protocol method name being invoked. For the issue action, the BAP sets context.action to 'issue', and both the BAP and BPP validate it matches the expected step API.
           owner: BAP
           type: string
