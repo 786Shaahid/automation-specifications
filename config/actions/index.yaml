@@ -155,7 +155,7 @@ apiProperties:
     transaction_partner:
       - on_status
   on_status:
-    async_predecessor: status
+    async_predecessor: null
     transaction_partner:
       - on_select
   cancel:
