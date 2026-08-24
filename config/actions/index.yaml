@@ -28,6 +28,7 @@ supportedActions:
     - on_confirm
     - status
     - on_status
+    - confirm
   on_confirm:
     - status
     - cancel
@@ -84,6 +85,7 @@ supportedActions:
     - on_update
     - status
     - on_status
+    - update
   issue:
     - on_issue
     - issue
