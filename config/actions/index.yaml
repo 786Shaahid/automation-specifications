@@ -39,6 +39,7 @@ supportedActions:
     - select
     - init
     - update
+    - on_confirm
   on_status:
     - select
     - init
