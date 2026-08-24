@@ -65,11 +65,19 @@ steps:
             item_id:
               type: string
               description: Enter item id
-              default: ITEM_ID_LAMF_5
+              default: I1
             provider_id:
               type: string
               description: Enter provider id
-              default: PROVIDER_ID
+              default: P1
+            bpp_id:
+              type: string
+              description: Enter bpp id
+              default: dev-workbench.ondc.tech
+            bpp_uri:
+              type: string
+              description: Enter bpp uri
+              default: https://dev-workbench.ondc.tech/api-service/ONDC:FIS12/2.3.0/seller
             form_id:
               type: string
               description: Enter form id
@@ -174,9 +182,9 @@ steps:
           context:
             domain: ONDC:FIS12:SL
             action: search
-            timestamp: 2026-07-14T13:59:26.771Z
+            timestamp: 2026-08-24T12:45:41.755Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
-            message_id: 20121e4f-89cc-4d60-949a-48c640243265
+            message_id: be27e700-6306-41c8-a41a-641814f7de27
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -186,14 +194,14 @@ steps:
                 code: IND
               city:
                 code: "*"
-            bpp_id: preprod-workbench.ondc.tech
-            bpp_uri: https://preprod-workbench.ondc.tech/api-service/ONDC:FIS12:SL/2.3.0/seller
+            bpp_id: dev-workbench.ondc.tech
+            bpp_uri: https://dev-workbench.ondc.tech/api-service/ONDC:FIS12/2.3.0/seller
           message:
             intent:
               provider:
-                id: PROVIDER_ID
+                id: P1
                 items:
-                  - id: ITEM_ID_LAMF_5
+                  - id: I1
                     xinput:
                       head:
                         descriptor:
@@ -654,9 +662,9 @@ steps:
           context:
             domain: ONDC:FIS12:SL
             action: on_search
-            timestamp: 2026-07-14T13:59:26.790Z
+            timestamp: 2026-08-24T12:45:41.798Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
-            message_id: 20121e4f-89cc-4d60-949a-48c640243265
+            message_id: be27e700-6306-41c8-a41a-641814f7de27
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -1085,9 +1093,9 @@ steps:
           context:
             domain: ONDC:FIS12:SL
             action: select
-            timestamp: 2026-07-14T13:59:28.129Z
+            timestamp: 2026-08-24T12:45:43.352Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
-            message_id: 38f675b7-d574-4bfc-82ff-f47ef93a75d3
+            message_id: fe23c3ed-9e04-4603-b60b-31d8742acc50
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -1199,9 +1207,9 @@ steps:
           context:
             domain: ONDC:FIS12:SL
             action: on_select
-            timestamp: 2026-07-14T13:59:28.141Z
+            timestamp: 2026-08-24T12:45:43.377Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
-            message_id: 38f675b7-d574-4bfc-82ff-f47ef93a75d3
+            message_id: fe23c3ed-9e04-4603-b60b-31d8742acc50
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -1459,7 +1467,7 @@ steps:
                     form:
                       id: single_redirection
                       mime_type: application/html
-                      url: undefined/forms/ONDC:FIS12:SL/single_redirection/?transaction_id=c751921f-ca28-4de5-b4e9-192cf3a38e43&session_id=undefined&bap_uri=https%3A%2F%2Fbap.example.com
+                      url: undefined/forms/ONDC:FIS12/single_redirection/?transaction_id=c751921f-ca28-4de5-b4e9-192cf3a38e43&session_id=undefined&bap_uri=https%3A%2F%2Fbap.example.com
                       resubmit: false
                       multiple_sumbissions: false
                     required: true
@@ -1625,9 +1633,9 @@ steps:
           context:
             domain: ONDC:FIS12:SL
             action: on_status
-            timestamp: 2026-07-14T13:59:28.168Z
+            timestamp: 2026-08-24T12:45:43.420Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
-            message_id: 1ad79d59-5a82-4ec2-a299-ffb937828e62
+            message_id: 771b082c-ed73-4870-ac6f-f8e7c4657c29
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -1880,7 +1888,7 @@ steps:
                       id: single_redirection
                     form_response:
                       status: PENDING
-                      submission_id: bc424d2d-735f-45dd-83d0-9c7fb4f0c9fa
+                      submission_id: 7bd20096-3651-44ec-9a6d-aa9b8fcb9c1d
               fulfillments:
                 - customer:
                     person:
@@ -2032,9 +2040,9 @@ steps:
           context:
             domain: ONDC:FIS12:SL
             action: on_status
-            timestamp: 2026-07-14T13:59:28.185Z
+            timestamp: 2026-08-24T12:45:43.448Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
-            message_id: de9a7404-8d52-480f-b0bf-60fa911fca08
+            message_id: dc1f49ed-8130-40a0-944f-969c2054aea1
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -2287,7 +2295,7 @@ steps:
                       id: single_redirection
                     form_response:
                       status: PENDING
-                      submission_id: bc424d2d-735f-45dd-83d0-9c7fb4f0c9fa
+                      submission_id: 7bd20096-3651-44ec-9a6d-aa9b8fcb9c1d
               fulfillments:
                 - id: F18
                   type: ONLINE
@@ -2419,9 +2427,9 @@ steps:
           context:
             domain: ONDC:FIS12:SL
             action: on_status
-            timestamp: 2026-07-14T13:59:28.203Z
+            timestamp: 2026-08-24T12:45:43.479Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
-            message_id: 0eb0dbc3-0a14-4b64-afda-d100db02f9a1
+            message_id: 01c999e8-dc41-4cd0-a76b-503d8c1fbd60
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -2674,7 +2682,7 @@ steps:
                       id: single_redirection
                     form_response:
                       status: PENDING
-                      submission_id: bc424d2d-735f-45dd-83d0-9c7fb4f0c9fa
+                      submission_id: 7bd20096-3651-44ec-9a6d-aa9b8fcb9c1d
               fulfillments:
                 - id: F18
                   type: ONLINE
@@ -2808,9 +2816,9 @@ steps:
           context:
             domain: ONDC:FIS12:SL
             action: on_status
-            timestamp: 2026-07-14T13:59:28.228Z
+            timestamp: 2026-08-24T12:45:43.498Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
-            message_id: 04584048-7a0a-4f82-a788-0c858ec455c2
+            message_id: 9ebd55af-0e34-4362-8b54-1e4c698d0ebe
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -3063,7 +3071,7 @@ steps:
                       id: single_redirection
                     form_response:
                       status: COMPLETED
-                      submission_id: bc424d2d-735f-45dd-83d0-9c7fb4f0c9fa
+                      submission_id: 7bd20096-3651-44ec-9a6d-aa9b8fcb9c1d
               fulfillments:
                 - id: F18
                   type: ONLINE
@@ -3229,9 +3237,9 @@ steps:
           context:
             domain: ONDC:FIS12:SL
             action: select
-            timestamp: 2026-07-14T13:59:34.720Z
+            timestamp: 2026-08-24T12:45:54.008Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
-            message_id: a7498a07-16e3-4213-80f0-30133df8ca5a
+            message_id: 9a438c06-f993-4dcf-b665-2a2e1669efe2
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -3259,7 +3267,7 @@ steps:
                       id: single_redirection
                     form_response:
                       status: SUCCESS
-                      submission_id: bc424d2d-735f-45dd-83d0-9c7fb4f0c9fa
+                      submission_id: 7bd20096-3651-44ec-9a6d-aa9b8fcb9c1d
               fulfillments:
                 - id: F18
         type: request
@@ -3313,9 +3321,9 @@ steps:
           context:
             domain: ONDC:FIS12:SL
             action: on_select
-            timestamp: 2026-07-14T13:59:34.734Z
+            timestamp: 2026-08-24T12:45:54.041Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
-            message_id: a7498a07-16e3-4213-80f0-30133df8ca5a
+            message_id: 9a438c06-f993-4dcf-b665-2a2e1669efe2
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -3751,9 +3759,9 @@ steps:
           context:
             domain: ONDC:FIS12:SL
             action: on_confirm
-            timestamp: 2026-07-14T13:59:34.759Z
+            timestamp: 2026-08-24T12:45:54.077Z
             transaction_id: c751921f-ca28-4de5-b4e9-192cf3a38e43
-            message_id: 5bf7baca-581c-46f9-9db2-0ff54846895d
+            message_id: 089b2748-8f78-4dc3-958a-108427969a2c
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -4125,8 +4133,8 @@ steps:
                       value: "true"
               status: ACTIVE
               id: LOAN_LEAD_ID_OR_SIMILAR_ORDER_ID
-              created_at: 2026-07-14T13:59:34.760Z
-              updated_at: 2026-07-14T13:59:34.760Z
+              created_at: 2026-08-24T12:45:54.079Z
+              updated_at: 2026-08-24T12:45:54.079Z
         type: request
         description: The BPP confirms the customer's credit line application and returns
           the finalized transaction details and confirmation status to the BAP.
