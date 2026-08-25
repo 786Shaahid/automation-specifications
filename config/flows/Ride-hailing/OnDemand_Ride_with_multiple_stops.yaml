@@ -68,12 +68,17 @@ steps:
                 - location:
                     gps: 13.008935, 77.644408
                   type: START
+                  id: STOP_1
                 - location:
                     gps: 20.008935, 70.644408
                   type: INTERMEDIATE_STOP
+                  id: STOP_2
+                  parent_stop_id: STOP_1
                 - location:
                     gps: 12.971186, 77.586812
                   type: END
+                  id: STOP_3
+                  parent_stop_id: STOP_2
             payment:
               collected_by: BPP
       saveData:
@@ -230,9 +235,9 @@ steps:
           context:
             domain: ONDC:TRV10
             action: search
-            timestamp: 2026-08-25T08:21:10.352Z
+            timestamp: 2026-08-25T09:49:30.652Z
             transaction_id: b011b830-07df-432f-8a78-3a0605006c40
-            message_id: e04d7787-11e7-4438-8570-a13047ad58fc
+            message_id: dabdbcdd-b90f-498f-a810-53ffd9e29c8e
             bap_id: bap.example.com
             bap_uri: https://bap.example.com
             ttl: PT30S
@@ -274,6 +279,7 @@ steps:
                         code: IND
                       area_code: "560001"
                     type: START
+                    id: STOP_1
                   - location:
                       gps: 19.218301,72.978102
                       address: MG Road, Bengaluru
@@ -284,6 +290,8 @@ steps:
                         code: IND
                       area_code: "560001"
                     type: INTERMEDIATE_STOP
+                    id: STOP_2
+                    parent_stop_id: STOP_1
                   - location:
                       gps: 30.690880, 76.711488
                       address: MG Road, Bengaluru
@@ -294,6 +302,8 @@ steps:
                         code: IND
                       area_code: "560001"
                     type: END
+                    id: STOP_3
+                    parent_stop_id: STOP_2
               payment:
                 collected_by: BPP
         type: request
