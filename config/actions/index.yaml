@@ -94,6 +94,7 @@ supportedActions:
     - on_confirm
     - on_issue_status
     - update
+    - status
   on_issue:
     - issue
     - on_issue
@@ -101,6 +102,7 @@ supportedActions:
     - on_issue_status
     - update
     - on_update
+    - status
   on_issue_status:
     - on_issue
     - issue
