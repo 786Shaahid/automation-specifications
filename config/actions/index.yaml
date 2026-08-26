@@ -44,6 +44,8 @@ supportedActions:
     - init
     - update
     - on_confirm
+    - issue
+    - on_issue
   on_status:
     - select
     - init
@@ -56,6 +58,8 @@ supportedActions:
     - on_select
     - confirm
     - on_confirm
+    - issue
+    - on_issue
   on_update:
     - status
     - update
