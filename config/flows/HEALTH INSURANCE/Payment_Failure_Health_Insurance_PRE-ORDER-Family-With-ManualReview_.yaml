@@ -1945,14 +1945,7 @@ steps:
                     value: "10"
                     currency: INR
                   title: PROCESSING_FEE
-                - title: ADD_ONS
-                  item:
-                    id: CHILD_ITEM_ID_I1
-                    add_ons:
-                      - id: A1
-                  price:
-                    value: "100"
-                    currency: INR
+                
               price:
                 currency: INR
                 value: "1100"
